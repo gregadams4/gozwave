@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/functions"
+
+	"github.com/Sirupsen/logrus"
 )
 
 func (n *Node) RequestProtocolInfo() (*functions.FuncGetNodeProtocolInfo, error) {

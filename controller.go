@@ -9,11 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/commands"
 	"github.com/stampzilla/gozwave/events"
 	"github.com/stampzilla/gozwave/functions"
 	"github.com/stampzilla/gozwave/nodes"
+
+	"github.com/Sirupsen/logrus"
 )
 
 type Controller struct {

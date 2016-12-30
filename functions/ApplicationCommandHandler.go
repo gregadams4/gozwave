@@ -21,11 +21,17 @@ func (self *FuncApplicationCommandHandler) Decode(data []byte) {
 	self.Command = commands.ZWaveCommand(data[0])
 	self.Class = data[1]
 
+	// logrus.Info("decoding application command handler")
 	switch self.Command {
 	case commands.Alarm:
 		switch self.Class {
 		case 0x05: // Report
 			self.Data = commands.NewAlarmReport(data[2:])
+		}
+	case commands.Configuration:
+		switch self.Class {
+		case 0x06: // Report
+			self.Data = commands.NewConfigurationReport(data[2:])
 		}
 	case commands.ManufacturerSpecific:
 		switch self.Class {
@@ -43,6 +49,7 @@ func (self *FuncApplicationCommandHandler) Decode(data []byte) {
 			self.Data = commands.NewSensorMultiLevelReport(data[2:])
 		}
 	case commands.SwitchBinary:
+		// logrus.Info("was switch binary")
 		switch self.Class {
 		case 0x03: // Report
 			self.Data = commands.NewSwitchBinaryReport(data[2:])

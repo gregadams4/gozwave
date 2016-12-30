@@ -5,12 +5,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/commands"
-	"github.com/stampzilla/gozwave/database"
+	database "github.com/stampzilla/gozwave/database"
 	"github.com/stampzilla/gozwave/events"
 	"github.com/stampzilla/gozwave/functions"
 	"github.com/stampzilla/gozwave/interfaces"
+
+	"github.com/Sirupsen/logrus"
 )
 
 func New(address int) *Node {
@@ -92,6 +93,10 @@ func (n *Node) ProcessEvent(event commands.Report) {
 				Address: n.Id,
 			})
 		}
+	case *commands.ConfigurationReport:
+		n.pushEvent(events.NodeUpdated{
+			Address: n.Id,
+		})
 	case *commands.WakeUpReport:
 		logrus.Error("NODE RECEIVED WAKEUP")
 		if n.awake != nil {
@@ -267,6 +272,16 @@ func (n *Node) HasCommand(c commands.ZWaveCommand) bool {
 
 	for _, v := range n.Device.CommandClasses {
 		if v.ID == c {
+			return true
+		}
+	}
+
+	return false
+}
+
+func (n *Node) HasConfigParam(p int) bool {
+	for _, cp := range n.Device.ConfigParams {
+		if cp.ID == p {
 			return true
 		}
 	}

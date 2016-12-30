@@ -9,6 +9,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 )
 
@@ -68,6 +69,44 @@ func (dd deviceDescription) EscapedBrandName() string {
 	return removeNewLines(dd.BrandName)
 }
 
+type assocGroup struct {
+	Number      int    `xml:"number,attr"`
+	MaxNodes    int    `xml:"maxNodes,attr"`
+	Description string `xml:"description"`
+}
+
+type hexVal string
+
+type configParam struct {
+	ID          int           `xml:"number,attr"`
+	Type        string        `xml:"rangemapped,attr"`
+	Size        int           `xml:"size,attr"`
+	Default     hexVal        `xml:"default,attr"`
+	Name        string        `xml:"name>lang"`
+	Description string        `xml:"description>lang"`
+	Values      []configValue `xml:"value"`
+}
+
+func (cp configParam) EscapedDescription() string {
+	return removeNewLines(cp.Description)
+}
+
+func (cp configParam) EscapedName() string {
+	return removeNewLines(cp.Name)
+}
+
+type configValue struct {
+	From        hexVal `xml:"from,attr"`
+	To          hexVal `xml:"to,attr"`
+	Unit        string `xml:"unit,attr"`
+	Reserved    bool   `xml:"reserved,attr"`
+	Description string `xml:"description>lang"`
+}
+
+func (cv configValue) EscapedDescription() string {
+	return removeNewLines(cv.Description)
+}
+
 type zWaveDevice struct {
 	Filename          string
 	Name              string
@@ -76,6 +115,17 @@ type zWaveDevice struct {
 	DeviceData        deviceData        `xml:"deviceData"`
 	DeviceDescription deviceDescription `xml:"deviceDescription"`
 	CommandClasses    []commandClass    `xml:"commandClasses>commandClass"`
+	AssocGroups       []assocGroup      `xml:"assocGroups"`
+	ConfigParams      []configParam     `xml:"configParams>configParam"`
+}
+
+func (hv hexVal) HexStrToInt() int {
+	v, err := strconv.ParseInt(string(hv), 16, 64)
+	if err != nil {
+		log.Println(err)
+		panic(err)
+	}
+	return int(v)
 }
 
 var templ = `package {{.Package}}
@@ -90,7 +140,7 @@ type CommandClass struct {
 	InNIF      string
 	Secure     bool
 	NonSecure  bool
-	Version    string 
+	Version    string
 }
 type parameter struct {
 	ID int
@@ -98,13 +148,36 @@ type parameter struct {
 	Type string
 	Description string
 }
+type AssocGroup struct {
+	Number      int
+	MaxNodes    int
+	Description string
+}
+type ConfigParam struct {
+	ID      int
+	Type        string
+	Size        int
+	Default     int
+	Name        string
+	Description string
+	Values      []ConfigValue
+}
+type ConfigValue struct {
+	From        int
+	To          int
+	Unit        string
+	Reserved    bool
+	Description string
+}
 type Device struct{
 	Brand string
 	Product string
-	Description string 
+	Description string
 
 	CommandClasses []*CommandClass
 	Parameters []*parameter
+	ConfigParams []ConfigParam
+	AssocGroups []AssocGroup
 
 	ManufacturerID string
 	ProductType string
@@ -152,6 +225,35 @@ func New{{ $value.DeviceData.ManufacturerID.Value }}{{ $value.DeviceData.Product
 				{{- if ne $cmd.Version ""}}
 				Version: "{{$cmd.Version}}",
 				{{- end }}
+			},
+{{- end}}
+		},
+		ConfigParams: []ConfigParam{
+{{- range $cv := $value.ConfigParams }}
+			ConfigParam{
+				ID: {{$cv.ID}},
+				Type: "{{$cv.Type}}",
+				Size: {{$cv.Size}},
+				{{- if ne $cv.Default ""}}
+				Default: {{$cv.Default.HexStrToInt}},
+				{{- end }}
+				Name: "{{$cv.EscapedName}}",
+				Description: "{{$cv.EscapedDescription}}",
+				Values: []ConfigValue{
+{{- range $v := $cv.Values }}
+					ConfigValue{
+						{{- if ne $v.From ""}}
+						From: {{$v.From.HexStrToInt}},
+						{{- end }}
+						{{- if ne $v.To ""}}
+						To: {{$v.To.HexStrToInt}},
+						{{- end }}
+						Unit: "{{$v.Unit}}",
+						Reserved: {{$v.Reserved}},
+						Description: "{{$v.EscapedDescription}}",
+					},
+{{- end}}
+				},
 			},
 {{- end}}
 		},
@@ -221,6 +323,7 @@ func main() {
 		devices.Devices[dev.Name] = dev
 	}
 
+	// return
 	t := template.New("t")
 	t, err = t.Parse(templ)
 	if err != nil {
@@ -251,5 +354,6 @@ func main() {
 func removeNewLines(s string) string {
 	s = strings.Replace(s, "\n", `\n`, -1)
 	s = strings.Replace(s, "\r", `\n`, -1)
+	s = strings.Replace(s, "\\", "/", -1)
 	return s
 }

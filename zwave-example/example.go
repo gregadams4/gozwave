@@ -13,10 +13,11 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/gin-gonic/gin"
 	"github.com/stampzilla/gozwave"
 	"github.com/stampzilla/gozwave/events"
 	"github.com/stampzilla/gozwave/nodes"
+
+	"github.com/gin-gonic/gin"
 )
 
 var port string

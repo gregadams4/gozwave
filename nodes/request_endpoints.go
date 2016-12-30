@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/commands"
+
+	"github.com/Sirupsen/logrus"
 )
 
 func (n *Node) RequestEndpoints() error {

@@ -3,8 +3,9 @@ package serialapi
 import (
 	"encoding/hex"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/functions"
+
+	"github.com/Sirupsen/logrus"
 )
 
 type Message struct {
@@ -96,6 +97,7 @@ func CompileMessage(data []byte) []byte {
 }
 
 func NewMessage(data []byte) *Message {
+	// logrus.Debug("in new message")
 	message := &Message{}
 	message.startByte = data[0]
 	if len(data) <= 1 {

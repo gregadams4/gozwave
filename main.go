@@ -5,12 +5,12 @@ package gozwave
 import (
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/nodes"
+
+	"github.com/Sirupsen/logrus"
 )
 
 func Connect(port string, filename string) (*Controller, error) {
-
 	c := &Controller{
 		Nodes:           nodes.NewList(),
 		Connection:      NewConnection(),

@@ -6,12 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/pborman/uuid"
 	"github.com/stampzilla/gozwave/commands"
 	"github.com/stampzilla/gozwave/functions"
 	"github.com/stampzilla/gozwave/interfaces"
 	"github.com/stampzilla/gozwave/serialapi"
+
+	"github.com/Sirupsen/logrus"
+	"github.com/pborman/uuid"
 	"github.com/tarm/serial"
 )
 
@@ -197,7 +198,7 @@ func (self *Connection) Reader() error {
 
 		for len(incomming) > 0 {
 			l, msg := serialapi.Decode(incomming)
-
+			// logrus.Info(msg)
 			if l == 1 {
 				for index, c := range self.inFlight {
 					self.RLock()
@@ -255,6 +256,7 @@ func (self *Connection) Reader() error {
 					}
 					delete(self.inFlight, index)
 				}
+				logrus.Debug(msg)
 				self.Unlock()
 			}
 

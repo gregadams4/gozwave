@@ -3,8 +3,9 @@ package nodes
 import (
 	"time"
 
-	"github.com/davecgh/go-spew/spew"
 	"github.com/stampzilla/gozwave/commands"
+
+	"github.com/davecgh/go-spew/spew"
 )
 
 func (self *Node) RequestStates() error {

@@ -1,10 +1,11 @@
 package nodes
 
 import (
-	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/commands"
-	"github.com/stampzilla/gozwave/database"
+	database "github.com/stampzilla/gozwave/database"
 	"github.com/stampzilla/gozwave/interfaces"
+
+	"github.com/Sirupsen/logrus"
 )
 
 type Endpoint struct {
