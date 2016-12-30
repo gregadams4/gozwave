@@ -3,10 +3,11 @@ package nodes
 import (
 	"errors"
 	"fmt"
-	"github.com/stampzilla/github.com/stampzilla/gozwave/commands"
-	"github.com/stampzilla/github.com/stampzilla/gozwave/interfaces"
 	"log"
 	"time"
+
+	"github.com/stampzilla/gozwave/commands"
+	"github.com/stampzilla/gozwave/interfaces"
 )
 
 func (n *Node) GetConfiguration(parameter int) error {
