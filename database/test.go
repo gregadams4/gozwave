@@ -1408,7 +1408,7 @@ func New000000000000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature unit selection",
@@ -1432,7 +1432,7 @@ func New000000000000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 5,
 				Name: "Lower temperature limit",
@@ -1449,7 +1449,7 @@ func New000000000000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 5,
 				Name: "Upper temperature limit",
@@ -1466,7 +1466,7 @@ func New000000000000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 5,
 				Name: "Delta T temperature change",
@@ -1768,7 +1768,7 @@ func New0001444d3330() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -1792,7 +1792,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -1816,7 +1816,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -1840,7 +1840,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -1864,7 +1864,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -1888,7 +1888,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -1912,7 +1912,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -1929,7 +1929,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "",
@@ -1946,7 +1946,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -1963,7 +1963,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "",
@@ -1980,7 +1980,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -1997,7 +1997,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "",
@@ -2014,7 +2014,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -2038,7 +2038,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -2062,7 +2062,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "",
@@ -2093,7 +2093,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "",
@@ -2110,7 +2110,7 @@ func New0001444d3330() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -2176,7 +2176,7 @@ func New000144503030() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Disable/Enable load sense",
@@ -2242,7 +2242,7 @@ func New000144573034() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Night Light",
@@ -2266,7 +2266,7 @@ func New000144573034() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -2290,7 +2290,7 @@ func New000144573034() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Load Sense",
@@ -2436,7 +2436,7 @@ func New0001524d3330() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -2460,7 +2460,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -2484,7 +2484,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -2508,7 +2508,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -2532,7 +2532,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -2556,7 +2556,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -2580,7 +2580,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "",
@@ -2611,7 +2611,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "",
@@ -2628,7 +2628,7 @@ func New0001524d3330() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -2697,7 +2697,7 @@ func New000152503030() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 104,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Operation Mode",
@@ -2808,7 +2808,7 @@ func New000152523534() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Nightlight",
@@ -2871,7 +2871,7 @@ func New000152573033() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Night Light",
@@ -2895,7 +2895,7 @@ func New000152573033() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -3008,7 +3008,7 @@ func New000154573033() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Set Ignore Start Level Bit When Transmitting Dim Commands",
@@ -3032,7 +3032,7 @@ func New000154573033() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Night Light",
@@ -3056,7 +3056,7 @@ func New000154573033() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -3080,7 +3080,7 @@ func New000154573033() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Ignore Start Level When Receiving Dim Commands",
@@ -3104,7 +3104,7 @@ func New000154573033() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "LED Transmission Indication",
@@ -3135,7 +3135,7 @@ func New000154573033() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Poll: Minutes",
@@ -3152,7 +3152,7 @@ func New000154573033() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Poll First Node in Group 1",
@@ -3283,7 +3283,7 @@ func New000200038010() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Temperature Report threshold",
@@ -3300,7 +3300,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Set-point display resolution",
@@ -3317,7 +3317,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 12,
 				Name: "Min Set-point and override limit",
@@ -3334,7 +3334,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 28,
 				Name: "Max Set-point and override limit",
@@ -3351,7 +3351,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1,
 				Name: "LED Flash period",
@@ -3368,7 +3368,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Set-point control function",
@@ -3392,7 +3392,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temporarily override scheduler",
@@ -3416,7 +3416,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Set-point type in Thermostat_Setpoint_Reports",
@@ -3447,7 +3447,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "LED on time",
@@ -3464,7 +3464,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Number of LED flashes (duration)",
@@ -3474,7 +3474,7 @@ func New000200038010() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED color",
@@ -3762,7 +3762,7 @@ func New00020248a030() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Valve Type",
@@ -3786,7 +3786,7 @@ func New00020248a030() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Heat Load Strategy",
@@ -3810,7 +3810,7 @@ func New00020248a030() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "PWM Period",
@@ -3909,7 +3909,7 @@ func New00020248a040() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Valve Type",
@@ -3933,7 +3933,7 @@ func New00020248a040() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Heat Load Strategy",
@@ -3957,7 +3957,7 @@ func New00020248a040() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "PWM Period",
@@ -4339,7 +4339,7 @@ func New000550450653() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "bitrange",
 				Size: 2,
 				Default: 0,
 				Name: "PE653 OPERATION MODE                    ",
@@ -4363,7 +4363,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "FIREMAN_TIMEOUT         ",
@@ -4492,7 +4492,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "TEMP_CALIBRATION_OFFSETS",
@@ -4530,7 +4530,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_1_EV_SCHED_1        ",
@@ -4568,7 +4568,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_1_EV_SCHED_2        ",
@@ -4606,7 +4606,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_1_EV_SCHED_3        ",
@@ -4644,7 +4644,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_2_EV_SCHED_1        ",
@@ -4682,7 +4682,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_2_EV_SCHED_2        ",
@@ -4720,7 +4720,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_2_EV_SCHED_3        ",
@@ -4758,7 +4758,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_3_EV_SCHED_1        ",
@@ -4796,7 +4796,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_3_EV_SCHED_2        ",
@@ -4834,7 +4834,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_3_EV_SCHED_3        ",
@@ -4872,7 +4872,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_4_EV_SCHED_1        ",
@@ -4910,7 +4910,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_4_EV_SCHED_2        ",
@@ -4948,7 +4948,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_4_EV_SCHED_3        ",
@@ -4986,7 +4986,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_5_EV_SCHED_1        ",
@@ -5024,7 +5024,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_5_EV_SCHED_2        ",
@@ -5062,7 +5062,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "CIR_5_EV_SCHED_3        ",
@@ -5100,7 +5100,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "POOL_SPA_SUPPORT_MODE   ",
@@ -5131,7 +5131,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "bitrange",
 				Size: 2,
 				Default: 0,
 				Name: "VSP_SPD_SETTING_1   ",
@@ -5155,7 +5155,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "bitrange",
 				Size: 2,
 				Default: 0,
 				Name: "VSP_SPD_SETTING_2   ",
@@ -5179,7 +5179,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "bitrange",
 				Size: 2,
 				Default: 0,
 				Name: "VSP_SPD_SETTING_3   ",
@@ -5203,7 +5203,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "bitrange",
 				Size: 2,
 				Default: 0,
 				Name: "VSP_SPD_SETTING_4   ",
@@ -5227,7 +5227,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_1_EV_SCHED_1",
@@ -5265,7 +5265,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_1_EV_SCHED_2",
@@ -5303,7 +5303,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_1_EV_SCHED_3",
@@ -5341,7 +5341,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_2_EV_SCHED_1",
@@ -5379,7 +5379,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_2_EV_SCHED_2",
@@ -5417,7 +5417,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_2_EV_SCHED_3",
@@ -5455,7 +5455,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_3_EV_SCHED_1",
@@ -5493,7 +5493,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_3_EV_SCHED_2",
@@ -5531,7 +5531,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_3_EV_SCHED_3",
@@ -5569,7 +5569,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_4_EV_SCHED_1",
@@ -5607,7 +5607,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_4_EV_SCHED_2",
@@ -5645,7 +5645,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "VSP_SPD_4_EV_SCHED_3",
@@ -5683,7 +5683,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 49,
-				Type: "",
+				Type: "bitrange",
 				Size: 2,
 				Default: 0,
 				Name: "VSP_MAX_PUMP_SPEED  ",
@@ -5707,7 +5707,7 @@ func New000550450653() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "FREEZE_CONTROL      ",
@@ -5837,7 +5837,7 @@ func New000550450953() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "bitrange",
 				Size: 2,
 				Default: 0,
 				Name: "Operation Mode",
@@ -5847,7 +5847,7 @@ func New000550450953() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Fireman Timeout",
@@ -5976,7 +5976,7 @@ func New000550450953() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "bitrange",
 				Size: 4,
 				Default: 0,
 				Name: "Temperature Calibration Offsets ",
@@ -6170,7 +6170,7 @@ func New0010454d3532() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 30,
 				Name: "Instant Energy Autosend Interval",
@@ -6194,7 +6194,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 61,
 				Name: "Accumulated Energy Autosend Interval ",
@@ -6218,7 +6218,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 61,
 				Name: "Voltage Autosend Interval",
@@ -6242,7 +6242,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 61,
 				Name: "Current Autosend Interval",
@@ -6266,7 +6266,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Instant Energy Change (watts) Autosend threshold",
@@ -6276,7 +6276,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Accumulated Energy Change Autosend threshold",
@@ -6286,7 +6286,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Instant Voltage Change Autosend threshold ",
@@ -6296,7 +6296,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Instant Current Change Autosend threshold ",
@@ -6306,7 +6306,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 150,
 				Name: "CT Size",
@@ -6358,7 +6358,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "CT_DOUBLED",
@@ -6382,7 +6382,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Line Frequency",
@@ -6399,7 +6399,7 @@ func New0010454d3532() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Reboot Counter",
@@ -6471,7 +6471,7 @@ func New001045564c32() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button 1 Type",
@@ -6530,7 +6530,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button 2 Type",
@@ -6589,7 +6589,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button 3 Type ",
@@ -6648,7 +6648,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button 4 Type",
@@ -6707,7 +6707,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button 5 Type",
@@ -6766,7 +6766,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Language",
@@ -6825,7 +6825,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 17,
 				Name: "Keypad Type",
@@ -6961,7 +6961,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Display Timeout",
@@ -6971,7 +6971,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Backlight ON  Level",
@@ -6988,7 +6988,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Backlight OFF  Level ",
@@ -7005,7 +7005,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Button ON Level",
@@ -7022,7 +7022,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Button OFF  Level ",
@@ -7039,7 +7039,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 14,
 				Name: "LCD Contrast",
@@ -7056,7 +7056,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Screen  Orientation",
@@ -7080,7 +7080,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Network Update ",
@@ -7097,7 +7097,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 100,
 				Name: "Red Backlight  ON Level",
@@ -7114,7 +7114,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 100,
 				Name: "Red Backlight  ON Level",
@@ -7131,7 +7131,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 100,
 				Name: "Green Backlight  ON Level ",
@@ -7148,7 +7148,7 @@ func New001045564c32() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RGB Demo  Mode ",
@@ -7224,7 +7224,7 @@ func New001050533231() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Reset Count",
@@ -7241,7 +7241,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SI Sensor Cal (S1)",
@@ -7258,7 +7258,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SO Sensor Cal (S2)",
@@ -7275,7 +7275,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Relay Polarity",
@@ -7299,7 +7299,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Delta Autosend Threshold",
@@ -7316,7 +7316,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Periodic Temperature Send Interval (min)",
@@ -7340,7 +7340,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "F/C Mode",
@@ -7364,7 +7364,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SI Temperature",
@@ -7374,7 +7374,7 @@ func New001050533231() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SO Temperature",
@@ -7946,7 +7946,7 @@ func New001e00020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 200,
 				Name: "Чувствительность",
@@ -7963,7 +7963,7 @@ func New001e00020001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Время ключения",
@@ -7980,7 +7980,7 @@ func New001e00020001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Включить светодиот",
@@ -8004,7 +8004,7 @@ func New001e00020001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 100,
 				Name: "Порог освещённости",
@@ -8021,7 +8021,7 @@ func New001e00020001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Оставаться пробуждённым",
@@ -8045,7 +8045,7 @@ func New001e00020001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Значения включения",
@@ -8111,7 +8111,7 @@ func New001e00020002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 200,
 				Name: "Чувствительность",
@@ -8128,7 +8128,7 @@ func New001e00020002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Время выключения",
@@ -8145,7 +8145,7 @@ func New001e00020002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Включить светодиод",
@@ -8169,7 +8169,7 @@ func New001e00020002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 100,
 				Name: "Порог освещённости",
@@ -8186,7 +8186,7 @@ func New001e00020002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Оставаться пробуждённым",
@@ -8210,7 +8210,7 @@ func New001e00020002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Значение включения",
@@ -8227,7 +8227,7 @@ func New001e00020002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Корректировка температуры в десятых долях Фаренгейта. 10 = 1F",
@@ -8310,7 +8310,7 @@ func New001e00040001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "OnTime",
@@ -8334,7 +8334,7 @@ func New001e00040001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "OnLevel",
@@ -8365,7 +8365,7 @@ func New001e00040001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "LiteMin",
@@ -8389,7 +8389,7 @@ func New001e00040001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "TempMin",
@@ -8413,7 +8413,7 @@ func New001e00040001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "TempAdj",
@@ -8580,7 +8580,7 @@ func New003352503031() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Calibration",
@@ -8590,7 +8590,7 @@ func New003352503031() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Motor Direction",
@@ -8614,7 +8614,7 @@ func New003352503031() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Tilt Feature",
@@ -8681,7 +8681,7 @@ func New003352503032() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Calibration",
@@ -8705,7 +8705,7 @@ func New003352503032() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Motor Direction",
@@ -8729,7 +8729,7 @@ func New003352503032() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Tilt Feature",
@@ -9141,7 +9141,7 @@ func New005900010003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Enables Temperature Sensor",
@@ -9165,7 +9165,7 @@ func New005900010003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Scale",
@@ -9189,7 +9189,7 @@ func New005900010003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Delta T",
@@ -9255,7 +9255,7 @@ func New005900010004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Parameter Number 1",
@@ -9279,7 +9279,7 @@ func New005900010004() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Parameter Number 2",
@@ -9303,7 +9303,7 @@ func New005900010004() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Parameter Number 3",
@@ -9391,7 +9391,7 @@ func New005900010005() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Temperature Sensor",
@@ -9415,7 +9415,7 @@ func New005900010005() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Scale",
@@ -9439,7 +9439,7 @@ func New005900010005() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Delta Temperature",
@@ -9601,7 +9601,7 @@ func New005900040001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Температурная единица",
@@ -9625,7 +9625,7 @@ func New005900040001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Нижняя граница температуры",
@@ -9642,7 +9642,7 @@ func New005900040001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Верхняя граница температуры",
@@ -9659,7 +9659,7 @@ func New005900040001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Шаг измерения температуры",
@@ -9768,7 +9768,7 @@ func New005900050005() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Delta instantaneous power",
@@ -9792,7 +9792,7 @@ func New005900050005() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Delta Energy",
@@ -9816,7 +9816,7 @@ func New005900050005() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Instantaneous power Reporting intervals",
@@ -9833,7 +9833,7 @@ func New005900050005() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3600,
 				Name: "Energy Reporting intervals",
@@ -9891,7 +9891,7 @@ func New0059000d0001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Scale",
@@ -9922,7 +9922,7 @@ func New0059000d0001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Delta Temperature",
@@ -10004,7 +10004,7 @@ func New0059000d0002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature",
@@ -10028,7 +10028,7 @@ func New0059000d0002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Temperature reporting intervals",
@@ -10052,7 +10052,7 @@ func New0059000d0002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Humidity",
@@ -10076,7 +10076,7 @@ func New0059000d0002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Humidity reporting intervals",
@@ -10161,7 +10161,7 @@ func New0059000d0003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature",
@@ -10185,7 +10185,7 @@ func New0059000d0003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Temperature reporting intervals",
@@ -10209,7 +10209,7 @@ func New0059000d0003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Humidity ",
@@ -10233,7 +10233,7 @@ func New0059000d0003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Humidity reporting intervals",
@@ -10306,7 +10306,7 @@ func New0059000e0001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Delta based switch Status reporting",
@@ -10330,7 +10330,7 @@ func New0059000e0001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Time interval based Switch Status Reporting",
@@ -10354,7 +10354,7 @@ func New0059000e0001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Relay &amp; LED configuration",
@@ -10441,7 +10441,7 @@ func New0059000e0002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Delta based switch Status reporting",
@@ -10465,7 +10465,7 @@ func New0059000e0002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Time interval based Switch Status Reporting",
@@ -10489,7 +10489,7 @@ func New0059000e0002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Relay &amp; LED configuration",
@@ -10575,7 +10575,7 @@ func New0059000f0001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Accumulated Register Value",
@@ -10592,7 +10592,7 @@ func New0059000f0001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 3600,
 				Name: "Reading Reporting Interval",
@@ -10609,7 +10609,7 @@ func New0059000f0001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Delta Configuration Reading",
@@ -10626,7 +10626,7 @@ func New0059000f0001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Serial Number Water Meter",
@@ -10636,7 +10636,7 @@ func New0059000f0001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Serial Number Z-Wave Module",
@@ -10688,7 +10688,7 @@ func New005900100002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Fail Save timer",
@@ -10705,7 +10705,7 @@ func New005900100002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Scale",
@@ -10729,7 +10729,7 @@ func New005900100002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature reporting intervals",
@@ -10760,7 +10760,7 @@ func New005900100002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Delta configuration temperature reporting",
@@ -10784,7 +10784,7 @@ func New005900100002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature Cutoff",
@@ -10874,7 +10874,7 @@ func New005900110001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch Status",
@@ -10898,7 +10898,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Voltage",
@@ -10922,7 +10922,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Current",
@@ -10946,7 +10946,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Power Factor",
@@ -10970,7 +10970,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Power",
@@ -10994,7 +10994,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Energy",
@@ -11018,7 +11018,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Apparent Energy",
@@ -11042,7 +11042,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Switch Status",
@@ -11066,7 +11066,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Voltage",
@@ -11090,7 +11090,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Current",
@@ -11114,7 +11114,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Power Factor",
@@ -11138,7 +11138,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Power",
@@ -11162,7 +11162,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Energy",
@@ -11186,7 +11186,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Apparent Energy",
@@ -11210,7 +11210,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Relay and LED configuration",
@@ -11248,7 +11248,7 @@ func New005900110001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Sleep current configuration",
@@ -11338,7 +11338,7 @@ func New005900110002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch Status",
@@ -11362,7 +11362,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Voltage",
@@ -11386,7 +11386,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Current",
@@ -11410,7 +11410,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Power Factor",
@@ -11434,7 +11434,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Power",
@@ -11458,7 +11458,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Energy",
@@ -11482,7 +11482,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Apparent Energy",
@@ -11506,7 +11506,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Switch Status",
@@ -11530,7 +11530,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Voltage",
@@ -11554,7 +11554,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Current",
@@ -11578,7 +11578,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Power Factor",
@@ -11602,7 +11602,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Power",
@@ -11626,7 +11626,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Active Energy",
@@ -11650,7 +11650,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Apparent Energy",
@@ -11674,7 +11674,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Relay and LED configuration",
@@ -11712,7 +11712,7 @@ func New005900110002() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Sleep current configuration",
@@ -11776,7 +11776,7 @@ func New006000010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Configuring the Phase Level of ON Command",
@@ -11807,7 +11807,7 @@ func New006000010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Enabling/Disabling Power Saving Function",
@@ -11916,7 +11916,7 @@ func New006000020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Level sent on open event",
@@ -11947,7 +11947,7 @@ func New006000020001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "OFF Delay",
@@ -12072,7 +12072,7 @@ func New006000030002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Basic Set Command Value",
@@ -12096,7 +12096,7 @@ func New006000030002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Time Delay",
@@ -12113,7 +12113,7 @@ func New006000030002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Last Status",
@@ -12137,7 +12137,7 @@ func New006000030002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Switch 1 Type",
@@ -12161,7 +12161,7 @@ func New006000030002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Output Mode",
@@ -12246,7 +12246,7 @@ func New006000030003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 255,
 				Name: "Basic Set Command value",
@@ -12263,7 +12263,7 @@ func New006000030003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Delay Time",
@@ -12280,7 +12280,7 @@ func New006000030003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Last Status",
@@ -12304,7 +12304,7 @@ func New006000030003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Output mode setting",
@@ -12410,7 +12410,7 @@ func New006000040002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "True Period",
@@ -12434,7 +12434,7 @@ func New006000040002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Send Out Basic Command",
@@ -12458,7 +12458,7 @@ func New006000040002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3,
 				Name: "Meter Report Period",
@@ -12550,7 +12550,7 @@ func New006000040006() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 255,
 				Name: "Basic Set Command value",
@@ -12567,7 +12567,7 @@ func New006000040006() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Delay Time",
@@ -12584,7 +12584,7 @@ func New006000040006() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Last Status",
@@ -12608,7 +12608,7 @@ func New006000040006() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 1,
 				Name: "Wattage Auto Report",
@@ -12632,7 +12632,7 @@ func New006000040006() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 60,
 				Name: "Energy Auto report",
@@ -12656,7 +12656,7 @@ func New006000040006() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Value of Wattage surpassed",
@@ -12680,7 +12680,7 @@ func New006000040006() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Change of Wattage surpassed",
@@ -12765,7 +12765,7 @@ func New006000040007() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 255,
 				Name: "Basic Set Command value",
@@ -12782,7 +12782,7 @@ func New006000040007() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Delay Time",
@@ -12799,7 +12799,7 @@ func New006000040007() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Last Status",
@@ -12933,7 +12933,7 @@ func New006000060001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Уровень диммирования, отправляемый устройствам из группы 2",
@@ -12957,7 +12957,7 @@ func New006000060001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Температура при которой отправляется команда Включить",
@@ -12988,7 +12988,7 @@ func New006000060001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Температура при которой отправляется команда Выключить",
@@ -13019,7 +13019,7 @@ func New006000060001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Влажности при которой отправляется команда Включить",
@@ -13043,7 +13043,7 @@ func New006000060001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Влажности при которой отправляется команда Выключить",
@@ -13067,7 +13067,7 @@ func New006000060001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Время автоматического отчета о температуре и влажности",
@@ -13091,7 +13091,7 @@ func New006000060001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Температура при изменении на которую отправляется отчет",
@@ -13115,7 +13115,7 @@ func New006000060001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Влажность при изменении на которую отправляется отчет",
@@ -13184,7 +13184,7 @@ func New006000070001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Send Basic Set level",
@@ -13201,7 +13201,7 @@ func New006000070001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Lux trigger on value",
@@ -13225,7 +13225,7 @@ func New006000070001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Lux Trigger off value",
@@ -13249,7 +13249,7 @@ func New006000070001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Lux Trigger off Time value",
@@ -13273,7 +13273,7 @@ func New006000070001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Auto Report Time Interval",
@@ -13297,7 +13297,7 @@ func New006000070001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Auto Report Lux Trigger Interval",
@@ -13362,7 +13362,7 @@ func New0060000b0001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Basic Level Set",
@@ -13549,7 +13549,7 @@ func New006000100001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Basic Set Level",
@@ -13573,7 +13573,7 @@ func New006000100001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Amount of delay",
@@ -13636,7 +13636,7 @@ func New006001010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Phase Level for ON Command",
@@ -13667,7 +13667,7 @@ func New006001010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Unterdrücke Schlaf-Funktion",
@@ -13814,7 +13814,7 @@ func New006344503030() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Load Sensing",
@@ -13838,7 +13838,7 @@ func New006344503030() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Rate Adjustments when receiving a Z-Wave Dim Command/ number of steps",
@@ -13855,7 +13855,7 @@ func New006344503030() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dim Rate Adjustments when receiving a Z-Wave Dim Command/ timing of the steps",
@@ -13872,7 +13872,7 @@ func New006344503030() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Manual Control Dimming/ number of steps or levels",
@@ -13889,7 +13889,7 @@ func New006344503030() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Manual Control Dimming/ timing of steps",
@@ -13906,7 +13906,7 @@ func New006344503030() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Rate Adjustments when receiving an All-On or All-Off Command/ number of steps or levels",
@@ -13923,7 +13923,7 @@ func New006344503030() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dim Rate Adjustments when receiving an All-On or All-Off Command/ timing of steps",
@@ -13940,7 +13940,7 @@ func New006344503030() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Ignore start level when receiving dim commands",
@@ -14010,7 +14010,7 @@ func New006344503130() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Number of steps or levels when receiving a dim command",
@@ -14027,7 +14027,7 @@ func New006344503130() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Timing of steps when receiving a Dim Command",
@@ -14044,7 +14044,7 @@ func New006344503130() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Number of steps or levels when controlling manually",
@@ -14061,7 +14061,7 @@ func New006344503130() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Timing of steps when controlling manually",
@@ -14078,7 +14078,7 @@ func New006344503130() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Number of steps or levels when receiving All-On/All-Off Command",
@@ -14095,7 +14095,7 @@ func New006344503130() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Timing of steps when receiving All-On/All-Off Command",
@@ -14112,7 +14112,7 @@ func New006344503130() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Ignore Start Level when receiving dim commands",
@@ -14169,7 +14169,7 @@ func New006344573230() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED",
@@ -14193,7 +14193,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -14217,7 +14217,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Rate Adjustments when receiving a Z-Wave Dim Command/ Number of steps or levels",
@@ -14234,7 +14234,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dim Rate Adjustments when receiving a Z-Wave Dim Command/ Timing of steps",
@@ -14251,7 +14251,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Manual Control Dimming/ Number of steps or levels",
@@ -14268,7 +14268,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Manual Control Dimming/ Timing of the steps",
@@ -14285,7 +14285,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Rate Adjustments when receiving an All-On or All-Off Command/ Number of steps or levels",
@@ -14302,7 +14302,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dim Rate Adjustments when receiving an All-On or All-Off Command/ Timing of steps",
@@ -14319,7 +14319,7 @@ func New006344573230() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Ignore start level when receiving dim commands",
@@ -14407,7 +14407,7 @@ func New006350443131() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "All On/All Off ",
@@ -14445,7 +14445,7 @@ func New006350443131() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Rate Adjustments Endpoint 1 Number of Steps",
@@ -14462,7 +14462,7 @@ func New006350443131() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dim Rate Adjustments Endpoint 1 Timing of Steps",
@@ -14479,7 +14479,7 @@ func New006350443131() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Rate Adjustments Endpoint 2 Number of Steps",
@@ -14496,7 +14496,7 @@ func New006350443131() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dim Rate Adjustments Endpoint 2 Timing of Steps",
@@ -14513,7 +14513,7 @@ func New006350443131() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Rate Adjustments ALL Command Speed",
@@ -14530,7 +14530,7 @@ func New006350443131() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dim Rate Adjustments ALL Command Timer",
@@ -14704,7 +14704,7 @@ func New006352523530() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED light",
@@ -14767,7 +14767,7 @@ func New006352573533() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED Light",
@@ -14791,7 +14791,7 @@ func New006352573533() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -14930,7 +14930,7 @@ func New006410000002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -14968,7 +14968,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -14992,7 +14992,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -15030,7 +15030,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при нажатии вниз",
@@ -15061,7 +15061,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Игнорировать начальный уровень",
@@ -15085,7 +15085,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Время диммирования",
@@ -15109,7 +15109,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Время долгого диммирования",
@@ -15126,7 +15126,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Устанавливать максимальный уровень яркости при включении",
@@ -15157,7 +15157,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Время диммирования Баю-бай",
@@ -15181,7 +15181,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Конечный уровень диммирования функции Баю-бай",
@@ -15198,7 +15198,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -15215,7 +15215,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -15239,7 +15239,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включать/выключать нагрузку кнопками",
@@ -15270,7 +15270,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -15322,7 +15322,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -15374,7 +15374,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -15405,7 +15405,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Ограничивать минимальный уровень яркости",
@@ -15422,7 +15422,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Ограничивать максимальный уровень яркости",
@@ -15446,7 +15446,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включаться на заданном уровне яркости",
@@ -15470,7 +15470,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Измерение электропотребления",
@@ -15487,7 +15487,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза до импульса",
@@ -15504,7 +15504,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза после импульса",
@@ -15521,7 +15521,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Ширина импульса",
@@ -15538,7 +15538,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Тип импульса",
@@ -15562,7 +15562,7 @@ func New006410000002() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы: Выключатель или Диммер",
@@ -16033,7 +16033,7 @@ func New00710002035d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Delta Percentage",
@@ -16050,7 +16050,7 @@ func New00710002035d() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Celsius/Fahrenheit",
@@ -16074,7 +16074,7 @@ func New00710002035d() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Send setpoint when wakeup",
@@ -16138,7 +16138,7 @@ func New00710004035d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Delta Percentage",
@@ -16155,7 +16155,7 @@ func New00710004035d() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Send setpoint when wakeup",
@@ -16289,7 +16289,7 @@ func New007a00010002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включатель/диммер/управление жалюзи",
@@ -16306,7 +16306,7 @@ func New007a00010002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включатель с одной клавишей",
@@ -16323,7 +16323,7 @@ func New007a00010002() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Функция звонка",
@@ -16340,7 +16340,7 @@ func New007a00010002() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Управление жалюзи с одной кнопки",
@@ -16357,7 +16357,7 @@ func New007a00010002() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Опускать жалюзи пока кнопка удерживается",
@@ -16374,7 +16374,7 @@ func New007a00010002() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Поднимать жалюзи пока кнопка удерживается",
@@ -16424,7 +16424,7 @@ func New007a00010004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включатель/диммер/управление жалюзи",
@@ -16441,7 +16441,7 @@ func New007a00010004() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включатель с одной клавишей",
@@ -16458,7 +16458,7 @@ func New007a00010004() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Функция звонка",
@@ -16475,7 +16475,7 @@ func New007a00010004() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Управление жалюзи с одной кнопки",
@@ -16492,7 +16492,7 @@ func New007a00010004() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Опускать жалюзи пока кнопка удерживается",
@@ -16509,7 +16509,7 @@ func New007a00010004() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Поднимать жалюзи пока кнопка удерживается",
@@ -16559,7 +16559,7 @@ func New007a00020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включатель с одной клавишей",
@@ -16576,7 +16576,7 @@ func New007a00020001() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Функция звонка",
@@ -16593,7 +16593,7 @@ func New007a00020001() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Управление жалюзи с одной кнопки",
@@ -16610,7 +16610,7 @@ func New007a00020001() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Опускать жалюзи пока кнопка удерживается",
@@ -16627,7 +16627,7 @@ func New007a00020001() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Поднимать жалюзи пока кнопка удерживается",
@@ -16708,7 +16708,7 @@ func New007a00020004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 1",
@@ -16739,7 +16739,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 2",
@@ -16770,7 +16770,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 3",
@@ -16801,7 +16801,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 4",
@@ -16832,7 +16832,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 5",
@@ -16863,7 +16863,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 6",
@@ -16894,7 +16894,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 7",
@@ -16925,7 +16925,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 8",
@@ -16956,7 +16956,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 9",
@@ -16987,7 +16987,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 10",
@@ -17018,7 +17018,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 11",
@@ -17049,7 +17049,7 @@ func New007a00020004() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Group/Scene representation of zone 12",
@@ -17119,7 +17119,7 @@ func New007a00030004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включатель/диммер/управление жалюзи",
@@ -17136,7 +17136,7 @@ func New007a00030004() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включатель с одной клавишей",
@@ -17153,7 +17153,7 @@ func New007a00030004() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Функция звонка",
@@ -17170,7 +17170,7 @@ func New007a00030004() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Управление жалюзи с одной кнопки",
@@ -17187,7 +17187,7 @@ func New007a00030004() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Опускать жалюзи пока кнопка удерживается",
@@ -17204,7 +17204,7 @@ func New007a00030004() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Поднимать жалюзи пока кнопка удерживается",
@@ -17363,7 +17363,7 @@ func New007a40030002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 196,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17438,7 +17438,7 @@ func New007a40040001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 176,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17455,7 +17455,7 @@ func New007a40040001() *Device{
 			},
 			ConfigParam{
 				ID: 177,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17472,7 +17472,7 @@ func New007a40040001() *Device{
 			},
 			ConfigParam{
 				ID: 178,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17489,7 +17489,7 @@ func New007a40040001() *Device{
 			},
 			ConfigParam{
 				ID: 179,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17506,7 +17506,7 @@ func New007a40040001() *Device{
 			},
 			ConfigParam{
 				ID: 180,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17613,7 +17613,7 @@ func New007a80018002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 176,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17630,7 +17630,7 @@ func New007a80018002() *Device{
 			},
 			ConfigParam{
 				ID: 177,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17647,7 +17647,7 @@ func New007a80018002() *Device{
 			},
 			ConfigParam{
 				ID: 183,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17709,7 +17709,7 @@ func New007a80018003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 176,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17726,7 +17726,7 @@ func New007a80018003() *Device{
 			},
 			ConfigParam{
 				ID: 177,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17743,7 +17743,7 @@ func New007a80018003() *Device{
 			},
 			ConfigParam{
 				ID: 183,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17809,7 +17809,7 @@ func New007a80018004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 176,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17826,7 +17826,7 @@ func New007a80018004() *Device{
 			},
 			ConfigParam{
 				ID: 177,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17843,7 +17843,7 @@ func New007a80018004() *Device{
 			},
 			ConfigParam{
 				ID: 183,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17962,7 +17962,7 @@ func New007a80030001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 177,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17979,7 +17979,7 @@ func New007a80030001() *Device{
 			},
 			ConfigParam{
 				ID: 178,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -17996,7 +17996,7 @@ func New007a80030001() *Device{
 			},
 			ConfigParam{
 				ID: 179,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -18013,7 +18013,7 @@ func New007a80030001() *Device{
 			},
 			ConfigParam{
 				ID: 180,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -18239,7 +18239,7 @@ func New008000040001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Measure Level",
@@ -18256,7 +18256,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 1000,
 				Name: "CO² set point",
@@ -18273,7 +18273,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 70,
 				Name: "Humidity set point",
@@ -18290,7 +18290,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Button 1",
@@ -18307,7 +18307,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Button 2",
@@ -18324,7 +18324,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Button 3",
@@ -18341,7 +18341,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Rooster Min Open",
@@ -18358,7 +18358,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature high setpoint",
@@ -18375,7 +18375,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature low setpoint",
@@ -18392,7 +18392,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 2,
 				Name: "Temperature delta setpoint",
@@ -18409,7 +18409,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "RH high setpoint",
@@ -18426,7 +18426,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "RH low setpoint",
@@ -18443,7 +18443,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "RH delta setpoint",
@@ -18460,7 +18460,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "CO2 high setpoint",
@@ -18477,7 +18477,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "CO2 lowsetpoint",
@@ -18494,7 +18494,7 @@ func New008000040001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 500,
 				Name: "CO2deltasetpoint",
@@ -18549,7 +18549,7 @@ func New008100140001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Таймер рабочего времени",
@@ -18566,7 +18566,7 @@ func New008100140001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Продолжительность работы",
@@ -18583,7 +18583,7 @@ func New008100140001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Таймер",
@@ -18600,7 +18600,7 @@ func New008100140001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Настройки устройств",
@@ -18661,7 +18661,7 @@ func New008100a00001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 141,
 				Name: "Конфигурация",
@@ -18706,7 +18706,7 @@ func New008100a00001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "Интервал отправки отчётов без запроса",
@@ -18769,7 +18769,7 @@ func New008400210109() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "Low Temperature Trigger Point",
@@ -18786,7 +18786,7 @@ func New008400210109() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 70,
 				Name: "High Temperature Trigger Point",
@@ -18894,7 +18894,7 @@ func New00840023010a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "Low Temperature Trigger Point",
@@ -18911,7 +18911,7 @@ func New00840023010a() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 70,
 				Name: "High Temperature Trigger Point",
@@ -18965,7 +18965,7 @@ func New008403130108() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Delay before accept of Basic Set Off",
@@ -19123,7 +19123,7 @@ func New008600000000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "sensor binary report",
@@ -19147,7 +19147,7 @@ func New008600000000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up",
@@ -19171,7 +19171,7 @@ func New008600000000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Basic set value",
@@ -19195,7 +19195,7 @@ func New008600000000() *Device{
 			},
 			ConfigParam{
 				ID: 121,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Reports that will be sent",
@@ -19261,7 +19261,7 @@ func New008600000000() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset",
@@ -19371,7 +19371,7 @@ func New008600010058() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 250,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Group/Scene Mode",
@@ -19395,7 +19395,7 @@ func New008600010058() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset to Default Settings",
@@ -19525,7 +19525,7 @@ func New008600020005() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor report type on Get without instances",
@@ -19563,7 +19563,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up 10 minutes when batteries are inserted",
@@ -19587,7 +19587,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "On time",
@@ -19604,7 +19604,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Enable motion sensor",
@@ -19628,7 +19628,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Interval group 1",
@@ -19666,7 +19666,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 2",
@@ -19704,7 +19704,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 3",
@@ -19742,7 +19742,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Unsolicitate reports interval for timing groups 1",
@@ -19759,7 +19759,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Unsolicitate reports interval for timing groups 2",
@@ -19776,7 +19776,7 @@ func New008600020005() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Unsolicitate reports interval for timing groups 3",
@@ -19841,7 +19841,7 @@ func New008600020009() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Voltage",
@@ -19905,7 +19905,7 @@ func New00860002001c() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "If the reverse clamping pliers, negative power is detected.",
@@ -19929,7 +19929,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Automated Report only when power is changed",
@@ -19953,7 +19953,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum Change to send Report (Watt) for the whole HEM",
@@ -19970,7 +19970,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum Change to send Report (Watt) for clamp 1",
@@ -19987,7 +19987,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum Change to send Report (Watt) for clamp 2",
@@ -20004,7 +20004,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum Change to send Report (Watt) for clamp 3",
@@ -20021,7 +20021,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum Change to send Report (%) for the whole HEM",
@@ -20038,7 +20038,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum Change to send Report (%) for clamp 1",
@@ -20055,7 +20055,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum Change to send Report (%) for clamp 2",
@@ -20072,7 +20072,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum Change to send Report (%) for clamp 3",
@@ -20089,7 +20089,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Enable /disable reporting CRC-16 Encapsulation Command",
@@ -20113,7 +20113,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 8,
 				Name: "Report type send in Reporting Group 1",
@@ -20193,7 +20193,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 2",
@@ -20273,7 +20273,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 3",
@@ -20353,7 +20353,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Send Interval for Reporting Group 1",
@@ -20370,7 +20370,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Send Interval for Reporting Group 2",
@@ -20387,7 +20387,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Send Interval for Reporting Group 3",
@@ -20404,7 +20404,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Set 101-103 to default",
@@ -20414,7 +20414,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Set 111-113 to default",
@@ -20424,7 +20424,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Partner ID",
@@ -20434,7 +20434,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable/disable Configuration Locked",
@@ -20458,7 +20458,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -20468,7 +20468,7 @@ func New00860002001c() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset",
@@ -20520,7 +20520,7 @@ func New008600020036() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "sensor binary report for magnet switch",
@@ -20544,7 +20544,7 @@ func New008600020036() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "basic set for magnet switch",
@@ -20568,7 +20568,7 @@ func New008600020036() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "low battery voltage check function",
@@ -20592,7 +20592,7 @@ func New008600020036() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 112,
 				Name: "battery low check Interval time",
@@ -20609,7 +20609,7 @@ func New008600020036() *Device{
 			},
 			ConfigParam{
 				ID: 121,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 256,
 				Name: "Flag values for triggered magnet switch",
@@ -20619,7 +20619,7 @@ func New008600020036() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "permit other configurations",
@@ -20643,7 +20643,7 @@ func New008600020036() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Reset to default",
@@ -20738,7 +20738,7 @@ func New00860002004a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor report type on Get without instances",
@@ -20776,7 +20776,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up 10 minutes when batteries are inserted",
@@ -20800,7 +20800,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "On time",
@@ -20817,7 +20817,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable motion sensor",
@@ -20841,7 +20841,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 225,
 				Name: "Send unsolicited reports periodicaly. Interval group 1",
@@ -20914,7 +20914,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 2",
@@ -20987,7 +20987,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 3",
@@ -21060,7 +21060,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 1",
@@ -21077,7 +21077,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 2",
@@ -21094,7 +21094,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 3",
@@ -21111,7 +21111,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Motion Detection",
@@ -21135,7 +21135,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reports for Parameters 41-44",
@@ -21159,7 +21159,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "Temperature Automatic Report",
@@ -21169,7 +21169,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Humidity Automatic Report",
@@ -21186,7 +21186,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Luminance Automatic Report",
@@ -21203,7 +21203,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Battery Automatic Report",
@@ -21220,7 +21220,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Low Temperature Alarm Report",
@@ -21244,7 +21244,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -21268,7 +21268,7 @@ func New00860002004a() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -21366,7 +21366,7 @@ func New008600020059() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "sensor binary report for magnet switch",
@@ -21390,7 +21390,7 @@ func New008600020059() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "basic set for magnet switch",
@@ -21414,7 +21414,7 @@ func New008600020059() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "low battery voltage check function",
@@ -21438,7 +21438,7 @@ func New008600020059() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 86640,
 				Name: "battery low check Interval time",
@@ -21455,7 +21455,7 @@ func New008600020059() *Device{
 			},
 			ConfigParam{
 				ID: 121,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 256,
 				Name: "Command to Associated Nodes",
@@ -21535,7 +21535,7 @@ func New008600020059() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -21559,7 +21559,7 @@ func New008600020059() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -21569,7 +21569,7 @@ func New008600020059() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -21672,7 +21672,7 @@ func New008600020064() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up 10 minutes when batteries are inserted",
@@ -21696,7 +21696,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "On time",
@@ -21713,7 +21713,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 5,
 				Name: "Enable/disable the function of motion sensor. ",
@@ -21765,7 +21765,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Motion Detection",
@@ -21789,7 +21789,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: " low battery value.",
@@ -21806,7 +21806,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reports for Parameters 41-44",
@@ -21830,7 +21830,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "Temperature Automatic Report",
@@ -21840,7 +21840,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Humidity Automatic Report",
@@ -21857,7 +21857,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Luminance Automatic Report",
@@ -21874,7 +21874,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Battery Automatic Report",
@@ -21891,7 +21891,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Threshold change in ultraviolet to induce an automatic report. ",
@@ -21908,7 +21908,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Low Temperature Alarm Report",
@@ -21932,7 +21932,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 225,
 				Name: "Send unsolicited reports periodicaly. Interval group 1",
@@ -22005,7 +22005,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 2",
@@ -22078,7 +22078,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 3",
@@ -22151,7 +22151,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 1",
@@ -22168,7 +22168,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 2",
@@ -22185,7 +22185,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 3",
@@ -22202,7 +22202,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 201,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature calibration",
@@ -22212,7 +22212,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 202,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Humidity sensor calibration",
@@ -22222,7 +22222,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 203,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Luminance sensor calibration",
@@ -22232,7 +22232,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 204,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Ultraviolet sensor calibration",
@@ -22242,7 +22242,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -22266,7 +22266,7 @@ func New008600020064() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -22335,7 +22335,7 @@ func New008600030006() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Multilevel Sensor Report Content",
@@ -22359,7 +22359,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Blink",
@@ -22383,7 +22383,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Automatic Notifications",
@@ -22414,7 +22414,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Parameter 91 ",
@@ -22438,7 +22438,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum change in wattage",
@@ -22448,7 +22448,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum change in wattage (%)",
@@ -22458,7 +22458,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Set 101-103 to default",
@@ -22468,7 +22468,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 8,
 				Name: "Reports group 1",
@@ -22499,7 +22499,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Report group 2",
@@ -22530,7 +22530,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Report group 3",
@@ -22561,7 +22561,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Set 111-113 to default",
@@ -22571,7 +22571,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Interval group 1",
@@ -22588,7 +22588,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Interval group 2",
@@ -22605,7 +22605,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Interval group 3",
@@ -22622,7 +22622,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -22639,7 +22639,7 @@ func New008600030006() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Factory Reset",
@@ -22705,7 +22705,7 @@ func New00860003000a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Защита от перегрузки",
@@ -22729,7 +22729,7 @@ func New00860003000a() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Восстанавливать состояние после отключения питания",
@@ -22760,7 +22760,7 @@ func New00860003000a() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отчет о включении/выключении",
@@ -22791,7 +22791,7 @@ func New00860003000a() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Управление параметрами 91/92",
@@ -22815,7 +22815,7 @@ func New00860003000a() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Отчет о изменении энергопотребления",
@@ -22832,7 +22832,7 @@ func New00860003000a() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Отчет о изменении энергопотребления (%)",
@@ -22849,7 +22849,7 @@ func New00860003000a() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -22873,7 +22873,7 @@ func New00860003000a() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Блокировка настроек",
@@ -22948,7 +22948,7 @@ func New00860003000b() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Wattage Report",
@@ -22972,7 +22972,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report Whole Smart Strip",
@@ -22989,7 +22989,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report Socket 1",
@@ -23006,7 +23006,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report Socket 2",
@@ -23023,7 +23023,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report Socket 3",
@@ -23040,7 +23040,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report Socket 4",
@@ -23057,7 +23057,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report Socket 5",
@@ -23074,7 +23074,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report Socket 6",
@@ -23091,7 +23091,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report Whole Smart Strip",
@@ -23108,7 +23108,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report Socket 1",
@@ -23125,7 +23125,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report Socket 2",
@@ -23142,7 +23142,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report Socket 3",
@@ -23159,7 +23159,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report Socket 4",
@@ -23176,7 +23176,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report Socket 5",
@@ -23193,7 +23193,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report Socket 6",
@@ -23210,7 +23210,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Status of Load",
@@ -23241,7 +23241,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "bitset",
 				Size: 2,
 				Default: 0,
 				Name: "Get Temperature",
@@ -23363,7 +23363,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset Parameters 0x65~0x67",
@@ -23373,7 +23373,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Auto Report Item 1",
@@ -23502,7 +23502,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Auto Report Item 2",
@@ -23631,7 +23631,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Auto Report Item 3",
@@ -23760,7 +23760,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset Parameters 0x6F~0x71",
@@ -23770,7 +23770,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Auto Report Time Interval Item 1",
@@ -23780,7 +23780,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Auto Report Time Interval Item 2",
@@ -23790,7 +23790,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Auto Report Time Interval Item 3",
@@ -23800,7 +23800,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Parameter",
@@ -23824,7 +23824,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 253,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Enter Meter Calibration Mode",
@@ -23834,7 +23834,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -23844,7 +23844,7 @@ func New00860003000b() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Restore All",
@@ -23899,7 +23899,7 @@ func New00860003000c() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Sensor Report",
@@ -23923,7 +23923,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Blinking Behavior",
@@ -23940,7 +23940,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Notification on Status Change",
@@ -23971,7 +23971,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Disables Function of automated sending of a Report triggered by minimal change of value.",
@@ -23995,7 +23995,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum Change to send Report (Watt)",
@@ -24012,7 +24012,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum Change to send Report (%)",
@@ -24029,7 +24029,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 8,
 				Name: "Report type send in Reporting Group 1",
@@ -24060,7 +24060,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 2",
@@ -24091,7 +24091,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 3",
@@ -24122,7 +24122,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Send Interval for Reporting Group 1",
@@ -24139,7 +24139,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Send Interval for Reporting Group 2",
@@ -24156,7 +24156,7 @@ func New00860003000c() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 65535,
 				Name: "Send Interval for Reporting Group 3",
@@ -24218,7 +24218,7 @@ func New00860003000d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Sensor Report",
@@ -24242,7 +24242,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Blinking Behavior",
@@ -24259,7 +24259,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Notification on Status Change",
@@ -24290,7 +24290,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Disables Function of automated sending of a Report triggered by minimal change of value.",
@@ -24314,7 +24314,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum Change to send Report (Watt)",
@@ -24331,7 +24331,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum Change to send Report (%)",
@@ -24348,7 +24348,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 8,
 				Name: "Report type send in Reporting Group 1",
@@ -24379,7 +24379,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 2",
@@ -24410,7 +24410,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 3",
@@ -24441,7 +24441,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Send Interval for Reporting Group 1",
@@ -24458,7 +24458,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Send Interval for Reporting Group 2",
@@ -24475,7 +24475,7 @@ func New00860003000d() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 65535,
 				Name: "Send Interval for Reporting Group 3",
@@ -24543,7 +24543,7 @@ func New00860003000e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Sensor Report",
@@ -24567,7 +24567,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Blinking Behavior",
@@ -24584,7 +24584,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Notification on Status Change",
@@ -24615,7 +24615,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Disables Function of automated sending of a Report triggered by minimal change of value.",
@@ -24639,7 +24639,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Minimum Change to send Report (Watt)",
@@ -24656,7 +24656,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Minimum Change to send Report (%)",
@@ -24673,7 +24673,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 8,
 				Name: "Report type send in Reporting Group 1",
@@ -24704,7 +24704,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 2",
@@ -24735,7 +24735,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Report Type send in Reporting Group 3",
@@ -24766,7 +24766,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Send Interval for Reporting Group 1",
@@ -24783,7 +24783,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 720,
 				Name: "Send Interval for Reporting Group 2",
@@ -24800,7 +24800,7 @@ func New00860003000e() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 65535,
 				Name: "Send Interval for Reporting Group 3",
@@ -24870,7 +24870,7 @@ func New008600030018() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Make Smart Switch blink",
@@ -24880,7 +24880,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -24904,7 +24904,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications",
@@ -24935,7 +24935,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enables/disables parameter 91 and 92",
@@ -24959,7 +24959,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Automatic Report(W)",
@@ -24976,7 +24976,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Automatic Report(%)",
@@ -24993,7 +24993,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Set Paremeters 101-103 to Default",
@@ -25003,7 +25003,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Reports in Group 1",
@@ -25048,7 +25048,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Reports in Group 2",
@@ -25093,7 +25093,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Reports in Group 3",
@@ -25138,7 +25138,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Set Parameters 111-113 to Default",
@@ -25148,7 +25148,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 3,
 				Name: "Report Interval Group 1",
@@ -25165,7 +25165,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 600,
 				Name: "Report Interval Group 2",
@@ -25182,7 +25182,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 600,
 				Name: "Report Interval Group 3",
@@ -25199,7 +25199,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -25223,7 +25223,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable/disable the Lock Configuration",
@@ -25247,7 +25247,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -25257,7 +25257,7 @@ func New008600030018() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset All",
@@ -25389,7 +25389,7 @@ func New00860003003e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Startup Ringtone",
@@ -25413,7 +25413,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor Calibration",
@@ -25430,7 +25430,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Timeout of Calibration Steps",
@@ -25447,7 +25447,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Alarm Music",
@@ -25464,7 +25464,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode When Opening",
@@ -25509,7 +25509,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode When Closing",
@@ -25554,7 +25554,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode Unknown Position",
@@ -25599,7 +25599,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode Closed Position",
@@ -25644,7 +25644,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Tamper Switch State",
@@ -25668,7 +25668,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Battery State of Sensor",
@@ -25692,7 +25692,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Ringtone",
@@ -25716,7 +25716,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Ringtone Volume",
@@ -25733,7 +25733,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature",
@@ -25743,7 +25743,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Function of Button- or Button&#43;",
@@ -25767,7 +25767,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Notifications to Associated Devices",
@@ -25798,7 +25798,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 241,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Pair Sensor with Garage Door Controller",
@@ -25815,7 +25815,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -25839,7 +25839,7 @@ func New00860003003e() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to Default Factory Setting",
@@ -25949,7 +25949,7 @@ func New00860003004b() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Make Smart Switch blink.",
@@ -25959,7 +25959,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Overload Protection",
@@ -25983,7 +25983,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications to Associated Devices",
@@ -26014,7 +26014,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Function of Parameters 91 and 92",
@@ -26038,7 +26038,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report(W)",
@@ -26055,7 +26055,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report(%)",
@@ -26072,7 +26072,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 4,
 				Name: "Group 1 Reports",
@@ -26117,7 +26117,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 8,
 				Name: "Group 2 Reports",
@@ -26162,7 +26162,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Group 3 Reports",
@@ -26207,7 +26207,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Time Interval Group 1",
@@ -26224,7 +26224,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Time Interval Group 2",
@@ -26241,7 +26241,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Time Interval Group 3",
@@ -26258,7 +26258,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -26282,7 +26282,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -26306,7 +26306,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -26316,7 +26316,7 @@ func New00860003004b() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset to default factory setting",
@@ -26430,7 +26430,7 @@ func New00860003004e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -26454,7 +26454,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "The load status after power on",
@@ -26485,7 +26485,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications to Associated Devices",
@@ -26516,7 +26516,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Function of Parameters 91 and 92",
@@ -26540,7 +26540,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Induce an automatic report (W)",
@@ -26557,7 +26557,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Induce an automatic report (%)",
@@ -26574,7 +26574,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 4,
 				Name: "Group 1 Reports",
@@ -26619,7 +26619,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 8,
 				Name: "Group 2 Reports",
@@ -26664,7 +26664,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Group 3 Reports",
@@ -26709,7 +26709,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Time Interval Group 1",
@@ -26726,7 +26726,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Group 2",
@@ -26743,7 +26743,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Group 3",
@@ -26760,7 +26760,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -26784,7 +26784,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: " Lock Configuration",
@@ -26808,7 +26808,7 @@ func New00860003004e() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -26911,7 +26911,7 @@ func New008600030060() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -26935,7 +26935,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Output Load Status",
@@ -26966,7 +26966,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Set the RGB LED color value for testing",
@@ -27004,7 +27004,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "notifications to associated devices",
@@ -27035,7 +27035,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Configure the state of LED",
@@ -27066,7 +27066,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "RGB value",
@@ -27097,7 +27097,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 84,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Configure the brightness level of RGB LED",
@@ -27114,7 +27114,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Enables/disables parameter 91/92",
@@ -27138,7 +27138,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 25,
 				Name: "Report of minimum change in wattage ",
@@ -27155,7 +27155,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Minimum change in wattage in percent ",
@@ -27172,7 +27172,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -27189,7 +27189,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -27234,7 +27234,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -27279,7 +27279,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -27324,7 +27324,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -27334,7 +27334,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: " time interval 1",
@@ -27351,7 +27351,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: " time interval 2",
@@ -27368,7 +27368,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: " time interval 3",
@@ -27385,7 +27385,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner  ID ",
@@ -27409,7 +27409,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -27433,7 +27433,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -27443,7 +27443,7 @@ func New008600030060() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset configuration",
@@ -27542,7 +27542,7 @@ func New008600030062() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Use of External Switch",
@@ -27566,7 +27566,7 @@ func New008600030062() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Use of External Switch(Color)",
@@ -27590,7 +27590,7 @@ func New008600030062() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Notifications",
@@ -27621,7 +27621,7 @@ func New008600030062() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -27645,7 +27645,7 @@ func New008600030062() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -27669,7 +27669,7 @@ func New008600030062() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset Parameters",
@@ -27764,7 +27764,7 @@ func New008600030063() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Make Dimmer blink.",
@@ -27788,7 +27788,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -27812,7 +27812,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Output Load Status",
@@ -27843,7 +27843,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Set the RGB LED color value for testing. ",
@@ -27881,7 +27881,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "notifications to associated devices",
@@ -27912,7 +27912,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Configure the state of LED",
@@ -27943,7 +27943,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Configure the RGB value",
@@ -27974,7 +27974,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 84,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 50,
 				Name: "Configure the brightness level of RGB LED",
@@ -28005,7 +28005,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Enables/disables parameter 91/92",
@@ -28029,7 +28029,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 25,
 				Name: "Report of minimum change in wattage",
@@ -28046,7 +28046,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: " minimum change in wattage percent",
@@ -28063,7 +28063,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -28080,7 +28080,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -28118,7 +28118,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -28156,7 +28156,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -28194,7 +28194,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -28211,7 +28211,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: " time interval 1",
@@ -28228,7 +28228,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: " time interval 2",
@@ -28245,7 +28245,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: " time interval 3",
@@ -28262,7 +28262,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner  ID ",
@@ -28286,7 +28286,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -28310,7 +28310,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -28327,7 +28327,7 @@ func New008600030063() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Reset configuration",
@@ -28378,7 +28378,7 @@ func New008600040025() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -28423,7 +28423,7 @@ func New008600040025() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Device Tag",
@@ -28433,7 +28433,7 @@ func New008600040025() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset",
@@ -28516,7 +28516,7 @@ func New008600040050() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Siren Sound/Volume",
@@ -28582,7 +28582,7 @@ func New008600040050() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications",
@@ -28613,7 +28613,7 @@ func New008600040050() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -28637,7 +28637,7 @@ func New008600040050() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -28661,7 +28661,7 @@ func New008600040050() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to Default Factory Settings",
@@ -28749,7 +28749,7 @@ func New008601010058() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 250,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Group/Scene Mode",
@@ -28773,7 +28773,7 @@ func New008601010058() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset to Default Settings",
@@ -28883,7 +28883,7 @@ func New00860102004a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor report type on Get without instances",
@@ -28921,7 +28921,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up 10 minutes when batteries are inserted",
@@ -28945,7 +28945,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "On time",
@@ -28962,7 +28962,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable motion sensor",
@@ -28986,7 +28986,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Motion Detection",
@@ -29010,7 +29010,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reports for Parameters 41-44",
@@ -29034,7 +29034,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "Temperature Automatic Report",
@@ -29044,7 +29044,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Humidity Automatic Report",
@@ -29061,7 +29061,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Luminance Automatic Report",
@@ -29078,7 +29078,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Battery Automatic Report",
@@ -29095,7 +29095,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Low Temperature Alarm Report",
@@ -29119,7 +29119,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 225,
 				Name: "Send unsolicited reports periodicaly. Interval group 1",
@@ -29192,7 +29192,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 2",
@@ -29265,7 +29265,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 3",
@@ -29338,7 +29338,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 1",
@@ -29355,7 +29355,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 2",
@@ -29372,7 +29372,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 3",
@@ -29389,7 +29389,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -29413,7 +29413,7 @@ func New00860102004a() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -29511,7 +29511,7 @@ func New008601020059() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "sensor binary report for magnet switch",
@@ -29535,7 +29535,7 @@ func New008601020059() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "basic set for magnet switch",
@@ -29559,7 +29559,7 @@ func New008601020059() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "low battery voltage check function",
@@ -29583,7 +29583,7 @@ func New008601020059() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 86640,
 				Name: "battery low check Interval time",
@@ -29600,7 +29600,7 @@ func New008601020059() *Device{
 			},
 			ConfigParam{
 				ID: 121,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 256,
 				Name: "Command to Associated Nodes",
@@ -29680,7 +29680,7 @@ func New008601020059() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -29704,7 +29704,7 @@ func New008601020059() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -29714,7 +29714,7 @@ func New008601020059() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -29809,7 +29809,7 @@ func New00860102005f() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Energy Detection Mode Configuration",
@@ -29847,7 +29847,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable/Disable the Function of Parameters 4 to 10.",
@@ -29871,7 +29871,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Induce an automatic report of whole HEM.",
@@ -29888,7 +29888,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Induce an automatic report for Clamp 1.",
@@ -29905,7 +29905,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Induce an automatic report for Clamp 2.",
@@ -29922,7 +29922,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Induce an automatic report of whole HEM(%)",
@@ -29939,7 +29939,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Induce an automatic report for Clamp 1(%)",
@@ -29956,7 +29956,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Induce an automatic report for Clamp 2(%)",
@@ -29973,7 +29973,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable /Disable CRC-16 Encapsulation",
@@ -29997,7 +29997,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 2,
 				Name: "Reports Group 1",
@@ -30133,7 +30133,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 1,
 				Name: "Reports Group 2",
@@ -30269,7 +30269,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Reports Group 3",
@@ -30405,7 +30405,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 60,
 				Name: "Time Interval Report Group 1",
@@ -30422,7 +30422,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Report Group 2",
@@ -30439,7 +30439,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Report Group 3",
@@ -30456,7 +30456,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -30480,7 +30480,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -30504,7 +30504,7 @@ func New00860102005f() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset to Default Factory Setting",
@@ -30607,7 +30607,7 @@ func New008601020064() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up 10 minutes when batteries are inserted",
@@ -30631,7 +30631,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "On time",
@@ -30648,7 +30648,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 5,
 				Name: "Enable/disable the function of motion sensor. ",
@@ -30700,7 +30700,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Motion Detection",
@@ -30724,7 +30724,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: " low battery value.",
@@ -30741,7 +30741,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reports for Parameters 41-44",
@@ -30765,7 +30765,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "Temperature Automatic Report",
@@ -30775,7 +30775,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Humidity Automatic Report",
@@ -30792,7 +30792,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Luminance Automatic Report",
@@ -30809,7 +30809,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Battery Automatic Report",
@@ -30826,7 +30826,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Threshold change in ultraviolet to induce an automatic report. ",
@@ -30843,7 +30843,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Low Temperature Alarm Report",
@@ -30867,7 +30867,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 225,
 				Name: "Send unsolicited reports periodicaly. Interval group 1",
@@ -30940,7 +30940,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 2",
@@ -31013,7 +31013,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 3",
@@ -31086,7 +31086,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 1",
@@ -31103,7 +31103,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 2",
@@ -31120,7 +31120,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 3",
@@ -31137,7 +31137,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 201,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature calibration",
@@ -31147,7 +31147,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 202,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Humidity sensor calibration",
@@ -31157,7 +31157,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 203,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Luminance sensor calibration",
@@ -31167,7 +31167,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 204,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Ultraviolet sensor calibration",
@@ -31177,7 +31177,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -31201,7 +31201,7 @@ func New008601020064() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -31303,7 +31303,7 @@ func New00860103003e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Startup Ringtone",
@@ -31327,7 +31327,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor Calibration",
@@ -31344,7 +31344,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Timeout of Calibration Steps",
@@ -31361,7 +31361,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Alarm Music",
@@ -31378,7 +31378,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode When Opening",
@@ -31423,7 +31423,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode When Closing",
@@ -31468,7 +31468,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode Unknown Position",
@@ -31513,7 +31513,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode Closed Position",
@@ -31558,7 +31558,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Tamper Switch State",
@@ -31582,7 +31582,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Battery State of Sensor",
@@ -31606,7 +31606,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Ringtone",
@@ -31630,7 +31630,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Ringtone Volume",
@@ -31647,7 +31647,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature",
@@ -31657,7 +31657,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Function of Button- or Button&#43;",
@@ -31681,7 +31681,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Notifications to Associated Devices",
@@ -31712,7 +31712,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 241,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Pair Sensor with Garage Door Controller",
@@ -31729,7 +31729,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -31753,7 +31753,7 @@ func New00860103003e() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to Default Factory Setting",
@@ -31863,7 +31863,7 @@ func New00860103004b() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Make Smart Switch blink.",
@@ -31873,7 +31873,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Overload Protection",
@@ -31897,7 +31897,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications to Associated Devices",
@@ -31928,7 +31928,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Function of Parameters 91 and 92",
@@ -31952,7 +31952,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report(W)",
@@ -31969,7 +31969,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report(%)",
@@ -31986,7 +31986,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 4,
 				Name: "Group 1 Reports",
@@ -32031,7 +32031,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 8,
 				Name: "Group 2 Reports",
@@ -32076,7 +32076,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Group 3 Reports",
@@ -32121,7 +32121,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Time Interval Group 1",
@@ -32138,7 +32138,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Time Interval Group 2",
@@ -32155,7 +32155,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Time Interval Group 3",
@@ -32172,7 +32172,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -32196,7 +32196,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -32220,7 +32220,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -32230,7 +32230,7 @@ func New00860103004b() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset to default factory setting",
@@ -32344,7 +32344,7 @@ func New00860103004e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -32368,7 +32368,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "The load status after power on",
@@ -32399,7 +32399,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications to Associated Devices",
@@ -32430,7 +32430,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Function of Parameters 91 and 92",
@@ -32454,7 +32454,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Induce an automatic report (W)",
@@ -32471,7 +32471,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Induce an automatic report (%)",
@@ -32488,7 +32488,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 4,
 				Name: "Group 1 Reports",
@@ -32533,7 +32533,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 8,
 				Name: "Group 2 Reports",
@@ -32578,7 +32578,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Group 3 Reports",
@@ -32623,7 +32623,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Time Interval Group 1",
@@ -32640,7 +32640,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Group 2",
@@ -32657,7 +32657,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Group 3",
@@ -32674,7 +32674,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -32698,7 +32698,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -32722,7 +32722,7 @@ func New00860103004e() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -32832,7 +32832,7 @@ func New008601030060() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -32856,7 +32856,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Output Load Status",
@@ -32887,7 +32887,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Set the RGB LED color value for testing",
@@ -32925,7 +32925,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "notifications to associated devices",
@@ -32956,7 +32956,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Configure the state of LED",
@@ -32987,7 +32987,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "RGB value",
@@ -33018,7 +33018,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 84,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Configure the brightness level of RGB LED",
@@ -33035,7 +33035,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Enables/disables parameter 91/92",
@@ -33059,8 +33059,8 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
-				Size: 4,
+				Type: "range",
+				Size: 2,
 				Default: 25,
 				Name: "Report of minimum change in wattage",
 				Description: "The value here represents minimum change in wattage (in terms of wattage) for a REPORT to be sent",
@@ -33076,7 +33076,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Minimum change in wattage in percent",
@@ -33093,7 +33093,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "/n        ",
@@ -33110,7 +33110,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "/n        ",
@@ -33155,7 +33155,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "/n        ",
@@ -33200,7 +33200,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "/n        ",
@@ -33245,7 +33245,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "/n        ",
@@ -33255,7 +33255,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "time interval 1",
@@ -33272,7 +33272,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "time interval 2",
@@ -33289,7 +33289,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "time interval 3",
@@ -33306,7 +33306,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -33330,7 +33330,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "/n        ",
@@ -33354,7 +33354,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -33364,7 +33364,7 @@ func New008601030060() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset configuration",
@@ -33469,7 +33469,7 @@ func New008601030062() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Use of External Switch",
@@ -33493,7 +33493,7 @@ func New008601030062() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Use of External Switch(Color)",
@@ -33517,7 +33517,7 @@ func New008601030062() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Notifications",
@@ -33548,7 +33548,7 @@ func New008601030062() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -33572,7 +33572,7 @@ func New008601030062() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -33596,7 +33596,7 @@ func New008601030062() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset Parameters",
@@ -33685,7 +33685,7 @@ func New008601040038() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Doorbell Repetitions",
@@ -33709,7 +33709,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Doorbell Ringtone",
@@ -33726,7 +33726,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Select a Ringtone to Play",
@@ -33750,7 +33750,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Control Items",
@@ -33795,7 +33795,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Volume",
@@ -33812,7 +33812,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button Functions",
@@ -33836,7 +33836,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button Functions/ Input Options",
@@ -33860,7 +33860,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Battery Status",
@@ -33891,7 +33891,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Notifications",
@@ -33922,7 +33922,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Notifications Low Battery State",
@@ -33946,7 +33946,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 241,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Pair the Wireless Button with Doorbell",
@@ -33963,7 +33963,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -33987,7 +33987,7 @@ func New008601040038() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset to default factory setting",
@@ -34083,7 +34083,7 @@ func New008601040050() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Siren Sound/Volume",
@@ -34149,7 +34149,7 @@ func New008601040050() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications",
@@ -34180,7 +34180,7 @@ func New008601040050() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -34204,7 +34204,7 @@ func New008601040050() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -34228,7 +34228,7 @@ func New008601040050() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to Default Factory Settings",
@@ -34316,7 +34316,7 @@ func New008602010058() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 250,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Group/Scene Mode",
@@ -34340,7 +34340,7 @@ func New008602010058() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset to Default Settings",
@@ -34450,7 +34450,7 @@ func New00860202004a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor report type on Get without instances",
@@ -34488,7 +34488,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up 10 minutes when batteries are inserted",
@@ -34512,7 +34512,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "On time",
@@ -34529,7 +34529,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable motion sensor",
@@ -34553,7 +34553,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Motion Detection",
@@ -34577,7 +34577,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reports for Parameters 41-44",
@@ -34601,7 +34601,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "Temperature Automatic Report",
@@ -34611,7 +34611,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Humidity Automatic Report",
@@ -34628,7 +34628,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Luminance Automatic Report",
@@ -34645,7 +34645,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Battery Automatic Report",
@@ -34662,7 +34662,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Low Temperature Alarm Report",
@@ -34686,7 +34686,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 225,
 				Name: "Send unsolicited reports periodicaly. Interval group 1",
@@ -34759,7 +34759,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 2",
@@ -34832,7 +34832,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 3",
@@ -34905,7 +34905,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 1",
@@ -34922,7 +34922,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 2",
@@ -34939,7 +34939,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 1800,
 				Name: "Unsolicitate reports interval for timing groups 3",
@@ -34956,7 +34956,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -34980,7 +34980,7 @@ func New00860202004a() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -35078,7 +35078,7 @@ func New008602020059() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "sensor binary report for magnet switch",
@@ -35102,7 +35102,7 @@ func New008602020059() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "basic set for magnet switch",
@@ -35126,7 +35126,7 @@ func New008602020059() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "low battery voltage check function",
@@ -35150,7 +35150,7 @@ func New008602020059() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 86640,
 				Name: "battery low check Interval time",
@@ -35167,7 +35167,7 @@ func New008602020059() *Device{
 			},
 			ConfigParam{
 				ID: 121,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 256,
 				Name: "Command to Associated Nodes",
@@ -35247,7 +35247,7 @@ func New008602020059() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -35271,7 +35271,7 @@ func New008602020059() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -35281,7 +35281,7 @@ func New008602020059() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -35384,7 +35384,7 @@ func New008602020064() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wake up 10 minutes when batteries are inserted",
@@ -35408,7 +35408,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "On time",
@@ -35425,7 +35425,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 5,
 				Name: "Enable/disable the function of motion sensor. ",
@@ -35477,7 +35477,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Motion Detection",
@@ -35501,7 +35501,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: " low battery value.",
@@ -35518,7 +35518,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reports for Parameters 41-44",
@@ -35542,7 +35542,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "Temperature Automatic Report",
@@ -35552,7 +35552,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Humidity Automatic Report",
@@ -35569,7 +35569,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Luminance Automatic Report",
@@ -35586,7 +35586,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Battery Automatic Report",
@@ -35603,7 +35603,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Threshold change in ultraviolet to induce an automatic report. ",
@@ -35620,7 +35620,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Low Temperature Alarm Report",
@@ -35644,7 +35644,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 225,
 				Name: "Send unsolicited reports periodicaly. Interval group 1",
@@ -35717,7 +35717,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 2",
@@ -35790,7 +35790,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Send unsolicited reports periodicaly. Intervcal group 3",
@@ -35863,7 +35863,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 1",
@@ -35880,7 +35880,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 2",
@@ -35897,7 +35897,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 3600,
 				Name: "Unsolicitate reports interval for timing groups 3",
@@ -35914,7 +35914,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 201,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature calibration",
@@ -35924,7 +35924,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 202,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Humidity sensor calibration",
@@ -35934,7 +35934,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 203,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Luminance sensor calibration",
@@ -35944,7 +35944,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 204,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Ultraviolet sensor calibration",
@@ -35954,7 +35954,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -35978,7 +35978,7 @@ func New008602020064() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -36080,7 +36080,7 @@ func New00860203003e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Startup Ringtone",
@@ -36104,7 +36104,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor Calibration",
@@ -36121,7 +36121,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Timeout of Calibration Steps",
@@ -36138,7 +36138,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Alarm Music",
@@ -36155,7 +36155,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode When Opening",
@@ -36200,7 +36200,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode When Closing",
@@ -36245,7 +36245,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode Unknown Position",
@@ -36290,7 +36290,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm Mode Closed Position",
@@ -36335,7 +36335,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Tamper Switch State",
@@ -36359,7 +36359,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Battery State of Sensor",
@@ -36383,7 +36383,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Ringtone",
@@ -36407,7 +36407,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Ringtone Volume",
@@ -36424,7 +36424,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature",
@@ -36434,7 +36434,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Function of Button- or Button&#43;",
@@ -36458,7 +36458,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Notifications to Associated Devices",
@@ -36489,7 +36489,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 241,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Pair Sensor with Garage Door Controller",
@@ -36506,7 +36506,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -36530,7 +36530,7 @@ func New00860203003e() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to Default Factory Setting",
@@ -36640,7 +36640,7 @@ func New00860203004b() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Make Smart Switch blink.",
@@ -36650,7 +36650,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Overload Protection",
@@ -36674,7 +36674,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications to Associated Devices",
@@ -36705,7 +36705,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Function of Parameters 91 and 92",
@@ -36729,7 +36729,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25,
 				Name: "Automatic Report(W)",
@@ -36746,7 +36746,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Automatic Report(%)",
@@ -36763,7 +36763,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 4,
 				Name: "Group 1 Reports",
@@ -36808,7 +36808,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 8,
 				Name: "Group 2 Reports",
@@ -36853,7 +36853,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Group 3 Reports",
@@ -36898,7 +36898,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Time Interval Group 1",
@@ -36915,7 +36915,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Time Interval Group 2",
@@ -36932,7 +36932,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "Time Interval Group 3",
@@ -36949,7 +36949,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -36973,7 +36973,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -36997,7 +36997,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -37007,7 +37007,7 @@ func New00860203004b() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset to default factory setting",
@@ -37121,7 +37121,7 @@ func New00860203004e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -37145,7 +37145,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "The load status after power on",
@@ -37176,7 +37176,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications to Associated Devices",
@@ -37207,7 +37207,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Function of Parameters 91 and 92",
@@ -37231,7 +37231,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Induce an automatic report (W)",
@@ -37248,7 +37248,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Induce an automatic report (%)",
@@ -37265,7 +37265,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 4,
 				Name: "Group 1 Reports",
@@ -37310,7 +37310,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 8,
 				Name: "Group 2 Reports",
@@ -37355,7 +37355,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Group 3 Reports",
@@ -37400,7 +37400,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Time Interval Group 1",
@@ -37417,7 +37417,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Group 2",
@@ -37434,7 +37434,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 120,
 				Name: "Time Interval Group 3",
@@ -37451,7 +37451,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -37475,7 +37475,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -37499,7 +37499,7 @@ func New00860203004e() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to default factory setting",
@@ -37603,7 +37603,7 @@ func New008602030060() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Current Overload Protection",
@@ -37627,7 +37627,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Output Load Status",
@@ -37658,7 +37658,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Set the RGB LED color value for testing",
@@ -37696,7 +37696,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "notifications to associated devices",
@@ -37727,7 +37727,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Configure the state of LED",
@@ -37758,7 +37758,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "RGB value",
@@ -37789,7 +37789,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 84,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Configure the brightness level of RGB LED",
@@ -37806,7 +37806,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Enables/disables parameter 91/92",
@@ -37830,7 +37830,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 91,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 25,
 				Name: "Report of minimum change in wattage",
@@ -37847,7 +37847,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Minimum change in wattage in percent",
@@ -37864,7 +37864,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -37881,7 +37881,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -37926,7 +37926,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -37971,7 +37971,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 103,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -38016,7 +38016,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -38026,7 +38026,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 111,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "time interval 1",
@@ -38043,7 +38043,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 112,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "time interval 2",
@@ -38060,7 +38060,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 113,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 600,
 				Name: "time interval 3",
@@ -38077,7 +38077,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -38101,7 +38101,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -38125,7 +38125,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Device Tag",
@@ -38135,7 +38135,7 @@ func New008602030060() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Reset configuration",
@@ -38237,7 +38237,7 @@ func New008602030062() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Use of External Switch",
@@ -38261,7 +38261,7 @@ func New008602030062() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Use of External Switch(Color)",
@@ -38285,7 +38285,7 @@ func New008602030062() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Notifications",
@@ -38316,7 +38316,7 @@ func New008602030062() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -38340,7 +38340,7 @@ func New008602030062() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -38364,7 +38364,7 @@ func New008602030062() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset Parameters",
@@ -38460,7 +38460,7 @@ func New008602040050() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Siren Sound/Volume",
@@ -38526,7 +38526,7 @@ func New008602040050() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Notifications",
@@ -38557,7 +38557,7 @@ func New008602040050() *Device{
 			},
 			ConfigParam{
 				ID: 200,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Partner ID",
@@ -38581,7 +38581,7 @@ func New008602040050() *Device{
 			},
 			ConfigParam{
 				ID: 252,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lock Configuration",
@@ -38605,7 +38605,7 @@ func New008602040050() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 1,
 				Name: "Reset to Default Factory Settings",
@@ -38672,7 +38672,7 @@ func New008900010101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Last Status",
@@ -38703,7 +38703,7 @@ func New008900010101() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Night Light",
@@ -38727,7 +38727,7 @@ func New008900010101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable LED",
@@ -38751,7 +38751,7 @@ func New008900010101() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Enable All ON/All OFF",
@@ -38789,7 +38789,7 @@ func New008900010101() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button Protection",
@@ -38820,7 +38820,7 @@ func New008900010101() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Delay In Time",
@@ -38844,7 +38844,7 @@ func New008900010101() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Delay Out Time",
@@ -38868,7 +38868,7 @@ func New008900010101() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "FACTORY DEFAULT",
@@ -38921,7 +38921,7 @@ func New008900020101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Last Status",
@@ -38952,7 +38952,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Night Light",
@@ -38976,7 +38976,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable LED",
@@ -39000,7 +39000,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Enable All ON/All OFF",
@@ -39038,7 +39038,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button Protection",
@@ -39069,7 +39069,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 7,
 				Name: "Fade In Slope",
@@ -39086,7 +39086,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 7,
 				Name: "Fade Out Slope",
@@ -39103,7 +39103,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 7,
 				Name: "Dim Slope",
@@ -39120,7 +39120,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Minimum Dim Level",
@@ -39137,7 +39137,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Maximum Dim Level",
@@ -39154,7 +39154,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Ignore Start Level",
@@ -39178,7 +39178,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Jump to Dim",
@@ -39202,7 +39202,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Dim Direction",
@@ -39233,7 +39233,7 @@ func New008900020101() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "FACTORY DEFAULT",
@@ -39421,7 +39421,7 @@ func New008a00010100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Current Lifestyle",
@@ -39508,7 +39508,7 @@ func New008a00010100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lifestyle lock",
@@ -39532,7 +39532,7 @@ func New008a00010100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "External Screen page",
@@ -39600,7 +39600,7 @@ func New008a00020100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "myDisplay ",
@@ -39660,7 +39660,7 @@ func New008a00030100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Set to default",
@@ -39677,7 +39677,7 @@ func New008a00030100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 900,
 				Name: "Mode timeout",
@@ -39694,7 +39694,7 @@ func New008a00030100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 2700,
 				Name: "Switch off time",
@@ -39711,7 +39711,7 @@ func New008a00030100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 80,
 				Name: "Sensitivity",
@@ -39728,7 +39728,7 @@ func New008a00030100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "The mode",
@@ -39759,7 +39759,7 @@ func New008a00030100() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "The temperature offset",
@@ -39822,7 +39822,7 @@ func New008a00040100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Set to default",
@@ -39839,7 +39839,7 @@ func New008a00040100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "External contact",
@@ -39863,7 +39863,7 @@ func New008a00040100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The mode",
@@ -39901,7 +39901,7 @@ func New008a00040100() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "The temperature offset",
@@ -39965,7 +39965,7 @@ func New008a00060100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Set to default",
@@ -39982,7 +39982,7 @@ func New008a00060100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Measure Decimals",
@@ -40020,7 +40020,7 @@ func New008a00060100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 3600,
 				Name: "Power limit",
@@ -40044,7 +40044,7 @@ func New008a00060100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Startup with last known socket status",
@@ -40068,7 +40068,7 @@ func New008a00060100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature offset",
@@ -40133,7 +40133,7 @@ func New008a00070100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Set to default",
@@ -40150,7 +40150,7 @@ func New008a00070100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Feedback time",
@@ -40174,7 +40174,7 @@ func New008a00070100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Feedback timeout",
@@ -40191,7 +40191,7 @@ func New008a00070100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Feedback beeps per second",
@@ -40208,7 +40208,7 @@ func New008a00070100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The mode",
@@ -40289,7 +40289,7 @@ func New008a00080100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 85,
 				Name: "Set to default",
@@ -40306,7 +40306,7 @@ func New008a00080100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Startup with last known socket status",
@@ -40330,7 +40330,7 @@ func New008a00080100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature offset",
@@ -40475,7 +40475,7 @@ func New008e01010101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Frequency",
@@ -40499,7 +40499,7 @@ func New008e01010101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Protection",
@@ -40624,7 +40624,7 @@ func New009000010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 1",
@@ -40683,7 +40683,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 2",
@@ -40742,7 +40742,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 3",
@@ -40801,7 +40801,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 4",
@@ -40860,7 +40860,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 5",
@@ -40919,7 +40919,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 6",
@@ -40978,7 +40978,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 7",
@@ -41037,7 +41037,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 8",
@@ -41096,7 +41096,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 9",
@@ -41155,7 +41155,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 10",
@@ -41214,7 +41214,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 11",
@@ -41273,7 +41273,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 12",
@@ -41332,7 +41332,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 13",
@@ -41391,7 +41391,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 14",
@@ -41450,7 +41450,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 15",
@@ -41509,7 +41509,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 16",
@@ -41568,7 +41568,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 17",
@@ -41627,7 +41627,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 18",
@@ -41686,7 +41686,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 19",
@@ -41745,7 +41745,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 20",
@@ -41804,7 +41804,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 21",
@@ -41863,7 +41863,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 22",
@@ -41922,7 +41922,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 23",
@@ -41981,7 +41981,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 24",
@@ -42040,7 +42040,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 25",
@@ -42099,7 +42099,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 26",
@@ -42158,7 +42158,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 27",
@@ -42217,7 +42217,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 28",
@@ -42276,7 +42276,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 29",
@@ -42335,7 +42335,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "User Code Type 30",
@@ -42394,7 +42394,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Dipswitches state",
@@ -42404,7 +42404,7 @@ func New009000010001() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Power level",
@@ -42527,7 +42527,7 @@ func New009000010236() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42579,7 +42579,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42631,7 +42631,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42683,7 +42683,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42735,7 +42735,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42787,7 +42787,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42839,7 +42839,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42891,7 +42891,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42943,7 +42943,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -42995,7 +42995,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43047,7 +43047,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43099,7 +43099,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43151,7 +43151,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43203,7 +43203,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43255,7 +43255,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43307,7 +43307,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43359,7 +43359,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43411,7 +43411,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43463,7 +43463,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43515,7 +43515,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43567,7 +43567,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43619,7 +43619,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43671,7 +43671,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43723,7 +43723,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43775,7 +43775,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43827,7 +43827,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43879,7 +43879,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43931,7 +43931,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -43983,7 +43983,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -44035,7 +44035,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "User Code",
@@ -44087,7 +44087,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Dip Switches",
@@ -44097,7 +44097,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "SKU Part Numbers",
@@ -44107,7 +44107,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "SKU Part Numbers",
@@ -44117,7 +44117,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Default Factory Set",
@@ -44141,7 +44141,7 @@ func New009000010236() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Inclusion/Exclusion",
@@ -44245,7 +44245,7 @@ func New009201020002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 180,
 				Name: "Self-retaining time &#34;Up&#34; ",
@@ -44262,7 +44262,7 @@ func New009201020002() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Self-retaining time &#34;Up&#34;",
@@ -44279,7 +44279,7 @@ func New009201020002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 180,
 				Name: "Self-retaining time &#34;Down&#34;",
@@ -44296,7 +44296,7 @@ func New009201020002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Self-retaining time &#34;Down&#34;",
@@ -44313,7 +44313,7 @@ func New009201020002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 25,
 				Name: "Switch-over time",
@@ -44330,7 +44330,7 @@ func New009201020002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Change of direction",
@@ -44354,7 +44354,7 @@ func New009201020002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Change-Direction-Duration ",
@@ -44788,7 +44788,7 @@ func New009500010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "??Network rediscovery",
@@ -44812,7 +44812,7 @@ func New009500010001() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Double press delay",
@@ -44885,7 +44885,7 @@ func New009500030000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Network rediscovery",
@@ -44909,7 +44909,7 @@ func New009500030000() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 168,
 				Name: "Automatic network update delay",
@@ -45079,7 +45079,7 @@ func New009600010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1024,
 				Name: "Pulse Factor",
@@ -45096,7 +45096,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "IR listening period",
@@ -45113,7 +45113,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "IR pulse width",
@@ -45130,7 +45130,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Poll frequency",
@@ -45147,7 +45147,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Pulse Threshold Low",
@@ -45164,7 +45164,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Pulse Threshold High",
@@ -45181,7 +45181,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Wakeup Interval",
@@ -45198,7 +45198,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3,
 				Name: "Keep Alive Period",
@@ -45215,7 +45215,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Realtime Mode",
@@ -45232,7 +45232,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Pulse Count",
@@ -45249,7 +45249,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Sensor Type",
@@ -45273,7 +45273,7 @@ func New009600010001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Debug",
@@ -45352,7 +45352,7 @@ func New009600100001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1024,
 				Name: "Pulse Factor",
@@ -45369,7 +45369,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Sensor Type",
@@ -45393,7 +45393,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "IR listening period",
@@ -45410,7 +45410,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "IR pulse width",
@@ -45427,7 +45427,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Poll frequency",
@@ -45444,7 +45444,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Pulse Threshold Low",
@@ -45461,7 +45461,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Pulse Threshold High",
@@ -45478,7 +45478,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Wakeup Interval",
@@ -45495,7 +45495,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3,
 				Name: "Keep Alive Period",
@@ -45512,7 +45512,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Realtime Mode",
@@ -45529,7 +45529,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Pulse Count",
@@ -45546,7 +45546,7 @@ func New009600100001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Debug",
@@ -45611,7 +45611,7 @@ func New009700000000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Send NIF and start re-inclusion on",
@@ -45635,7 +45635,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Automatically switch off after",
@@ -45659,7 +45659,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Interpret RF Off command",
@@ -45697,7 +45697,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Ignore start level",
@@ -45721,7 +45721,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Dimming speed",
@@ -45745,7 +45745,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Dimming long speed",
@@ -45762,7 +45762,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Set maximum light level on On command",
@@ -45793,7 +45793,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dimmer calibration bottom level",
@@ -45810,7 +45810,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Dimmer calibration top level",
@@ -45834,7 +45834,7 @@ func New009700000000() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Default on level",
@@ -45928,7 +45928,7 @@ func New009700240045() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Buttons Mode ",
@@ -45973,7 +45973,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Automatically close after ",
@@ -45997,7 +45997,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "What to do on RF off command ",
@@ -46035,7 +46035,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Typical click timeout ",
@@ -46052,7 +46052,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert buttons ",
@@ -46076,7 +46076,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Action on button  press or hold ",
@@ -46100,7 +46100,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED mode ",
@@ -46145,7 +46145,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Full close time ",
@@ -46169,7 +46169,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Full open time ",
@@ -46193,7 +46193,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Node Id of the blocking device ",
@@ -46217,7 +46217,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "On which command from blocking node to enable the protection ",
@@ -46241,7 +46241,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Open and Close relays ",
@@ -46265,7 +46265,7 @@ func New009700240045() *Device{
 			},
 			ConfigParam{
 				ID: 254,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset to factory Default ",
@@ -46317,7 +46317,7 @@ func New009711824501() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset",
@@ -46341,7 +46341,7 @@ func New009711824501() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Command Sent on Dry Input",
@@ -46365,7 +46365,7 @@ func New009711824501() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -46389,7 +46389,7 @@ func New009711824501() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Offset",
@@ -46461,7 +46461,7 @@ func New009761314501() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Сброс на заводские настройки",
@@ -46478,7 +46478,7 @@ func New009761314501() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Длительность звукового сигнала при отправке команды Вкл (SwitchBinary)",
@@ -46502,7 +46502,7 @@ func New009761314501() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Время через которое панель уходит в сон",
@@ -46526,7 +46526,7 @@ func New009761314501() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Количество звуковых сигналов в секунду",
@@ -46543,7 +46543,7 @@ func New009761314501() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы: спящее/постоянно работающее",
@@ -46615,7 +46615,7 @@ func New009761315101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Сброс на заводские настройки",
@@ -46632,7 +46632,7 @@ func New009761315101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Длительность звукового сигнала при отправке команды Вкл (SwitchBinary)",
@@ -46656,7 +46656,7 @@ func New009761315101() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Время через которое панель уходит в сон",
@@ -46680,7 +46680,7 @@ func New009761315101() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Количество звуковых сигналов в секунду",
@@ -46697,7 +46697,7 @@ func New009761315101() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы: спящее/постоянно работающее",
@@ -46767,7 +46767,7 @@ func New009769415501() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Set to default",
@@ -46791,7 +46791,7 @@ func New009769415501() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Startup with last known socket status",
@@ -46815,7 +46815,7 @@ func New009769415501() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature offset",
@@ -46944,7 +46944,7 @@ func New00981e12015e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Reporting Threshold",
@@ -46989,7 +46989,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "HVAC Settings",
@@ -47034,7 +47034,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Utility Lock Enable/Disable",
@@ -47058,7 +47058,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "C-Wire / Battery Status",
@@ -47082,7 +47082,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Humidity Reporting Threshold",
@@ -47120,7 +47120,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Auxiliary/Emergency",
@@ -47144,7 +47144,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Thermostat Swing Temperature",
@@ -47161,7 +47161,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Thermostat Diff Temperature",
@@ -47192,7 +47192,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Thermostat Recovery Mode",
@@ -47216,7 +47216,7 @@ func New00981e12015e() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 124,
 				Name: "Temperature Reporting Filter",
@@ -47318,7 +47318,7 @@ func New009820020100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Temp Reporting Threshold",
@@ -47363,7 +47363,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "HVAC Settings (get only)",
@@ -47373,7 +47373,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Utility Lock Enable/Disable ",
@@ -47397,7 +47397,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "C-Wire/Battery Status",
@@ -47421,7 +47421,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Humidity Reporting Threshold",
@@ -47459,7 +47459,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Auxiliary/Emergency",
@@ -47483,7 +47483,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Swing Temp",
@@ -47549,7 +47549,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 4,
 				Name: "Thermostat Diff Temp",
@@ -47559,7 +47559,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Recovery Mode",
@@ -47583,7 +47583,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Temp Reporting Filter",
@@ -47593,7 +47593,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Simple UI Mode Enable/Disable",
@@ -47617,7 +47617,7 @@ func New009820020100() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Multicast Enable/Disable",
@@ -47727,7 +47727,7 @@ func New009820120100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Temp Reporting Threshold",
@@ -47772,7 +47772,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "HVAC Settings (get only)",
@@ -47782,7 +47782,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Utility Lock Enable/Disable",
@@ -47806,7 +47806,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "C-Wire/Battery Status",
@@ -47830,7 +47830,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Humidity Reporting Threshold",
@@ -47868,7 +47868,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Auxiliary/Emergency",
@@ -47892,7 +47892,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Swing Temp",
@@ -47958,7 +47958,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 4,
 				Name: "Thermostat Diff Temp",
@@ -47968,7 +47968,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Recovery Mode",
@@ -47992,7 +47992,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Temp Reporting Filter",
@@ -48002,7 +48002,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Simple UI Mode Enable/Disable",
@@ -48026,7 +48026,7 @@ func New009820120100() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Multicast Enable/Disable",
@@ -48246,7 +48246,7 @@ func New00986501000d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Temp Reporting Threshold",
@@ -48291,7 +48291,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "HVAC Settings (get only)",
@@ -48301,7 +48301,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Utility Lock Enable/Disable",
@@ -48325,7 +48325,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "C-Wire/Battery Status",
@@ -48349,7 +48349,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Humidity Reporting Threshold",
@@ -48387,7 +48387,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Auxiliary/Emergency",
@@ -48411,7 +48411,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Swing Temp",
@@ -48477,7 +48477,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Thermostat Diff Temp",
@@ -48487,7 +48487,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Recovery Mode",
@@ -48511,7 +48511,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Temp Reporting Filter",
@@ -48521,7 +48521,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Simple UI Mode Enable/Disable",
@@ -48545,7 +48545,7 @@ func New00986501000d() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Multicast Enable/Disable",
@@ -48658,7 +48658,7 @@ func New00986e010100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Temp Reporting Threshold",
@@ -48703,7 +48703,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "HVAC Settings (get only)",
@@ -48713,7 +48713,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Utility Lock Enable/Disable",
@@ -48737,7 +48737,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "C-Wire/Battery Status",
@@ -48761,7 +48761,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Humidity Reporting Threshold",
@@ -48799,7 +48799,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Auxiliary/Emergency",
@@ -48823,7 +48823,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Swing Temp",
@@ -48889,7 +48889,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 4,
 				Name: "Thermostat Diff Temp",
@@ -48899,7 +48899,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Recovery Mode",
@@ -48923,7 +48923,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Temp Reporting Filter",
@@ -48933,7 +48933,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Simple UI Mode Enable/Disable",
@@ -48957,7 +48957,7 @@ func New00986e010100() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Multicast Enable/Disable",
@@ -49074,7 +49074,7 @@ func New0098c801000c() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Temperature Reporting Threshold",
@@ -49119,7 +49119,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "HVAC Settings (get only)",
@@ -49129,7 +49129,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Utility Lock",
@@ -49153,7 +49153,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "C-Wire/Battery Status(get only)",
@@ -49163,7 +49163,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Humidity Reporting Threshold",
@@ -49201,7 +49201,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Auxiliary/Emergency",
@@ -49225,7 +49225,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Swing Temp",
@@ -49242,7 +49242,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "Thermostat Diff Temp",
@@ -49259,7 +49259,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Thermostat Recovery Mode",
@@ -49283,7 +49283,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "",
@@ -49293,7 +49293,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Multicast Enable/Disable",
@@ -49317,7 +49317,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Fan Timer",
@@ -49334,7 +49334,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Humidity Activation",
@@ -49344,7 +49344,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Calibration",
@@ -49361,7 +49361,7 @@ func New0098c801000c() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Display Units",
@@ -49863,7 +49863,7 @@ func New00a500010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: " 	Default State",
@@ -49894,7 +49894,7 @@ func New00a500010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Power Failure",
@@ -49953,7 +49953,7 @@ func New00a500010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Follow State",
@@ -49984,7 +49984,7 @@ func New00a500010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Always On",
@@ -50079,7 +50079,7 @@ func New00a500020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 1&amp;3 PROFILE",
@@ -50110,7 +50110,7 @@ func New00a500020001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 2&amp;4 PROFILE",
@@ -50141,7 +50141,7 @@ func New00a500020001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "SCENE TYPE",
@@ -50165,7 +50165,7 @@ func New00a500020001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 1 CONFIGURATION",
@@ -50196,7 +50196,7 @@ func New00a500020001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 2 CONFIGURATION",
@@ -50227,7 +50227,7 @@ func New00a500020001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 3 CONFIGURATION",
@@ -50258,7 +50258,7 @@ func New00a500020001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 4 CONFIGURATION",
@@ -50289,7 +50289,7 @@ func New00a500020001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "LED MANAGEMENT",
@@ -50407,7 +50407,7 @@ func New00a500020002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 1&amp;3 PROFILE",
@@ -50438,7 +50438,7 @@ func New00a500020002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 2&amp;4 PROFILE",
@@ -50469,7 +50469,7 @@ func New00a500020002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "SCENE-TYP",
@@ -50493,7 +50493,7 @@ func New00a500020002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 1 CONFIGURATION",
@@ -50524,7 +50524,7 @@ func New00a500020002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 2 CONFIGURATION",
@@ -50555,7 +50555,7 @@ func New00a500020002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 3 CONFIGURATION",
@@ -50586,7 +50586,7 @@ func New00a500020002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 4 CONFIGURATION",
@@ -50617,7 +50617,7 @@ func New00a500020002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "LED MANAGEMENT",
@@ -50735,7 +50735,7 @@ func New00a500020003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 1&amp;3 PROFILE",
@@ -50766,7 +50766,7 @@ func New00a500020003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 2&amp;4 PROFILE",
@@ -50797,7 +50797,7 @@ func New00a500020003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "SCENE TYPE",
@@ -50821,7 +50821,7 @@ func New00a500020003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 1 CONFIGURATION",
@@ -50852,7 +50852,7 @@ func New00a500020003() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 2 CONFIGURATION",
@@ -50883,7 +50883,7 @@ func New00a500020003() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 3 CONFIGURATION",
@@ -50914,7 +50914,7 @@ func New00a500020003() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 4 CONFIGURATION",
@@ -50945,7 +50945,7 @@ func New00a500020003() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "LED MANAGEMENT",
@@ -51083,7 +51083,7 @@ func New010300010002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Default switch state",
@@ -51114,7 +51114,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Energy minimum report time",
@@ -51131,7 +51131,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 120,
 				Name: "Energy maximum report time",
@@ -51148,7 +51148,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Power minimum report time",
@@ -51165,7 +51165,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 120,
 				Name: "Power maximum report time",
@@ -51182,7 +51182,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Energy delta value",
@@ -51199,7 +51199,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 150,
 				Name: "Power delta value",
@@ -51216,7 +51216,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Security shutdown configuration ",
@@ -51240,7 +51240,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reset of overcurrent shutdown",
@@ -51264,7 +51264,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Night mode",
@@ -51288,7 +51288,7 @@ func New010300010002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Info LED Color",
@@ -51475,7 +51475,7 @@ func New01080002000d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Dimmer light strength (00 = Dimmer off)",
@@ -51506,7 +51506,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 99,
 				Name: "Illumination threshold",
@@ -51537,7 +51537,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation mode",
@@ -51603,7 +51603,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Mult-Sensor Function Switch",
@@ -51669,7 +51669,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Customer Function",
@@ -51735,7 +51735,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Turn Off Light Time",
@@ -51759,7 +51759,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -51783,7 +51783,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Door/Windows State Time",
@@ -51807,7 +51807,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Illumination Time",
@@ -51831,7 +51831,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperature Time",
@@ -51855,7 +51855,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -51879,7 +51879,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -51903,7 +51903,7 @@ func New01080002000d() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Illumination Differential Report",
@@ -52024,7 +52024,7 @@ func New01080002000e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Dimmer light strength (00 = Dimmer off)",
@@ -52055,7 +52055,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 99,
 				Name: "Illumination threshold",
@@ -52086,7 +52086,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation mode",
@@ -52138,7 +52138,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Mult-Sensor Function Switch",
@@ -52204,7 +52204,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Customer Function",
@@ -52270,7 +52270,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Turn Off Light Time",
@@ -52294,7 +52294,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -52318,7 +52318,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Door/Windows State Time",
@@ -52342,7 +52342,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Illumination Time",
@@ -52366,7 +52366,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperature Time",
@@ -52390,7 +52390,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -52414,7 +52414,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -52438,7 +52438,7 @@ func New01080002000e() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Illumination Differential Report",
@@ -53087,7 +53087,7 @@ func New010920010105() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "External Switch",
@@ -53198,7 +53198,7 @@ func New010920010106() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "External Switch",
@@ -53341,7 +53341,7 @@ func New010920020201() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Delay of Off Command",
@@ -53450,7 +53450,7 @@ func New010920020203() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Время выключения",
@@ -53608,7 +53608,7 @@ func New010920020205() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Re-trigger Duration",
@@ -53625,7 +53625,7 @@ func New010920020205() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Scale",
@@ -53649,7 +53649,7 @@ func New010920020205() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "Infrared Sensor Sensitivity Adjustment",
@@ -53666,7 +53666,7 @@ func New010920020205() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "User defined Celsius Adjustment",
@@ -53921,7 +53921,7 @@ func New010920050503() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Siren Strobe Mode",
@@ -53952,7 +53952,7 @@ func New010920050503() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm auto stop",
@@ -54050,7 +54050,7 @@ func New010920050505() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Siren/Strobe Mode",
@@ -54081,7 +54081,7 @@ func New010920050505() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Auto StopTime",
@@ -54182,7 +54182,7 @@ func New010920050508() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Siren/Strobe Mode",
@@ -54213,7 +54213,7 @@ func New010920050508() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Auto Stop Time",
@@ -54515,7 +54515,7 @@ func New010920090901() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Siren/Strobe Mode",
@@ -54546,7 +54546,7 @@ func New010920090901() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm auto stop time command",
@@ -54660,7 +54660,7 @@ func New010920090908() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Siren/Strobe Mode",
@@ -54691,7 +54691,7 @@ func New010920090908() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Auto Stop Time",
@@ -54808,7 +54808,7 @@ func New0109200c0c02() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Type of Light Control",
@@ -54892,7 +54892,7 @@ func New0109200c0c06() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Type of Light Control",
@@ -54916,7 +54916,7 @@ func New0109200c0c06() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch Type",
@@ -55359,7 +55359,7 @@ func New010920171719() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Button Mode Switching",
@@ -55467,7 +55467,7 @@ func New010920181805() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Curtain Type",
@@ -55491,7 +55491,7 @@ func New010920181805() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1000,
 				Name: "Curtain Total Distance Time (Type 2 curtain only)",
@@ -55508,7 +55508,7 @@ func New010920181805() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Curtain Motor wake Up Time",
@@ -55588,7 +55588,7 @@ func New0109201a1a02() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Auto report timing",
@@ -55605,7 +55605,7 @@ func New0109201a1a02() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Report when Watt change",
@@ -55865,7 +55865,7 @@ func New0109201f1f10() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Scale",
@@ -55889,7 +55889,7 @@ func New0109201f1f10() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature",
@@ -55906,7 +55906,7 @@ func New0109201f1f10() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Humidity",
@@ -55923,7 +55923,7 @@ func New0109201f1f10() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Light",
@@ -56017,7 +56017,7 @@ func New0109201f1f20() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Measurement Unit",
@@ -56041,7 +56041,7 @@ func New0109201f1f20() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Temperature Range",
@@ -56058,7 +56058,7 @@ func New0109201f1f20() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Humidity",
@@ -56075,7 +56075,7 @@ func New0109201f1f20() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Light",
@@ -56169,7 +56169,7 @@ func New010920212101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Scale",
@@ -56193,7 +56193,7 @@ func New010920212101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Temperature Range",
@@ -56210,7 +56210,7 @@ func New010920212101() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Humidity",
@@ -56227,7 +56227,7 @@ func New010920212101() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Light",
@@ -56251,7 +56251,7 @@ func New010920212101() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Re-trigger Duration",
@@ -56268,7 +56268,7 @@ func New010920212101() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "Infrared Sensor Sensitivity Adjustment",
@@ -56400,7 +56400,7 @@ func New010930010104() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Звуковое/Световое оповещение",
@@ -56431,7 +56431,7 @@ func New010930010104() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Время отключения сирены",
@@ -56982,7 +56982,7 @@ func New010e00030002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать направление движения замка",
@@ -57006,7 +57006,7 @@ func New010e00030002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Скорость замка",
@@ -57051,7 +57051,7 @@ func New010e00030002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим замка",
@@ -57075,7 +57075,7 @@ func New010e00030002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 9,
 				Name: "Градус поворота замка",
@@ -57092,7 +57092,7 @@ func New010e00030002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Автозакрытие замка",
@@ -57116,7 +57116,7 @@ func New010e00030002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Звук замка",
@@ -57140,7 +57140,7 @@ func New010e00030002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Тип батареи",
@@ -57164,7 +57164,7 @@ func New010e00030002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Звук при низком заряде батареи",
@@ -57283,7 +57283,7 @@ func New010e00080001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Direction",
@@ -57307,7 +57307,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Speed (Torque)",
@@ -57352,7 +57352,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Mode",
@@ -57383,7 +57383,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 9,
 				Name: "Turn degrees",
@@ -57400,7 +57400,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Auto Latch time",
@@ -57424,7 +57424,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Sound",
@@ -57448,7 +57448,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Battery Type",
@@ -57479,7 +57479,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Battery alarm value",
@@ -57496,7 +57496,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Turn and Go",
@@ -57520,7 +57520,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Brake and GoBack",
@@ -57544,7 +57544,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Async",
@@ -57568,7 +57568,7 @@ func New010e00080001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Door lock operation report type",
@@ -57702,7 +57702,7 @@ func New010e00080002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Direction",
@@ -57726,7 +57726,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Speed (Torque)",
@@ -57771,7 +57771,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Mode",
@@ -57802,7 +57802,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 9,
 				Name: "Turn degrees",
@@ -57819,7 +57819,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Auto Latch time",
@@ -57843,7 +57843,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Sound",
@@ -57867,7 +57867,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Battery Type",
@@ -57898,7 +57898,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Battery alarm value",
@@ -57915,7 +57915,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Turn&amp;Go",
@@ -57939,7 +57939,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Brake&amp;GoBack",
@@ -57963,7 +57963,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Async",
@@ -57987,7 +57987,7 @@ func New010e00080002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Door lock operation report type",
@@ -58071,7 +58071,7 @@ func New010f00000000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "ALL ON / ALL OFF",
@@ -58109,7 +58109,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Associations command class choice",
@@ -58154,7 +58154,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Outputs state change mode",
@@ -58178,7 +58178,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Step value (relevant for MODE1)",
@@ -58195,7 +58195,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Time between steps (relevant for MODE1)",
@@ -58219,7 +58219,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 67,
 				Name: "Time for changing from start to end value",
@@ -58264,7 +58264,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Maximum brightening level",
@@ -58281,7 +58281,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Minimum dim level",
@@ -58298,7 +58298,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 4369,
 				Name: "Inputs / Outputs configuration ",
@@ -58308,7 +58308,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Memorize device status at power cut. Device will be set to status memorized before power cut.",
@@ -58332,7 +58332,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm of any type (general alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm).",
@@ -58370,7 +58370,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 10,
 				Name: "Alarm sequence program",
@@ -58380,7 +58380,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Active PROGRAM alarm time",
@@ -58397,7 +58397,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Command class reporting Outputs status change",
@@ -58428,7 +58428,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Reporting 0-10v analog inputs change threshold.",
@@ -58445,7 +58445,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "Power load reporting frequency",
@@ -58469,7 +58469,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Reporting changes in energy consumed by controlled devices.",
@@ -58493,7 +58493,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 71,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Response to BRIGHTNESS set to 0%",
@@ -58517,7 +58517,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 72,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Starting predefined program when device set to work in RGB/RGBW mode (parameter 14) - relevant for main controllers other than Home Center 2 only.",
@@ -58527,7 +58527,7 @@ func New010f00000000() *Device{
 			},
 			ConfigParam{
 				ID: 73,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Triple click action",
@@ -58910,7 +58910,7 @@ func New010f01000103() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "All on/off function",
@@ -58948,7 +58948,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Commands Sent to Association Group 1",
@@ -58979,7 +58979,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Check status before sending a control command on external switch no 2.",
@@ -59003,7 +59003,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The percentage of a dimming step at automated control",
@@ -59020,7 +59020,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Time between extreme values of manual dimming",
@@ -59037,7 +59037,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Time between extreme values of automatic dimming",
@@ -59054,7 +59054,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The percentage of a dimming step at manual control",
@@ -59071,7 +59071,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "The maximal dimming level",
@@ -59088,7 +59088,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "The minimal dimming level",
@@ -59105,7 +59105,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "External Switch Type",
@@ -59129,7 +59129,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Double Click Option",
@@ -59153,7 +59153,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Saving of the device state after power failure",
@@ -59177,7 +59177,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Allows to double the key number 1",
@@ -59201,7 +59201,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Light intensity synchronization",
@@ -59225,7 +59225,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Defines how to use bistable external switches",
@@ -59249,7 +59249,7 @@ func New010f01000103() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 110,
 				Name: "Length of the Dimmer control pulse",
@@ -59323,7 +59323,7 @@ func New010f01000109() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Параметр №1 - Включить всё/Выключить всё",
@@ -59361,7 +59361,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №6 - В каких случаях отправляется команда устройствам из группы 1, т.е. при нажатии кнопки №1",
@@ -59392,7 +59392,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №7 - Проверять статус удаленного устройства перед отправкой ему команды ВКЛ или ВЫКЛ от кнопки № 2",
@@ -59416,7 +59416,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №8 - Шаг диммирования в процентах при удаленном управлении",
@@ -59433,7 +59433,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Параметр №9 - Время изменения яркости от 0 до 100% при локальном использовании",
@@ -59450,7 +59450,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №10 - Время изменения яркости от 0 до 100% при удаленном использовании",
@@ -59474,7 +59474,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №11 - Шаг диммирования в процентах при локальном управлении",
@@ -59491,7 +59491,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Параметр №12 - Максимальный уровень яркости",
@@ -59508,7 +59508,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Параметр №13 - Минимальный уровень яркости",
@@ -59525,7 +59525,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №14 - Тип выключателя",
@@ -59556,7 +59556,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №15 - Двойные клики",
@@ -59580,7 +59580,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №16 - Восстанавливать состояние устройства после отключения питания",
@@ -59604,7 +59604,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №17 - Использовать проходной выключатель",
@@ -59628,7 +59628,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №18 - Синхронизировать уровень яркости с ассоциированными устройствами",
@@ -59652,7 +59652,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №19 - Как изменяется статус устройства в бистабильном режиме",
@@ -59676,7 +59676,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 110,
 				Name: "Параметр №20 - Длина управляющего импульса",
@@ -59693,7 +59693,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Параметр №30 - Сигнал тревоги о затопление, задымление: CO, CO2, температуре и стандартный сигнал",
@@ -59731,7 +59731,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Параметр №39 - Время мигания устройства",
@@ -59748,7 +59748,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 99,
 				Name: "Параметр №40 - Обновлять уровень яркости без нажатия на кнопку",
@@ -59765,7 +59765,7 @@ func New010f01000109() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №41 - Использовать сцены",
@@ -59903,7 +59903,7 @@ func New010f01021000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Minimum brightness level",
@@ -59920,7 +59920,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Maximum brightness level",
@@ -59937,7 +59937,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Incandescence level of dimmable compact fluorescent lamps",
@@ -59954,7 +59954,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Incandescence time of dimmable compact fluorescent lamps",
@@ -59978,7 +59978,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The percentage of a dimming step at automatic control",
@@ -59995,7 +59995,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Time of a dimming step at automatic control",
@@ -60012,7 +60012,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The percentage of a dimming step at manual control",
@@ -60029,7 +60029,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Time of a dimming step at manual control",
@@ -60046,7 +60046,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "State of the device after a power failure",
@@ -60070,7 +60070,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Timer functionality (auto - off)",
@@ -60094,7 +60094,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 255,
 				Name: "ALL ON/ALL OFF function",
@@ -60132,7 +60132,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Force auto-calibration",
@@ -60163,7 +60163,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Auto-calibration status (read-only parameter)",
@@ -60187,7 +60187,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Burnt out bulb detection",
@@ -60211,7 +60211,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 5,
 				Name: "Time delay of a burnt out bulb (parameter 15) or overload (parameter 39) detection.",
@@ -60235,7 +60235,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Forced switch on brightness level",
@@ -60259,7 +60259,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Switch type",
@@ -60290,7 +60290,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "The value sent to associated devices on single click",
@@ -60314,7 +60314,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Assign toggle switch status to the device status",
@@ -60338,7 +60338,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Double click option",
@@ -60362,7 +60362,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Command frames sent in 2-nd and 3-rd association groups (S1 associations)",
@@ -60379,7 +60379,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Command frames sent in 4-th and 5-th association groups (S2 associations)",
@@ -60396,7 +60396,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "The function of 3-way switch",
@@ -60420,7 +60420,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Associations in Z-Wave network security mode",
@@ -60437,7 +60437,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Scene activation functionality",
@@ -60461,7 +60461,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Switch functionality of S1 and S2",
@@ -60485,7 +60485,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Load control mode",
@@ -60516,7 +60516,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Load control mode recognized during auto-calibration (read only).",
@@ -60540,7 +60540,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "On/Off mode",
@@ -60571,7 +60571,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Dimmability of the load (read only)",
@@ -60595,7 +60595,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Soft-Start functionality",
@@ -60626,7 +60626,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Auto-calibration after power on",
@@ -60671,7 +60671,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Behaviour of the Dimmer after OVERCURRENT or SURGE",
@@ -60695,7 +60695,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 250,
 				Name: "Power limit - OVERLOAD",
@@ -60719,7 +60719,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Response to General Purpose Alarm",
@@ -60757,7 +60757,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Response to Water Flooding Alarm",
@@ -60795,7 +60795,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Response to Smoke, CO or CO2 Alarm",
@@ -60833,7 +60833,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Response to Temperature Alarm",
@@ -60871,7 +60871,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Time of alarm state",
@@ -60888,7 +60888,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "OVERLOAD alarm report",
@@ -60912,7 +60912,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LOAD ERROR alarm report",
@@ -60936,7 +60936,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "OVERCURRENT alarm report",
@@ -60960,7 +60960,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 48,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "SURGE alarm report",
@@ -60984,7 +60984,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 49,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "OVERHEAT (critical temperature) and VOLTAGE DROP (low voltage) alarm report",
@@ -61008,7 +61008,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Active power reports",
@@ -61032,7 +61032,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 3600,
 				Name: "Periodic active power and energy reports",
@@ -61056,7 +61056,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 10,
 				Name: "Energy reports",
@@ -61080,7 +61080,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Self-measurement",
@@ -61104,7 +61104,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 58,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Method of calculating the active power",
@@ -61135,7 +61135,7 @@ func New010f01021000() *Device{
 			},
 			ConfigParam{
 				ID: 59,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Approximated power at the maximum brightness level",
@@ -61269,7 +61269,7 @@ func New010f01022000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Minimum brightness level",
@@ -61286,7 +61286,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Maximum brightness level",
@@ -61303,7 +61303,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Incandescence level of dimmable compact fluorescent lamps",
@@ -61320,7 +61320,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Incandescence time of dimmable compact fluorescent lamps",
@@ -61344,7 +61344,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The percentage of a dimming step at automatic control",
@@ -61361,7 +61361,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Time of a dimming step at automatic control",
@@ -61378,7 +61378,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "The percentage of a dimming step at manual control",
@@ -61395,7 +61395,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Time of a dimming step at manual control",
@@ -61412,7 +61412,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "State of the device after a power failure",
@@ -61436,7 +61436,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Timer functionality (auto - off)",
@@ -61460,7 +61460,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 255,
 				Name: "ALL ON/ALL OFF function",
@@ -61498,7 +61498,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Force auto-calibration",
@@ -61529,7 +61529,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Auto-calibration status (read-only parameter)",
@@ -61553,7 +61553,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Burnt out bulb detection",
@@ -61577,7 +61577,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 5,
 				Name: "Time delay of a burnt out bulb (parameter 15) or overload (parameter 39) detection.",
@@ -61601,7 +61601,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Forced switch on brightness level",
@@ -61625,7 +61625,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Switch type",
@@ -61656,7 +61656,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "The value sent to associated devices on single click",
@@ -61680,7 +61680,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Assign toggle switch status to the device status",
@@ -61704,7 +61704,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Double click option",
@@ -61728,7 +61728,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Command frames sent in 2-nd and 3-rd association groups (S1 associations)",
@@ -61745,7 +61745,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Command frames sent in 4-th and 5-th association groups (S2 associations)",
@@ -61762,7 +61762,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "The function of 3-way switch",
@@ -61786,7 +61786,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Associations in Z-Wave network security mode",
@@ -61803,7 +61803,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Scene activation functionality",
@@ -61827,7 +61827,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Switch functionality of S1 and S2",
@@ -61851,7 +61851,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Load control mode",
@@ -61882,7 +61882,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Load control mode recognized during auto-calibration (read only).",
@@ -61906,7 +61906,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "On/Off mode",
@@ -61937,7 +61937,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Dimmability of the load (read only)",
@@ -61961,7 +61961,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Soft-Start functionality",
@@ -61992,7 +61992,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Auto-calibration after power on",
@@ -62037,7 +62037,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Behaviour of the Dimmer after OVERCURRENT or SURGE",
@@ -62061,7 +62061,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 250,
 				Name: "Power limit - OVERLOAD",
@@ -62085,7 +62085,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Response to General Purpose Alarm",
@@ -62123,7 +62123,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Response to Water Flooding Alarm",
@@ -62161,7 +62161,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Response to Smoke, CO or CO2 Alarm",
@@ -62199,7 +62199,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Response to Temperature Alarm",
@@ -62237,7 +62237,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Time of alarm state",
@@ -62254,7 +62254,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "OVERLOAD alarm report",
@@ -62278,7 +62278,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LOAD ERROR alarm report",
@@ -62302,7 +62302,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "OVERCURRENT alarm report",
@@ -62326,7 +62326,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 48,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "SURGE alarm report",
@@ -62350,7 +62350,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 49,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "OVERHEAT (critical temperature) and VOLTAGE DROP (low voltage) alarm report",
@@ -62374,7 +62374,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Active power reports",
@@ -62398,7 +62398,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 3600,
 				Name: "Periodic active power and energy reports",
@@ -62422,7 +62422,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 10,
 				Name: "Energy reports",
@@ -62446,7 +62446,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Self-measurement",
@@ -62470,7 +62470,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 58,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Method of calculating the active power",
@@ -62501,7 +62501,7 @@ func New010f01022000() *Device{
 			},
 			ConfigParam{
 				ID: 59,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Approximated power at the maximum brightness level",
@@ -62572,7 +62572,7 @@ func New010f02000103() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "All on/off function",
@@ -62610,7 +62610,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Automatic Switching Off after defined time",
@@ -62648,7 +62648,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 200,
 				Name: "Automated Turn Off Time for relays 1",
@@ -62665,7 +62665,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 200,
 				Name: "Automated Turn Off Time for relays 2",
@@ -62682,7 +62682,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Commands Sent to Association Group 1",
@@ -62713,7 +62713,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Check status before sending a control command on external switch no 2.",
@@ -62737,7 +62737,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Bistable Switch State",
@@ -62761,7 +62761,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Switch",
@@ -62785,7 +62785,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving of switch state after power-down",
@@ -62809,7 +62809,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "General Alarm Set - Relay 1",
@@ -62847,7 +62847,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Flood Alarm Set - Relay 1",
@@ -62885,7 +62885,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set - Relay 1",
@@ -62923,7 +62923,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set - Relay 1",
@@ -62961,7 +62961,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Time of Active Alarm",
@@ -62978,7 +62978,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "General Alarm Set - Relay 2",
@@ -63016,7 +63016,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Flood Alarm Set - Relay 2",
@@ -63054,7 +63054,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set - Relay 2",
@@ -63092,7 +63092,7 @@ func New010f02000103() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set - Relay 2",
@@ -63192,7 +63192,7 @@ func New010f02000109() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Параметр №1 - Включить всё/Выключить всё",
@@ -63230,7 +63230,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №3 - Работает ли кнопка &#34;Выключить&#34; если задано время авто отключения",
@@ -63254,7 +63254,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Параметр №4 - Авто отключение для реле №1",
@@ -63278,7 +63278,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №5 - Авто отключение для реле №2",
@@ -63302,7 +63302,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №6 - В каких случаях отправляется команда устройствам из группы 1, т.е. при нажатии кнопки №1",
@@ -63333,7 +63333,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №7 - В каких случаях отправляется команда устройствам из группы 2, т.е. при нажатии кнопки №2",
@@ -63364,7 +63364,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №13 - Как изменяется статус устройства в бистабильном режиме",
@@ -63388,7 +63388,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №14 - Режим переключения",
@@ -63412,7 +63412,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №15 - Управление Диммерами и Жалюзи",
@@ -63436,7 +63436,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №16 - Восстанавливать состояние устройства после отключения питания",
@@ -63460,7 +63460,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Параметр №30 - Общие настройки реагирования на сигнал тревоги для реле №1",
@@ -63498,7 +63498,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Параметр №40 - Общие настройки реагирования на сигнал тревоги для реле №2",
@@ -63536,7 +63536,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Параметр №31 - Реагирования на сигнал тревоги при затоплении для реле №1",
@@ -63574,7 +63574,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Параметр №41 - Реагирования на сигнал тревоги при затоплении для реле №2",
@@ -63612,7 +63612,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Параметр №32 - Реагирование на сигнал тревоги о задымлении, CO, CO2 для реле №1",
@@ -63650,7 +63650,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Параметр №42 - Реагирование на сигнал тревоги о задымлении, CO, CO2 для реле №2",
@@ -63688,7 +63688,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №33 - Реагирование на сигнал тревоги о Температуре для реле №1",
@@ -63726,7 +63726,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №43 - Реагирование на сигнал тревоги о Температуре для реле №2",
@@ -63764,7 +63764,7 @@ func New010f02000109() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Параметр №39 - Время мигания устройства",
@@ -63834,7 +63834,7 @@ func New010f0200100a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Activation/Deactivation",
@@ -63872,7 +63872,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Auto off relay after specified time, with the possibility of manual override - immediate Off after button push",
@@ -63910,7 +63910,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Auto off",
@@ -63927,7 +63927,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: " Sending commands to control devices assigned to 1-st association group (key № 1)",
@@ -63958,7 +63958,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Assigns bistable key status to the device status",
@@ -63982,7 +63982,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch Type",
@@ -64006,7 +64006,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Operation of the Dimmer and Roller Shutter Controller (mono-stable type)",
@@ -64030,7 +64030,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Saving device state after power failure",
@@ -64054,7 +64054,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "General Alarm Set - Relay 1",
@@ -64092,7 +64092,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Flood Alarm Set - Relay 1",
@@ -64130,7 +64130,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set - Relay 1",
@@ -64168,7 +64168,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set - Relay 1",
@@ -64206,7 +64206,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Active flashing alarm time",
@@ -64223,7 +64223,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "General Alarm Set - Relay 2",
@@ -64261,7 +64261,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Flood Alarm Set - Relay 2",
@@ -64299,7 +64299,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set - Relay 2",
@@ -64337,7 +64337,7 @@ func New010f0200100a() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set - Relay 2",
@@ -64426,7 +64426,7 @@ func New010f03000103() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "All on/off function",
@@ -64464,7 +64464,7 @@ func New010f03000103() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Turn Off Roller position function",
@@ -64488,7 +64488,7 @@ func New010f03000103() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Switch",
@@ -64512,7 +64512,7 @@ func New010f03000103() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 22,
 				Name: "Favorite position state",
@@ -64529,7 +64529,7 @@ func New010f03000103() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "General Alarm Set ",
@@ -64560,7 +64560,7 @@ func New010f03000103() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Flood Alarm Set ",
@@ -64591,7 +64591,7 @@ func New010f03000103() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set ",
@@ -64622,7 +64622,7 @@ func New010f03000103() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set ",
@@ -64722,7 +64722,7 @@ func New010f03000109() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №1 - Включить всё/Выключить всё",
@@ -64760,7 +64760,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №10 - Запоминать положение жалюзи",
@@ -64784,7 +64784,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №14 - Режим переключения",
@@ -64815,7 +64815,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 16,
 				Name: "Параметр №20 - Избранное положение",
@@ -64832,7 +64832,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Параметр №30 - Общие настройки реагирования на сигнал тревоги",
@@ -64863,7 +64863,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №31 - Реагирование на сигнал тревоги при затоплении",
@@ -64894,7 +64894,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №32 - Реагирование на сигнал тревоги о задымлении, CO, CO2",
@@ -64925,7 +64925,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №33 - Реагирование на сигнал тревоги о температуре",
@@ -64956,7 +64956,7 @@ func New010f03000109() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №41 - Использовать сцены",
@@ -65036,7 +65036,7 @@ func New010f03011001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Блокировка локального управления",
@@ -65067,7 +65067,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Блокировка управления по радио",
@@ -65098,7 +65098,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Тип отчет (Z-Wave или Fibaro)",
@@ -65122,7 +65122,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы",
@@ -65167,7 +65167,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 150,
 				Name: "Время полного открытия для Венецианских жалюзи",
@@ -65184,7 +65184,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Возвращение ламелей",
@@ -65215,7 +65215,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Тип клавиши",
@@ -65246,7 +65246,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Время отключения реле после достижения концевого выключателя",
@@ -65263,7 +65263,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Мощность соответствующая достижению концевого выключателя",
@@ -65280,7 +65280,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 240,
 				Name: "Время продолжения работы мотора",
@@ -65297,7 +65297,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Калибровка",
@@ -65321,7 +65321,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Реакция на общий сигнал тревоги",
@@ -65352,7 +65352,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Реакция на сигнал тревоги о затоплении",
@@ -65383,7 +65383,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Реакция на сигнал тревоги CO и CO2",
@@ -65414,7 +65414,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Реакция на сигнал тревоги о высокой температуре",
@@ -65445,7 +65445,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Реакция Ламелей на сигнал тревоги",
@@ -65469,7 +65469,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Отчет о мощности",
@@ -65486,7 +65486,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3600,
 				Name: "Время периодичного отчета о мощности",
@@ -65503,7 +65503,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Отчет о потреблении энергии",
@@ -65520,7 +65520,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Измерение мощности самого Roller Shutter",
@@ -65544,7 +65544,7 @@ func New010f03011001() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Сцены и Ассоциации",
@@ -65617,7 +65617,7 @@ func New010f04000103() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "All on/off function",
@@ -65655,7 +65655,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Automatic Switching Off after defined time",
@@ -65679,7 +65679,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 200,
 				Name: "Automated Turn Off Time",
@@ -65696,7 +65696,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Commands Sent to Association Group 1",
@@ -65727,7 +65727,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Bistable Switch State",
@@ -65751,7 +65751,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Switch",
@@ -65775,7 +65775,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving of switch state after power-down",
@@ -65799,7 +65799,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "General Alarm Set - Relay 1",
@@ -65837,7 +65837,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Flood Alarm Set - Relay 1",
@@ -65875,7 +65875,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set - Relay 1",
@@ -65913,7 +65913,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set - Relay 1",
@@ -65951,7 +65951,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Time of Active Alarm",
@@ -65968,7 +65968,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "General Alarm Set - Relay 2",
@@ -66006,7 +66006,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Flood Alarm Set - Relay 2",
@@ -66044,7 +66044,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set - Relay 2",
@@ -66082,7 +66082,7 @@ func New010f04000103() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set - Relay 2",
@@ -66182,7 +66182,7 @@ func New010f04000109() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Параметр №1 - Включить всё/Выключить всё",
@@ -66220,7 +66220,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №3 - Работает ли кнопка &#34;Выключить&#34; если задано время авто отключения",
@@ -66244,7 +66244,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Параметр №4 - Авто отключение",
@@ -66268,7 +66268,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №6 - В каких случаях отправляется команда устройствам из группы 1, т.е. при нажатии кнопки №1",
@@ -66299,7 +66299,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №13 - Как изменяется статус устройства в бистабильном режиме",
@@ -66323,7 +66323,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №14 - Режим переключения",
@@ -66347,7 +66347,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Параметр №15 - Управление Диммерами и Жалюзи",
@@ -66371,7 +66371,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №16 - Восстанавливать состояние устройства после отключения питания",
@@ -66395,7 +66395,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Параметр №30 - Общие настройки реагирования на сигнал тревоги для реле №1",
@@ -66433,7 +66433,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Параметр №31 - Реагирование на сигнал тревоги при затоплении для реле №1",
@@ -66471,7 +66471,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Параметр №32 - Реагирование на сигнал тревоги о задымлении, CO, CO2 для реле №1",
@@ -66509,7 +66509,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Параметр №33 - Реагирование на сигнал тревоги о температуре для реле №1",
@@ -66547,7 +66547,7 @@ func New010f04000109() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Параметр №39 - Время мигания устройства",
@@ -66617,7 +66617,7 @@ func New010f0400100a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Activation/Deactivation",
@@ -66655,7 +66655,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Ermöglicht eine automatische Abschaltfunktion nach einer in Parameter 4 festgelegten Zeit",
@@ -66679,7 +66679,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Auto off",
@@ -66696,7 +66696,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Legt fest, welche Schaltoperation andere Geräte in Assoziationsgruppen steuert. Um die Doppelklickfunktion zu unterstützen, muss Parameter 15 auf den Wert 1 gesetzt werden.",
@@ -66727,7 +66727,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Assigns bistable key status to the device status",
@@ -66751,7 +66751,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch Type",
@@ -66775,7 +66775,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wenn diese Funktion aktiviert ist, erlaubt es dem Benutzer assoziierte Geräte zu dimmen indem er die Taster gedrückt hält oder doppelt drückt.",
@@ -66799,7 +66799,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "definiert das Verhalten nach Wiedereinschalten des Stromes",
@@ -66823,7 +66823,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "definiert das Schaltverhaltens des Relais 1 bei Allgemeinem Alarm",
@@ -66861,7 +66861,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Flood Alarm Set - Relay 1",
@@ -66899,7 +66899,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Smoke Alarm Set - Relay 1",
@@ -66937,7 +66937,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Alarm Set - Relay 1",
@@ -66975,7 +66975,7 @@ func New010f0400100a() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Active flashing alarm time",
@@ -67038,7 +67038,7 @@ func New010f05010101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Input 1 Alarm Delay",
@@ -67055,7 +67055,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Input 2 Alarm Delay",
@@ -67072,7 +67072,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -67110,7 +67110,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -67148,7 +67148,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Type of control frame activated via IN input 1/n",
@@ -67207,7 +67207,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Type of control frame activated via IN input 2/n",
@@ -67266,7 +67266,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "/nValue of the parameter specifying the forced level of dimming/opening roller blinds from Input 1/n",
@@ -67290,7 +67290,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "/nValue of the parameter specifying the forced level of dimming/opening roller blinds from Input 2/n",
@@ -67314,7 +67314,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "/nОтправлять устройствам из группы 1 сигнал тревоги или команду отключения/n",
@@ -67352,7 +67352,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 8,
 				Name: "/nПараметр №12 - Отправлять отчет при изменении температуры на Температура = значение/16/n",
@@ -67369,7 +67369,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отправлять широковещательные сообщения от IN и TMP",
@@ -67407,7 +67407,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Использовать сцены",
@@ -67431,7 +67431,7 @@ func New010f05010101() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 20,
 				Name: "Interval between Readings of all temperature sensors",
@@ -67488,7 +67488,7 @@ func New010f05010102() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Input I alarm cancellation delay",
@@ -67505,7 +67505,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Input II alarm cancellation delay",
@@ -67522,7 +67522,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Type of input no. 1",
@@ -67560,7 +67560,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Type of input no. 2",
@@ -67598,7 +67598,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Type of transmitted control frame for association group 1, activated via input IN1.",
@@ -67657,7 +67657,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Type of transmitted control frame for association group 2, activated via input IN2",
@@ -67716,7 +67716,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Value of the parameter specifying the forced level of dimming / opening sun blinds when comes “switch on” / ”open” command to devices from association group no. 1.",
@@ -67740,7 +67740,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Value of the parameter specifying the forced level of dimming / opening sun blinds when comes “switch on” / ”open” command to devices from association group no. 2.",
@@ -67764,7 +67764,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Deactivating transmission of the frame cancelling the alarm or the control frame deactivating the device (Basic)",
@@ -67795,7 +67795,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Interval between successive readings of temperature from all sensors connected to the device",
@@ -67812,7 +67812,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 200,
 				Name: "Interval between forcing to send report concerning the temperature conditions",
@@ -67836,7 +67836,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 8,
 				Name: "Insensitiveness to temperature changes",
@@ -67853,7 +67853,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Transmitting the alarm or control frame in “broadcast” mode (i.e. to all devices within range)",
@@ -67891,7 +67891,7 @@ func New010f05010102() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Scene activation functionality",
@@ -67979,7 +67979,7 @@ func New010f06001000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Always on function",
@@ -68003,7 +68003,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Remember device status after power failure",
@@ -68027,7 +68027,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 63,
 				Name: "Reaction to alarms",
@@ -68044,7 +68044,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Wall Plug&#39;s response to alarm frames",
@@ -68082,7 +68082,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Alarm duration",
@@ -68099,7 +68099,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 80,
 				Name: "Immediate power report",
@@ -68116,7 +68116,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Standard power load reporting",
@@ -68133,7 +68133,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Power reporting frequency",
@@ -68157,7 +68157,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Reporting changes in energy consumed by controlled devices",
@@ -68181,7 +68181,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3600,
 				Name: "Time period between reports on power load and energy consumption",
@@ -68205,7 +68205,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 49,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Metering energy consumed by the Wall Plug itself",
@@ -68229,7 +68229,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "DOWN value",
@@ -68246,7 +68246,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 500,
 				Name: "UP value",
@@ -68263,7 +68263,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 6,
 				Name: "Action in case of exceeding defined power values (parameters 50 and 51)",
@@ -68322,7 +68322,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25000,
 				Name: "Power load, which when exceeded, makes the LED ring flash violet",
@@ -68339,7 +68339,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED ring illumination colour when controlled device is on.",
@@ -68419,7 +68419,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "LED ring illumination color when controlled device is off.",
@@ -68492,7 +68492,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED ring illumination colour at the Z-Wave network alarm detection",
@@ -68572,7 +68572,7 @@ func New010f06001000() *Device{
 			},
 			ConfigParam{
 				ID: 70,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 65535,
 				Name: "Overload safety switch",
@@ -68686,7 +68686,7 @@ func New010f06020700() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Always On function",
@@ -68710,7 +68710,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Remember device status after a power failure",
@@ -68734,7 +68734,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Overload safety switch",
@@ -68758,7 +68758,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 80,
 				Name: "High priority power report",
@@ -68782,7 +68782,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 15,
 				Name: "Standard power report",
@@ -68806,7 +68806,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "Power reporting interval",
@@ -68823,7 +68823,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 10,
 				Name: "Energy reporting threshold",
@@ -68847,7 +68847,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 3600,
 				Name: "Power and energy periodic reports",
@@ -68871,7 +68871,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Measuring energy consumed by the Wall Plug itself",
@@ -68895,7 +68895,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Control of „On/Off (Button)” association group (2) devices",
@@ -68919,7 +68919,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "DOWN value - „On/Off (Power)” association group (3)",
@@ -68936,7 +68936,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 500,
 				Name: "UP value - „On/Off (Power)” association group (3)",
@@ -68953,7 +68953,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 6,
 				Name: "The response after exceeding defined power values",
@@ -69005,7 +69005,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON value - „On/Off” association groups",
@@ -69036,7 +69036,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 63,
 				Name: "Active alarms",
@@ -69053,7 +69053,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Response to alarm frames",
@@ -69091,7 +69091,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Alarm state duration",
@@ -69108,7 +69108,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 25000,
 				Name: "Power load for violet colour",
@@ -69125,7 +69125,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED ring colour when controlled device is on",
@@ -69205,7 +69205,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED ring illumination colour when controlled device is off",
@@ -69278,7 +69278,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED ring illumination colour at the Z-Wave network alarm detection",
@@ -69358,7 +69358,7 @@ func New010f06020700() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Associations in Z-Wave network security mode",
@@ -69455,7 +69455,7 @@ func New010f07001000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Input IN alarm cancellation delay.",
@@ -69472,7 +69472,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Status change signalled by LED.",
@@ -69496,7 +69496,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of IN input.",
@@ -69534,7 +69534,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Type of control frame transmitted for association group 1, activated via IN input.",
@@ -69586,7 +69586,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Forced level of dimming/opening roller blinds ",
@@ -69610,7 +69610,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Deactivating Transmissions",
@@ -69634,7 +69634,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Tamper alarm.",
@@ -69658,7 +69658,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 8,
 				Name: "Sensitivity to temperature changes",
@@ -69675,7 +69675,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Broadcast Mode active/inactive",
@@ -69713,7 +69713,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Scene activation functionality.",
@@ -69737,7 +69737,7 @@ func New010f07001000() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "READ ONLY Parameter - can not set values",
@@ -69886,7 +69886,7 @@ func New010f07011001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -69910,7 +69910,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "DOOR/WINDOW/ALARM",
@@ -69934,7 +69934,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "LED INDICATIONS",
@@ -69951,7 +69951,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Z-WAVE RANGE TEST AFTER DOUBLE TMP CLICK",
@@ -69975,7 +69975,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EVENTS TRIGGERING 2ND ASSOCIATION GROUP",
@@ -70006,7 +70006,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "COMMANDS SENT TO 2ND ASSOCIATION GROUP",
@@ -70037,7 +70037,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "ON COMMAND FRAME",
@@ -70068,7 +70068,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "OFF COMMAND FRAME",
@@ -70099,7 +70099,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "ON COMMAND FRAME TIME DELAY",
@@ -70116,7 +70116,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "OFF COMMAND FRAME TIME DELAY",
@@ -70133,7 +70133,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TYPE OF SENSOR CONNECTED TO IN INPUT",
@@ -70178,7 +70178,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "TAMPER ALARM CANCELLATION DELAY",
@@ -70195,7 +70195,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "TAMPER ALARM CANCELLATION REPORTS",
@@ -70219,7 +70219,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 300,
 				Name: "INTERVAL OF TEMPERATURE MEASURING",
@@ -70243,7 +70243,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE REPORT THRESHOLD",
@@ -70267,7 +70267,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE REPORTS INTERVAL",
@@ -70291,7 +70291,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE OFFSET",
@@ -70308,7 +70308,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TEMPERATURE ALARM REPORTS",
@@ -70346,7 +70346,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 540,
 				Name: "HIGH TEMPERATURE ALARM THRESHOLD",
@@ -70363,7 +70363,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 56,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 40,
 				Name: "LOW TEMPERATURE ALARM THRESHOLD",
@@ -70380,7 +70380,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 70,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "SCENE ACTIVATION FUNCTIONALITY",
@@ -70397,7 +70397,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 71,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM BROADCAST",
@@ -70414,7 +70414,7 @@ func New010f07011001() *Device{
 			},
 			ConfigParam{
 				ID: 72,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "ASSOCIATIONS IN Z-WAVE NETWORK SECURITY MODE",
@@ -70554,7 +70554,7 @@ func New010f07012001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Operation mode",
@@ -70578,7 +70578,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Door/Window or alarm status",
@@ -70602,7 +70602,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 6,
 				Name: "Visual LED indications",
@@ -70640,7 +70640,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Range test after double click",
@@ -70664,7 +70664,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "2nd association group triggers",
@@ -70695,7 +70695,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Commands sent to 2nd association group",
@@ -70726,7 +70726,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Value of ON command frame sent to 2nd association group",
@@ -70757,7 +70757,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Value of OFF command frame sent to 2nd association group",
@@ -70788,7 +70788,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Time delay of ON command frame",
@@ -70805,7 +70805,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Time delay of OFF command frame",
@@ -70822,7 +70822,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of sent alarm frames",
@@ -70874,7 +70874,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Delay of tamper alarm cancellation",
@@ -70891,7 +70891,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Reporting tamper alarm cancellation",
@@ -70915,7 +70915,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 300,
 				Name: "Interval of temperature measurements",
@@ -70939,7 +70939,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 10,
 				Name: "Temperature reports threshold",
@@ -70963,7 +70963,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Interval of temperature reports",
@@ -70987,7 +70987,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Temperature offset",
@@ -71004,7 +71004,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature alarm reports",
@@ -71042,7 +71042,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 540,
 				Name: "High temperature alarm threshold",
@@ -71059,7 +71059,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 56,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 40,
 				Name: "Low temperature alarm threshold",
@@ -71076,7 +71076,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 70,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Scene activation functionality",
@@ -71093,7 +71093,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 71,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm broadcast",
@@ -71110,7 +71110,7 @@ func New010f07012001() *Device{
 			},
 			ConfigParam{
 				ID: 72,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Associations in Z-Wave network Security Mode",
@@ -71186,7 +71186,7 @@ func New010f08001001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "MOTION SENSOR’S SENSITIVITY",
@@ -71203,7 +71203,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "MOTION SENSOR’S BLIND TIME (INSENSITIVITY)",
@@ -71220,7 +71220,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "PIR sensor’s “PULSE COUNTER”",
@@ -71237,7 +71237,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "PIR sensor’s “WINDOW TIME”",
@@ -71254,7 +71254,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "MOTION ALARM CANCELLATION DELAY",
@@ -71271,7 +71271,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "PIR SENSOR OPERATING MODE",
@@ -71302,7 +71302,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "NIGHT / DAY (light intensity)",
@@ -71319,7 +71319,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BASIC COMMAND CLASS FRAMES CONFIGURATION",
@@ -71343,7 +71343,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "BASIC ON command frame value",
@@ -71374,7 +71374,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "BASIC OFF command frame value",
@@ -71405,7 +71405,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "TAMPER SENSITIVITY",
@@ -71422,7 +71422,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "TAMPER ALARM CANCELLATION DELAY",
@@ -71439,7 +71439,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER OPERATING MODES",
@@ -71484,7 +71484,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER ALARM BROADCAST MODE",
@@ -71508,7 +71508,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "ILLUMINATION REPORT THRESHOLD",
@@ -71525,7 +71525,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "ILLUMINATION REPORTS INTERVAL",
@@ -71542,7 +71542,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "TEMPERATURE REPORT THRESHOLD",
@@ -71559,7 +71559,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 900,
 				Name: "INTERVAL OF TEMPERATURE MEASURING",
@@ -71576,7 +71576,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 64,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE REPORTS INTERVAL",
@@ -71593,7 +71593,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 66,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE OFFSET",
@@ -71610,7 +71610,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "LED SIGNALING MODE",
@@ -71809,7 +71809,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED BRIGHTNESS",
@@ -71826,7 +71826,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 82,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "LOW AMBIENT ILLUMINATION LEVEL",
@@ -71843,7 +71843,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1000,
 				Name: "upper AMBIENT ILLUMINATION LEVEL",
@@ -71860,7 +71860,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 86,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 18,
 				Name: "MINIMUM TEMPERATURE for Blue Light",
@@ -71877,7 +71877,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 87,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "MAXIMUM TEMPERATURE for Red Light",
@@ -71894,7 +71894,7 @@ func New010f08001001() *Device{
 			},
 			ConfigParam{
 				ID: 89,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "LED INDICATING TAMPER ALARM",
@@ -71977,7 +71977,7 @@ func New010f08004001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "MOTION SENSOR’S SENSITIVITY",
@@ -71994,7 +71994,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "MOTION SENSOR’S BLIND TIME (INSENSITIVITY)",
@@ -72011,7 +72011,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "PIR sensor’s “PULSE COUNTER”",
@@ -72028,7 +72028,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "PIR sensor’s “WINDOW TIME”",
@@ -72045,7 +72045,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "MOTION ALARM CANCELLATION DELAY",
@@ -72062,7 +72062,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "PIR SENSOR OPERATING MODE",
@@ -72093,7 +72093,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "NIGHT / DAY (light intensity)",
@@ -72110,7 +72110,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BASIC COMMAND CLASS FRAMES CONFIGURATION",
@@ -72134,7 +72134,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "BASIC ON command frame value",
@@ -72165,7 +72165,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "BASIC OFF command frame value",
@@ -72196,7 +72196,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "TAMPER SENSITIVITY",
@@ -72213,7 +72213,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "TAMPER ALARM CANCELLATION DELAY",
@@ -72230,7 +72230,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER OPERATING MODES",
@@ -72275,7 +72275,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER ALARM BROADCAST MODE",
@@ -72299,7 +72299,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "ILLUMINATION REPORT THRESHOLD",
@@ -72316,7 +72316,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "ILLUMINATION REPORTS INTERVAL",
@@ -72333,7 +72333,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "TEMPERATURE REPORT THRESHOLD",
@@ -72350,7 +72350,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 900,
 				Name: "INTERVAL OF TEMPERATURE MEASURING",
@@ -72367,7 +72367,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 64,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE REPORTS INTERVAL",
@@ -72384,7 +72384,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 66,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE OFFSET",
@@ -72401,7 +72401,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "LED SIGNALING MODE",
@@ -72600,7 +72600,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED BRIGHTNESS",
@@ -72617,7 +72617,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 82,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "LOW AMBIENT ILLUMINATION LEVEL",
@@ -72634,7 +72634,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1000,
 				Name: "upper AMBIENT ILLUMINATION LEVEL",
@@ -72651,7 +72651,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 86,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 18,
 				Name: "MINIMUM TEMPERATURE for Blue Light",
@@ -72668,7 +72668,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 87,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "MAXIMUM TEMPERATURE for Red Light",
@@ -72685,7 +72685,7 @@ func New010f08004001() *Device{
 			},
 			ConfigParam{
 				ID: 89,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED INDICATING TAMPER ALARM",
@@ -72819,7 +72819,7 @@ func New010f08011001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "SENSITIVITY",
@@ -72836,7 +72836,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "BLIND TIME (INSENSITIVITY)",
@@ -72853,7 +72853,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "PULSE COUNTER",
@@ -72870,7 +72870,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "WINDOW TIME",
@@ -72887,7 +72887,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "MOTION ALARM CANCELLATION DELAY",
@@ -72904,7 +72904,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "PIR SENSOR OPERATING MODE",
@@ -72935,7 +72935,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "NIGHT / DAY",
@@ -72952,7 +72952,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BASIC COMMAND CLASS FRAMES CONFIGURATION",
@@ -72983,7 +72983,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 255,
 				Name: "BASIC ON command frame value",
@@ -73000,7 +73000,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "BASIC OFF command frame value",
@@ -73017,7 +73017,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "TAMPER SENSITIVITY",
@@ -73034,7 +73034,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "TAMPER ALARM CANCELLATION DELAY",
@@ -73051,7 +73051,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER OPERATING MODES",
@@ -73082,7 +73082,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "TAMPER CANCELLATION REPORTS",
@@ -73106,7 +73106,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER ALARM BROADCAST MODE - 3rd Group",
@@ -73130,7 +73130,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER ALARM BROADCAST MODE - 5th Group",
@@ -73154,7 +73154,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "ILLUMINATION REPORT THRESHOLD",
@@ -73171,7 +73171,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "ILLUMINATION REPORTS INTERVAL",
@@ -73188,7 +73188,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "TEMPERATURE REPORT THRESHOLD",
@@ -73205,7 +73205,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 900,
 				Name: "INTERVAL OF TEMPERATURE MEASURING",
@@ -73222,7 +73222,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 64,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE REPORTS INTERVAL",
@@ -73239,7 +73239,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 66,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE OFFSET",
@@ -73256,7 +73256,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED SIGNALING MODE",
@@ -73455,7 +73455,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED BRIGHTNESS",
@@ -73472,7 +73472,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 82,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "AMBIENT ILLUMINATION LEVEL BELOW WHICH LED BRIGHTNESS IS SET TO 1%",
@@ -73489,7 +73489,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1000,
 				Name: "AMBIENT ILLUMINATION LEVEL ABOVE WHICH LED BRIGHTNESS IS SET TO 100%",
@@ -73506,7 +73506,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 86,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 18,
 				Name: "MINIMUM TEMPERATURE RESULTING IN BLUE LED ILLUMINATION",
@@ -73523,7 +73523,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 87,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 28,
 				Name: "MAXIMUM TEMPERATURE RESULTING IN RED LED ILLUMINATION",
@@ -73540,7 +73540,7 @@ func New010f08011001() *Device{
 			},
 			ConfigParam{
 				ID: 89,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED INDICATING TAMPER ALARM",
@@ -73669,7 +73669,7 @@ func New010f08012001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "SENSITIVITY",
@@ -73686,7 +73686,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "BLIND TIME (INSENSITIVITY)",
@@ -73703,7 +73703,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "PULSE COUNTER",
@@ -73720,7 +73720,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "WINDOW TIME",
@@ -73737,7 +73737,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "MOTION ALARM CANCELLATION DELAY",
@@ -73754,7 +73754,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "PIR SENSOR OPERATING MODE",
@@ -73785,7 +73785,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "NIGHT / DAY",
@@ -73802,7 +73802,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BASIC COMMAND CLASS FRAMES CONFIGURATION",
@@ -73833,7 +73833,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 255,
 				Name: "BASIC ON command frame value",
@@ -73850,7 +73850,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "BASIC OFF command frame value",
@@ -73867,7 +73867,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "TAMPER SENSITIVITY",
@@ -73884,7 +73884,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "TAMPER ALARM CANCELLATION DELAY",
@@ -73901,7 +73901,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER OPERATING MODES",
@@ -73932,7 +73932,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "TAMPER CANCELLATION REPORTS",
@@ -73956,7 +73956,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER ALARM BROADCAST MODE - 3rd Group",
@@ -73980,7 +73980,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "TAMPER ALARM BROADCAST MODE - 5th Group",
@@ -74004,7 +74004,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 200,
 				Name: "ILLUMINATION REPORT THRESHOLD",
@@ -74021,7 +74021,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "ILLUMINATION REPORTS INTERVAL",
@@ -74038,7 +74038,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "TEMPERATURE REPORT THRESHOLD",
@@ -74055,7 +74055,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 900,
 				Name: "INTERVAL OF TEMPERATURE MEASURING",
@@ -74072,7 +74072,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 64,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE REPORTS INTERVAL",
@@ -74089,7 +74089,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 66,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "TEMPERATURE OFFSET",
@@ -74106,7 +74106,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED SIGNALING MODE",
@@ -74305,7 +74305,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED BRIGHTNESS",
@@ -74322,7 +74322,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 82,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "/nAMBIENT ILLUMINATION LEVEL BELOW WHICH LED BRIGHTNESS IS SET TO 1%/n",
@@ -74339,7 +74339,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1000,
 				Name: "/nAMBIENT ILLUMINATION LEVEL ABOVE WHICH LED BRIGHTNESS IS SET TO 100%/n",
@@ -74356,7 +74356,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 86,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 18,
 				Name: "/nMINIMUM TEMPERATURE RESULTING IN BLUE LED ILLUMINATION/n",
@@ -74373,7 +74373,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 87,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 28,
 				Name: "/nMAXIMUM TEMPERATURE RESULTING IN RED LED ILLUMINATION/n",
@@ -74390,7 +74390,7 @@ func New010f08012001() *Device{
 			},
 			ConfigParam{
 				ID: 89,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED INDICATING TAMPER ALARM",
@@ -74470,7 +74470,7 @@ func New010f09004000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Включить всё/Выключить всё",
@@ -74508,7 +74508,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Команды отправляемые ассоциированным устройствам",
@@ -74553,7 +74553,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Режим состояние выходов",
@@ -74577,7 +74577,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Значение шага (используется для Режима 1)",
@@ -74594,7 +74594,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Время между шагами (используется для Режима 1)",
@@ -74611,7 +74611,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 67,
 				Name: "Время изменения от начального до конечного значения",
@@ -74656,7 +74656,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Максимальный уровень яркости",
@@ -74673,7 +74673,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Минимальный уровень яркости",
@@ -74690,7 +74690,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 4369,
 				Name: "Настройка входов/выходов",
@@ -74707,7 +74707,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Восстанавливать состояние реле после отключения питания",
@@ -74731,7 +74731,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Реакция на сигнал тревоги",
@@ -74769,7 +74769,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Специальная программа тревоги",
@@ -74786,7 +74786,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Время между запусками специальной программы тревоги",
@@ -74803,7 +74803,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Команда отчета при изменении состояния Выходов",
@@ -74834,7 +74834,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Отчет при изменении аналогового сигнала (0-10В) на входах",
@@ -74851,7 +74851,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 30,
 				Name: "Как часто отправлять отчет о потребляемой мощности",
@@ -74875,7 +74875,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Обновление информации о энергопотреблении устройством",
@@ -74899,7 +74899,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 71,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Какой цвет установить если яркости стала 0%",
@@ -74923,7 +74923,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 72,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Запуск световой программы",
@@ -74940,7 +74940,7 @@ func New010f09004000() *Device{
 			},
 			ConfigParam{
 				ID: 73,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие при тройном клике",
@@ -75020,7 +75020,7 @@ func New010f0b001001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Alarm cancellation delay",
@@ -75030,7 +75030,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Acoustic and visual signals On / Off in case of flooding",
@@ -75040,7 +75040,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of alarm frame sent to 1-st association group (FLOOD)",
@@ -75050,7 +75050,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Forced dimming level / roller blind opening level, when sending turn on / open command to 1-st association group devices",
@@ -75060,7 +75060,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Alarm cancelling or turning a device off (Basic) command frame deactivation.",
@@ -75070,7 +75070,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Temperature measurement interval",
@@ -75080,7 +75080,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Temperature measurement hysteresis",
@@ -75090,7 +75090,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm BROADCAST",
@@ -75100,7 +75100,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1500,
 				Name: "Low temperature alarm threshold",
@@ -75110,7 +75110,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3500,
 				Name: "High temperature alarm threshold",
@@ -75120,7 +75120,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 255,
 				Name: "Low temperature alarm indicator colour",
@@ -75130,7 +75130,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 16711680,
 				Name: "High temperature alarm indicator colour",
@@ -75140,7 +75140,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Managing a LED indicator under standard operation",
@@ -75150,7 +75150,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 73,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature measurement compensation",
@@ -75160,7 +75160,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 74,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Alarm frame sent to 2-nd Association Group activation",
@@ -75170,7 +75170,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 75,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Visual and audible alarms duration",
@@ -75180,7 +75180,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 76,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Alarm frame / Basic Set frame retransmission time when retaining flood alarm",
@@ -75190,7 +75190,7 @@ func New010f0b001001() *Device{
 			},
 			ConfigParam{
 				ID: 77,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Flood sensor functionality turned off",
@@ -75252,7 +75252,7 @@ func New010f0b004001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Через какое время после устранения протечки отключать сигнал тревоги",
@@ -75269,7 +75269,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Звуковое и световое оповещение ВКЛ/ВЫКЛ при протечки",
@@ -75307,7 +75307,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Тип сигнала тревоги для устройств из группы №1 (Протечка)",
@@ -75331,7 +75331,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Уровень диммирования/процент открытия жалюзи, отправляемый устройствам из группы №1",
@@ -75355,7 +75355,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отмена “Отключение сигнала тревоги” или “Отправка команды ВЫКЛ” для устройств из группы №1",
@@ -75379,7 +75379,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Период измерения температуры",
@@ -75396,7 +75396,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Отчет при изменении температуры на определенную величину (гистерезис)",
@@ -75413,7 +75413,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Широковещательный сигнал тревоги",
@@ -75451,7 +75451,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1500,
 				Name: "Настройка нижней критичной границы температуры",
@@ -75468,7 +75468,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3500,
 				Name: "Настройка верхней критичной границы температуры",
@@ -75485,7 +75485,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 255,
 				Name: "Цвет светодиодного индикатора, предупреждающего о низкой температуре",
@@ -75502,7 +75502,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 16711680,
 				Name: "Цвет сигнального индикатора, предупреждающего о высокой температуре",
@@ -75519,7 +75519,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Управление светодиодным индикатором в стандартных условиях эксплуатации",
@@ -75550,7 +75550,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 73,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Компенсация при измерении температуры",
@@ -75567,7 +75567,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 74,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Отключение сигнала тревоги для устройств из группы №2",
@@ -75605,7 +75605,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 75,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Длительность звуковых и световых оповещений",
@@ -75622,7 +75622,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 76,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Величина задержки перед повторной отправкой сигнала оповещения  (Alarm или Basic Set)",
@@ -75639,7 +75639,7 @@ func New010f0b004001() *Device{
 			},
 			ConfigParam{
 				ID: 77,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Отключение функции обнаружения протечки",
@@ -75768,7 +75768,7 @@ func New010f0b011002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Alarm cancellation delay",
@@ -75792,7 +75792,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Acoustic and visual signals On / Off in case of flooding",
@@ -75830,7 +75830,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Forced dimming level / roller blind opening level, when sending turn on / open command to 2nd association group devices",
@@ -75854,7 +75854,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Alarm cancelling or turning a device off (Basic) command frame deactivation",
@@ -75878,7 +75878,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Temperature measurement interval",
@@ -75895,7 +75895,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Temperature measurement hysteresis",
@@ -75912,7 +75912,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1500,
 				Name: "Low temperature alarm threshold",
@@ -75929,7 +75929,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3500,
 				Name: "High temperature alarm threshold",
@@ -75946,7 +75946,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 255,
 				Name: "Low temperature alarm indicator colour",
@@ -75970,7 +75970,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 16711680,
 				Name: "High temperature alarm indicator colour",
@@ -75994,7 +75994,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Managing a LED indicator under standard operation",
@@ -76025,7 +76025,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 73,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature measurement compensation",
@@ -76042,7 +76042,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 74,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Alarm frame sent to 1st and 4th Association Group activation",
@@ -76080,7 +76080,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 75,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Visual and audible alarms duration",
@@ -76104,7 +76104,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 76,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm frame / Basic Set frame retransmission time when retaining flood alarm",
@@ -76128,7 +76128,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 77,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Flood sensor functionality turned off",
@@ -76152,7 +76152,7 @@ func New010f0b011002() *Device{
 			},
 			ConfigParam{
 				ID: 78,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 7,
 				Name: "Associations in Z-Wave network security mode",
@@ -76273,7 +76273,7 @@ func New010f0b012002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Alarm cancellation delay",
@@ -76290,7 +76290,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Acoustic and visual signals On / Off in case of flooding",
@@ -76328,7 +76328,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Requested dimming level / roller blind opening level when sending turn on / open command to 2nd association group devices",
@@ -76352,7 +76352,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Deactivate turning off devices in 2nd association group &amp; alarm cancellation in 3rd group",
@@ -76376,7 +76376,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 300,
 				Name: "Temperature measurement interval",
@@ -76393,7 +76393,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 50,
 				Name: "Temperature measurement hysteresis",
@@ -76410,7 +76410,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1500,
 				Name: "Low temperature alarm threshold",
@@ -76427,7 +76427,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3500,
 				Name: "High temperature alarm threshold",
@@ -76444,7 +76444,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 255,
 				Name: "Low temperature alarm indicator colour",
@@ -76461,7 +76461,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 16711680,
 				Name: "High temperature alarm indicator colour",
@@ -76478,7 +76478,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Temperature indication using LED visual indicator",
@@ -76509,7 +76509,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 73,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature measurement compensation",
@@ -76526,7 +76526,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 74,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Alarm frame sent to 1st and 4th Association Group activation",
@@ -76564,7 +76564,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 75,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarms signalization duration",
@@ -76588,7 +76588,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 76,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Alarm signalization reactivation period",
@@ -76612,7 +76612,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 77,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Flood sensor functionality turned off",
@@ -76636,7 +76636,7 @@ func New010f0b012002() *Device{
 			},
 			ConfigParam{
 				ID: 78,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 7,
 				Name: "Associations in Z-Wave network security mode",
@@ -76710,7 +76710,7 @@ func New010f0c001000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Smoke alarm cancellation delay",
@@ -76741,7 +76741,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "LED indicator and acoustic alarm turned ON / OFF at any alarm type.",
@@ -76779,7 +76779,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Type of alarm frame sent to 1-st Association Group devices (smoke alarm).",
@@ -76803,7 +76803,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Forced level of dimming / opening dimmers, roller blinds etc. devices at sending turn on / open / change level commands to 1-st Association Group’s devices.",
@@ -76827,7 +76827,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature report interval",
@@ -76851,7 +76851,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Temperature report hysteresis.",
@@ -76875,7 +76875,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 73,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature measurement compensation",
@@ -76892,7 +76892,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 80,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Z-Wave range test interval.",
@@ -76916,7 +76916,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 81,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 54,
 				Name: "Temperature alarm threshold.",
@@ -76940,7 +76940,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 82,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Fibaro Smoke Sensor sensitivity",
@@ -76971,7 +76971,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Black Box sensitivity level.",
@@ -77002,7 +77002,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 84,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Malfunction alarm",
@@ -77019,7 +77019,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 85,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Temperature alarm",
@@ -77036,7 +77036,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 86,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 360,
 				Name: "Lack of the Z-Wave range alarm",
@@ -77053,7 +77053,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 87,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 360,
 				Name: "Low battery alarm",
@@ -77070,7 +77070,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 88,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Consider temperature measurement compensation (parameter 73) when sending temperature report.",
@@ -77094,7 +77094,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 89,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Tamper alarm",
@@ -77125,7 +77125,7 @@ func New010f0c001000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm broadcast",
@@ -77266,7 +77266,7 @@ func New010f0c021002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Fibaro Smoke Sensor sensitivity",
@@ -77297,7 +77297,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Z-Wave notifications status",
@@ -77314,7 +77314,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Visual indicator notifications status",
@@ -77331,7 +77331,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Sound notifications status",
@@ -77348,7 +77348,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configuration of control frames in BASIC command class",
@@ -77379,7 +77379,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "BASIC ON frame value",
@@ -77410,7 +77410,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "BASIC OFF frame value",
@@ -77441,7 +77441,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm broadcast",
@@ -77479,7 +77479,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Associations in Z-Wave network security mode",
@@ -77496,7 +77496,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 1,
 				Name: "Temperature report interval",
@@ -77520,7 +77520,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Temperature report hysteresis",
@@ -77537,7 +77537,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 55,
 				Name: "Temperature threshold",
@@ -77554,7 +77554,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1,
 				Name: "Excess temperature signaling interval",
@@ -77571,7 +77571,7 @@ func New010f0c021002() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 180,
 				Name: "Lack of Z-Wave range indication interval",
@@ -77676,7 +77676,7 @@ func New010f0d011000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Device orientation",
@@ -77714,7 +77714,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Buzzer - acoustic signal settings",
@@ -77738,7 +77738,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED diode - visual indicator settings",
@@ -77762,7 +77762,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Buzzer - signalling result of gesture recognition",
@@ -77793,7 +77793,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 4,
 				Name: "Powering mode - interval of updating the current mode",
@@ -77817,7 +77817,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power saving mode (battery mode)",
@@ -77848,7 +77848,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Hold gesture to enter the menu",
@@ -77872,7 +77872,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Scenes sent to the controller",
@@ -77889,7 +77889,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 31,
 				Name: "Associations in Z-Wave network security mode",
@@ -77906,7 +77906,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Control mode of 2nd - 5th „Flick UP/DOWN/LEFT/RIGHT” association groups and scenes",
@@ -77923,7 +77923,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Rate of smooth level control",
@@ -77947,7 +77947,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK UP gesture",
@@ -77978,7 +77978,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK UP gesture",
@@ -78009,7 +78009,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK DOWN gesture",
@@ -78040,7 +78040,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK DOWN gesture",
@@ -78071,7 +78071,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK LEFT gesture",
@@ -78102,7 +78102,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK LEFT gesture",
@@ -78133,7 +78133,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK RIGHT gesture",
@@ -78164,7 +78164,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK RIGHT gesture",
@@ -78195,7 +78195,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Sequence learning mode",
@@ -78219,7 +78219,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "1st gestures sequence (SLOT 1)",
@@ -78236,7 +78236,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "2nd gestures sequence (SLOT 2)",
@@ -78253,7 +78253,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "3rd gestures sequence (SLOT 3)",
@@ -78270,7 +78270,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "4th gestures sequence (SLOT 4)",
@@ -78287,7 +78287,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "5th gestures sequence (SLOT 5)",
@@ -78304,7 +78304,7 @@ func New010f0d011000() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "6th gestures sequence (SLOT 6)",
@@ -78408,7 +78408,7 @@ func New010f0d012000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Device orientation",
@@ -78446,7 +78446,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Buzzer - acoustic signal settings",
@@ -78470,7 +78470,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED diode - visual indicator settings",
@@ -78494,7 +78494,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Buzzer - signalling result of gesture recognition",
@@ -78525,7 +78525,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 4,
 				Name: "/nPowering mode - interval of updating the current mode/n",
@@ -78549,7 +78549,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power saving mode (battery mode)",
@@ -78580,7 +78580,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Hold gesture to enter the menu",
@@ -78604,7 +78604,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Scenes sent to the controller",
@@ -78621,7 +78621,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 31,
 				Name: "Associations in Z-Wave network security mode",
@@ -78638,7 +78638,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "/nControl mode of 2nd - 5th &#34;Flick UP/DOWN/LEFT/RIGHT&#34; association groups and scenes/n",
@@ -78655,7 +78655,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Rate of smooth level control",
@@ -78679,7 +78679,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK UP gesture",
@@ -78710,7 +78710,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK UP gesture/n",
@@ -78741,7 +78741,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "/nSWITCH ON control frame value for FLICK DOWN gesture/n",
@@ -78772,7 +78772,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK DOWN gesture/n",
@@ -78803,7 +78803,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "/nSWITCH ON control frame value for FLICK LEFT gesture/n",
@@ -78834,7 +78834,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK LEFT gesture/n",
@@ -78865,7 +78865,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "/nSWITCH ON control frame value for FLICK RIGHT gesture/n",
@@ -78896,7 +78896,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK RIGHT gesture/n",
@@ -78927,7 +78927,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Sequence learning mode",
@@ -78951,7 +78951,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "1st gestures sequence (SLOT 1)",
@@ -78968,7 +78968,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "2nd gestures sequence (SLOT 2)",
@@ -78985,7 +78985,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "3rd gestures sequence (SLOT 3)",
@@ -79002,7 +79002,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "4th gestures sequence (SLOT 4)",
@@ -79019,7 +79019,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "5th gestures sequence (SLOT 5)",
@@ -79036,7 +79036,7 @@ func New010f0d012000() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "6th gestures sequence (SLOT 6)",
@@ -79140,7 +79140,7 @@ func New010f0d013000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Device orientation",
@@ -79178,7 +79178,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Buzzer - acoustic signal settings",
@@ -79202,7 +79202,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED diode - visual indicator settings",
@@ -79226,7 +79226,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Buzzer - signalling result of gesture recognition",
@@ -79257,7 +79257,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 4,
 				Name: "/nPowering mode - interval of updating the current mode/n",
@@ -79281,7 +79281,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power saving mode (battery mode)",
@@ -79312,7 +79312,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Hold gesture to enter the menu",
@@ -79336,7 +79336,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Scenes sent to the controller",
@@ -79353,7 +79353,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 31,
 				Name: "Associations in Z-Wave network security mode",
@@ -79370,7 +79370,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "/nControl mode of 2nd - 5th &#34;Flick UP/DOWN/LEFT/RIGHT&#34; association groups and scenes/n",
@@ -79387,7 +79387,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Rate of smooth level control",
@@ -79411,7 +79411,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK UP gesture",
@@ -79442,7 +79442,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK UP gesture/n",
@@ -79473,7 +79473,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "/nSWITCH ON control frame value for FLICK DOWN gesture/n",
@@ -79504,7 +79504,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK DOWN gesture/n",
@@ -79535,7 +79535,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "/nSWITCH ON control frame value for FLICK LEFT gesture/n",
@@ -79566,7 +79566,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK LEFT gesture/n",
@@ -79597,7 +79597,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "/nSWITCH ON control frame value for FLICK RIGHT gesture/n",
@@ -79628,7 +79628,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "/nSWITCH OFF control frame value for FLICK RIGHT gesture/n",
@@ -79659,7 +79659,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Sequence learning mode",
@@ -79683,7 +79683,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "1st gestures sequence (SLOT 1)",
@@ -79700,7 +79700,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "2nd gestures sequence (SLOT 2)",
@@ -79717,7 +79717,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "3rd gestures sequence (SLOT 3)",
@@ -79734,7 +79734,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "4th gestures sequence (SLOT 4)",
@@ -79751,7 +79751,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "5th gestures sequence (SLOT 5)",
@@ -79768,7 +79768,7 @@ func New010f0d013000() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "6th gestures sequence (SLOT 6)",
@@ -79871,7 +79871,7 @@ func New010f0d014000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Device orientation",
@@ -79909,7 +79909,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Buzzer - acoustic signal settings",
@@ -79933,7 +79933,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED diode - visual indicator settings",
@@ -79957,7 +79957,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Buzzer - signalling result of gesture recognition",
@@ -79988,7 +79988,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 4,
 				Name: "Powering mode - interval of updating the current mode",
@@ -80012,7 +80012,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power saving mode (battery mode)",
@@ -80043,7 +80043,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Hold gesture to enter the menu",
@@ -80067,7 +80067,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 15,
 				Name: "Scenes sent to the controller",
@@ -80119,7 +80119,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 31,
 				Name: "Associations in Z-Wave network security mode",
@@ -80164,7 +80164,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 15,
 				Name: "Control mode of 2nd - 5th &#34;Flick UP/DOWN/LEFT/RIGHT&#34; association groups and scenes",
@@ -80202,7 +80202,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "Rate of smooth level control",
@@ -80226,7 +80226,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK UP gesture",
@@ -80257,7 +80257,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK UP gesture",
@@ -80288,7 +80288,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK DOWN gesture",
@@ -80319,7 +80319,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK DOWN gesture",
@@ -80350,7 +80350,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK LEFT gesture",
@@ -80381,7 +80381,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK LEFT gesture",
@@ -80412,7 +80412,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 255,
 				Name: "SWITCH ON control frame value for FLICK RIGHT gesture",
@@ -80443,7 +80443,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "SWITCH OFF control frame value for FLICK RIGHT gesture",
@@ -80474,7 +80474,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Sequence learning mode",
@@ -80498,7 +80498,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "1st gestures sequence (SLOT 1)",
@@ -80515,7 +80515,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "2nd gestures sequence (SLOT 2)",
@@ -80532,7 +80532,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "3rd gestures sequence (SLOT 3)",
@@ -80549,7 +80549,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "4th gestures sequence (SLOT 4)",
@@ -80566,7 +80566,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "5th gestures sequence (SLOT 5)",
@@ -80583,7 +80583,7 @@ func New010f0d014000() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "6th gestures sequence (SLOT 6)",
@@ -80678,7 +80678,7 @@ func New011110000010() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 900,
 				Name: "Power Auto Report",
@@ -80695,7 +80695,7 @@ func New011110000010() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 900,
 				Name: "Energy Auto Report",
@@ -80854,7 +80854,7 @@ func New011345565435() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "System Type",
@@ -80885,7 +80885,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Fan Type",
@@ -80930,7 +80930,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Change Over Type",
@@ -80954,7 +80954,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "C/F Type",
@@ -80978,7 +80978,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Mechanical Status",
@@ -81044,7 +81044,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SCP Status",
@@ -81110,7 +81110,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Autosend Enable Bits",
@@ -81225,7 +81225,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Display Lock",
@@ -81249,7 +81249,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "MOT",
@@ -81266,7 +81266,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "MRT",
@@ -81283,7 +81283,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "H Delta Stage 1 ON",
@@ -81300,7 +81300,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "H Delta Stage 1 OFF",
@@ -81317,7 +81317,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "H Delta Stage 2 ON",
@@ -81334,7 +81334,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "H Delta Stage 2 OFF",
@@ -81351,7 +81351,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "H Delta Stage 3 ON",
@@ -81368,7 +81368,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "H Delta Stage 3 OFF",
@@ -81385,7 +81385,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "C Delta Stage 1 ON",
@@ -81402,7 +81402,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "C Delta Stage 1 OFF",
@@ -81419,7 +81419,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "C Delta Stage 2 ON",
@@ -81436,7 +81436,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "C Delta Stage 2 OFF",
@@ -81453,7 +81453,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Setpoint H/C Delta",
@@ -81470,7 +81470,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Setback Mode",
@@ -81501,7 +81501,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 68,
 				Name: "UnOccupied HSP *",
@@ -81518,7 +81518,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 72,
 				Name: "UnOccupied CSP *",
@@ -81535,7 +81535,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 48,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "2nd Stage Heat Enable",
@@ -81559,7 +81559,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 49,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Aux Heat Enable",
@@ -81583,7 +81583,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "2nd Stage Cool Enable",
@@ -81607,7 +81607,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Backlight Timer",
@@ -81624,7 +81624,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 85,
 				Name: "UI Max Heat Setpoint",
@@ -81641,7 +81641,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 65,
 				Name: "UI Min Cool Setpoint",
@@ -81658,7 +81658,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 64,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Screen Timeout",
@@ -81682,7 +81682,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 90,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Filter Timer",
@@ -81699,7 +81699,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 92,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Filter Timer Max",
@@ -81723,7 +81723,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 94,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Heat Timer",
@@ -81740,7 +81740,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 98,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Cool Timer",
@@ -81757,7 +81757,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 102,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Maint Timer (Sum of Heat and Cool Timers)",
@@ -81774,7 +81774,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 104,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Maint Timer Max",
@@ -81798,7 +81798,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 132,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Filter Notify",
@@ -81822,7 +81822,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 133,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Maint Notify",
@@ -81846,7 +81846,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 183,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 70,
 				Name: "Comfort Default SP",
@@ -81863,7 +81863,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 184,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Comfort Delta",
@@ -81880,7 +81880,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 188,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Standby HSP",
@@ -81897,7 +81897,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 189,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Standby CSP",
@@ -81914,7 +81914,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 190,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Standby Delay",
@@ -81931,7 +81931,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 191,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "CardKey Enable",
@@ -81955,7 +81955,7 @@ func New011345565435() *Device{
 			},
 			ConfigParam{
 				ID: 192,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Setback Disabled",
@@ -82340,7 +82340,7 @@ func New011500040002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Siren triggering mode",
@@ -82371,7 +82371,7 @@ func New011500040002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature adjustments",
@@ -82402,7 +82402,7 @@ func New011500040002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Send unsolicited temperature report",
@@ -82419,7 +82419,7 @@ func New011500040002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 15,
 				Name: "Send unsolicited temperature report after N wake up",
@@ -82443,7 +82443,7 @@ func New011500040002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Switch mode",
@@ -82474,7 +82474,7 @@ func New011500040002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Added Auto OFF",
@@ -82584,7 +82584,7 @@ func New011500040003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Siren alarm sequence interval",
@@ -82601,7 +82601,7 @@ func New011500040003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 8,
 				Name: "Siren alarm tone length",
@@ -82618,7 +82618,7 @@ func New011500040003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Value of On-Command",
@@ -82635,7 +82635,7 @@ func New011500040003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Value of Off-Command",
@@ -82717,7 +82717,7 @@ func New011500040004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Siren Alarm Sequence Interval",
@@ -82734,7 +82734,7 @@ func New011500040004() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 8,
 				Name: "Siren Alarm Tone Length ",
@@ -82751,7 +82751,7 @@ func New011500040004() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Value of On-Command",
@@ -82768,7 +82768,7 @@ func New011500040004() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Value of Off-Command",
@@ -82838,7 +82838,7 @@ func New011500240001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1800,
 				Name: "Длительность режима быстрой сушки",
@@ -82855,7 +82855,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Режим кнопки",
@@ -82886,7 +82886,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Реакция термостата на команду Basic Set",
@@ -82931,7 +82931,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 18,
 				Name: "Интервал управления температурой",
@@ -82948,7 +82948,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Максимальная ширина коридора температурой",
@@ -82965,7 +82965,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия кнопки",
@@ -82982,7 +82982,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Максимальная допустимая температура",
@@ -82999,7 +82999,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Энергопотребление",
@@ -83023,7 +83023,7 @@ func New011500240001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 900,
 				Name: "Автоматическая отправка температуры",
@@ -83121,7 +83121,7 @@ func New011501000001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 1 и 3",
@@ -83152,7 +83152,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 2 и 4",
@@ -83183,7 +83183,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 1",
@@ -83242,7 +83242,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 2",
@@ -83301,7 +83301,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 3",
@@ -83360,7 +83360,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 4",
@@ -83419,7 +83419,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -83436,7 +83436,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -83467,7 +83467,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -83491,7 +83491,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отправлять непрошенные отчёт заряда батареек Battery Report при пробуждении",
@@ -83522,7 +83522,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Режим подтверждения светодиода",
@@ -83553,7 +83553,7 @@ func New011501000001() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Блокировать просыпания, немотря на настроки интервала пробуждения",
@@ -83651,7 +83651,7 @@ func New011501000004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 1 и 3",
@@ -83682,7 +83682,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 2 и 4",
@@ -83713,7 +83713,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 1",
@@ -83765,7 +83765,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 2",
@@ -83817,7 +83817,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 3",
@@ -83869,7 +83869,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 4",
@@ -83921,7 +83921,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -83938,7 +83938,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -83969,7 +83969,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -83993,7 +83993,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отправлять непрошенные отчёт заряда батареек Battery Report при пробуждении",
@@ -84024,7 +84024,7 @@ func New011501000004() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Режим подтверждения светодиода",
@@ -84153,7 +84153,7 @@ func New011501000101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 1 и 3",
@@ -84184,7 +84184,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 2 и 4",
@@ -84215,7 +84215,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы A",
@@ -84288,7 +84288,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы B",
@@ -84361,7 +84361,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы C",
@@ -84434,7 +84434,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы D",
@@ -84507,7 +84507,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -84538,7 +84538,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -84562,7 +84562,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять непрошенные отчёт заряда батареек Battery Report при пробуждении",
@@ -84593,7 +84593,7 @@ func New011501000101() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Блокировать просыпания, немотря на настроки интервала пробуждения",
@@ -84706,7 +84706,7 @@ func New011501000103() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Button 1/3 pair mode",
@@ -84737,7 +84737,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Button 2/4 pair mode",
@@ -84768,7 +84768,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Command to Control Group A",
@@ -84841,7 +84841,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Command to Control Group B",
@@ -84914,7 +84914,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Command to Control Group C",
@@ -84987,7 +84987,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Command to Control Group D",
@@ -85060,7 +85060,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Switch All commands",
@@ -85091,7 +85091,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Buttons",
@@ -85115,7 +85115,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Blocks wakeup even when wakeup interval is set",
@@ -85139,7 +85139,7 @@ func New011501000103() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Send unsolicited Battery Report on Wake Up",
@@ -85234,7 +85234,7 @@ func New011501000200() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Интервал опроса устройства",
@@ -85258,7 +85258,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Канал 1",
@@ -85534,7 +85534,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, высокий уровень, канал 1",
@@ -85551,7 +85551,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Сухой контакт. Уровень входного сигнала, низкий уровень, канал 1",
@@ -85568,7 +85568,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, не определен, канал 1",
@@ -85592,7 +85592,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Интервал отправки отчета, канал 1",
@@ -85616,7 +85616,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет, при изменении значения на заданную величину, канал 1",
@@ -85640,7 +85640,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет не чаще, чем, канал 1",
@@ -85664,7 +85664,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Тип подключенного сенсора, канал 2",
@@ -85940,7 +85940,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, высокий уровень, канал 2",
@@ -85957,7 +85957,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Сухой контакт. Уровень входного сигнала, низкий уровень, канал 2",
@@ -85974,7 +85974,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, не определен, канал 2",
@@ -85998,7 +85998,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Интервал отправки отчета, канал 2",
@@ -86022,7 +86022,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет, при изменении значения на заданную величину, канал 2",
@@ -86046,7 +86046,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет не чаще, чем, канал 2",
@@ -86070,7 +86070,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Тип подключенного сенсора, канал 3",
@@ -86346,7 +86346,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, высокий уровень, канал 3",
@@ -86363,7 +86363,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Сухой контакт. Уровень входного сигнала, низкий уровень, канал 3",
@@ -86380,7 +86380,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, не определен, канал 3",
@@ -86404,7 +86404,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Интервал отправки отчета, канал 3",
@@ -86428,7 +86428,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет, при изменении значения на заданную величину, канал 3",
@@ -86452,7 +86452,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет не чаще, чем, канал 3",
@@ -86476,7 +86476,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Тип подключенного сенсора, канал 4",
@@ -86752,7 +86752,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, высокий уровень, канал 4",
@@ -86769,7 +86769,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Сухой контакт. Уровень входного сигнала, низкий уровень, канал 4",
@@ -86786,7 +86786,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, не определен, канал 4",
@@ -86810,7 +86810,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Интервал отправки отчета, канал 4",
@@ -86834,7 +86834,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет, при изменении значения на заданную величину, канал 4",
@@ -86858,7 +86858,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет не чаще, чем, канал 4",
@@ -86882,7 +86882,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Тип подключенного сенсора, канал 5",
@@ -87158,7 +87158,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, высокий уровень, канал 5",
@@ -87175,7 +87175,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Сухой контакт. Уровень входного сигнала, низкий уровень, канал 5",
@@ -87192,7 +87192,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Сухой контакт. Уровень входного сигнала, не определен, канал 5",
@@ -87216,7 +87216,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Интервал отправки отчета, канал 5",
@@ -87240,7 +87240,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет, при изменении значения на заданную величину, канал 5",
@@ -87264,7 +87264,7 @@ func New011501000200() *Device{
 			},
 			ConfigParam{
 				ID: 56,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Отправлять отчет не чаще, чем, канал 5",
@@ -87372,7 +87372,7 @@ func New011501000201() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Siren Alarm Sequence Interval",
@@ -87389,7 +87389,7 @@ func New011501000201() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 8,
 				Name: "Siren Alarm Tone Length ",
@@ -87406,7 +87406,7 @@ func New011501000201() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Value of On-Command",
@@ -87423,7 +87423,7 @@ func New011501000201() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Value of Off-Command",
@@ -87440,7 +87440,7 @@ func New011501000201() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Status of automated meshing of Smoke Alarms",
@@ -87464,7 +87464,7 @@ func New011501000201() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Status of automated meshing of Battery Alarms",
@@ -87565,7 +87565,7 @@ func New011501000400() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "Threshold for too much wind",
@@ -87582,7 +87582,7 @@ func New011501000400() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 37,
 				Name: "Threshold for twilight",
@@ -87654,7 +87654,7 @@ func New011501000401() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 1 и 3",
@@ -87685,7 +87685,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 2 и 4",
@@ -87716,7 +87716,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 1",
@@ -87768,7 +87768,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 2",
@@ -87820,7 +87820,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 3",
@@ -87872,7 +87872,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 4",
@@ -87924,7 +87924,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -87941,7 +87941,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -87972,7 +87972,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -87996,7 +87996,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отправлять непрошенные отчёт заряда батареек Battery Report при пробуждении",
@@ -88027,7 +88027,7 @@ func New011501000401() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Режим подтверждения светодиода",
@@ -88144,7 +88144,7 @@ func New011501100001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Debugging",
@@ -88168,7 +88168,7 @@ func New011501100001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED",
@@ -88260,7 +88260,7 @@ func New011502000001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -88284,7 +88284,7 @@ func New011502000001() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "",
@@ -88308,7 +88308,7 @@ func New011502000001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "",
@@ -88325,7 +88325,7 @@ func New011502000001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "",
@@ -88349,7 +88349,7 @@ func New011502000001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -88373,7 +88373,7 @@ func New011502000001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -88404,7 +88404,7 @@ func New011502000001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -88496,7 +88496,7 @@ func New011502010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Работает ли бинарный датчик",
@@ -88520,7 +88520,7 @@ func New011502010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Режим бинарного датчика",
@@ -88544,7 +88544,7 @@ func New011502010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Автоматическая отправка температуры",
@@ -88568,7 +88568,7 @@ func New011502010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Максимальное отклонение температуры для термостата",
@@ -88585,7 +88585,7 @@ func New011502010001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Термостат повторно отправляет команду включения (Basic On) устройству из группы 2",
@@ -88609,7 +88609,7 @@ func New011502010001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 15,
 				Name: "Как часто отправлять температуру",
@@ -88633,7 +88633,7 @@ func New011502010001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Коррекция температуры",
@@ -88664,7 +88664,7 @@ func New011502010001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Автоматическая отправка заряда батареек при пробуждении",
@@ -88763,7 +88763,7 @@ func New011502010002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Работает ли бинарный датчик",
@@ -88787,7 +88787,7 @@ func New011502010002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Режим бинарного датчика",
@@ -88811,7 +88811,7 @@ func New011502010002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Автоматическая отправка температуры",
@@ -88835,7 +88835,7 @@ func New011502010002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Максимальное отклонение температуры для термостата",
@@ -88852,7 +88852,7 @@ func New011502010002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Термостат повторно отправляет команду включения (Basic On) устройству из группы 2",
@@ -88876,7 +88876,7 @@ func New011502010002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Как часто отправлять температуру",
@@ -88900,7 +88900,7 @@ func New011502010002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Коррекция температуры",
@@ -88931,7 +88931,7 @@ func New011502010002() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Автоматическая отправка заряда батареек Battery Report при пробуждении",
@@ -89030,7 +89030,7 @@ func New011502010003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Работает ли бинарный датчик",
@@ -89054,7 +89054,7 @@ func New011502010003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Режим бинарного датчика",
@@ -89078,7 +89078,7 @@ func New011502010003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Автоматическая отправка температуры",
@@ -89102,7 +89102,7 @@ func New011502010003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Максимальное отклонение температуры для термостата",
@@ -89119,7 +89119,7 @@ func New011502010003() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Термостат повторно отправляет команду включения (Basic On) устройству из группы 2",
@@ -89143,7 +89143,7 @@ func New011502010003() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Как часто отправлять температуру",
@@ -89167,7 +89167,7 @@ func New011502010003() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Коррекция температуры",
@@ -89198,7 +89198,7 @@ func New011502010003() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Автоматическая отправка заряда батареек Battery Report при пробуждении",
@@ -89302,7 +89302,7 @@ func New011510000001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Режим световой индикации",
@@ -89340,7 +89340,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -89364,7 +89364,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -89402,7 +89402,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при нажатии вниз",
@@ -89433,7 +89433,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Переключать при диммировании кнопками",
@@ -89457,7 +89457,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Восстанавливать состояние реле после отключения питания",
@@ -89481,7 +89481,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -89498,7 +89498,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -89522,7 +89522,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включать/выключать нагрузку кнопками",
@@ -89553,7 +89553,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -89605,7 +89605,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -89657,7 +89657,7 @@ func New011510000001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -89758,7 +89758,7 @@ func New011510000002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Режим световой индикации",
@@ -89796,7 +89796,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -89820,7 +89820,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -89858,7 +89858,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при нажатии вниз",
@@ -89889,7 +89889,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Игнорировать начальный уровень",
@@ -89913,7 +89913,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Время диммирования",
@@ -89937,7 +89937,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Время долгого диммирования",
@@ -89954,7 +89954,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Устанавливать максимальный уровень яркости при включении",
@@ -89985,7 +89985,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Время диммирования Баю-бай",
@@ -90009,7 +90009,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Конечный уровень диммирования функции Баю-бай",
@@ -90026,7 +90026,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -90043,7 +90043,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -90067,7 +90067,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включать/выключать нагрузку кнопками",
@@ -90098,7 +90098,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -90150,7 +90150,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -90202,7 +90202,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -90233,7 +90233,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Ограничивать минимальный уровень яркости",
@@ -90250,7 +90250,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Ограничивать максимальный уровень яркости",
@@ -90274,7 +90274,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включаться на заданном уровне яркости",
@@ -90298,7 +90298,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза до импульса",
@@ -90315,7 +90315,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза после импульса",
@@ -90332,7 +90332,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Ширина импульса",
@@ -90349,7 +90349,7 @@ func New011510000002() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Тип импульса",
@@ -90446,7 +90446,7 @@ func New011510000003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Режим световой индикации",
@@ -90491,7 +90491,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто открытие/закрытие через",
@@ -90515,7 +90515,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды закрытия",
@@ -90553,7 +90553,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при нажатии вниз",
@@ -90584,7 +90584,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Время полного закрытия",
@@ -90608,7 +90608,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Время полного открытия",
@@ -90632,7 +90632,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Идентификатор блокирующего узла",
@@ -90656,7 +90656,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "По какой команде от блокирующего узла включать защиту",
@@ -90680,7 +90680,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Остановить или запустить в обратном направлении при нажатии на противоположную клавишу",
@@ -90711,7 +90711,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Поменять местами реле открытия и зкарытия",
@@ -90735,7 +90735,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -90752,7 +90752,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -90776,7 +90776,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включать/выключать нагрузку кнопками",
@@ -90807,7 +90807,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -90859,7 +90859,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -90911,7 +90911,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -90942,7 +90942,7 @@ func New011510000003() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие по Авто открытию/закрытию",
@@ -91038,7 +91038,7 @@ func New011510000004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -91055,7 +91055,7 @@ func New011510000004() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -91079,7 +91079,7 @@ func New011510000004() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -91117,7 +91117,7 @@ func New011510000004() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -91155,7 +91155,7 @@ func New011510000004() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -91186,7 +91186,7 @@ func New011510000004() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отправлять непрошенные отчёт заряда батареек Battery Report при пробуждении",
@@ -91291,7 +91291,7 @@ func New011510000005() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы кнопок",
@@ -91322,7 +91322,7 @@ func New011510000005() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 1",
@@ -91381,7 +91381,7 @@ func New011510000005() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы 2",
@@ -91440,7 +91440,7 @@ func New011510000005() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -91457,7 +91457,7 @@ func New011510000005() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -91488,7 +91488,7 @@ func New011510000005() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -91512,7 +91512,7 @@ func New011510000005() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Отправлять непрошенные отчёт заряда батареек Battery Report при пробуждении",
@@ -91543,7 +91543,7 @@ func New011510000005() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Режим подтверждения светодиода",
@@ -91695,7 +91695,7 @@ func New011510000009() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение",
@@ -91719,7 +91719,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -91757,7 +91757,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Игнорировать начальный уровень",
@@ -91781,7 +91781,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Время диммирования",
@@ -91805,7 +91805,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Время долгого диммирования",
@@ -91822,7 +91822,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Устанавливать максимальный уровень яркости при включении",
@@ -91853,7 +91853,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Время диммирования Баю-бай",
@@ -91877,7 +91877,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Конечный уровень диммирования функции Баю-бай",
@@ -91894,7 +91894,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -91918,7 +91918,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включать/выключать нагрузку кнопками",
@@ -91949,7 +91949,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -92001,7 +92001,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -92053,7 +92053,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -92084,7 +92084,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при нажатии вниз",
@@ -92115,7 +92115,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Ограничивать минимальный уровень яркости",
@@ -92132,7 +92132,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Ограничивать максимальный уровень яркости",
@@ -92156,7 +92156,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включаться на заданном уровне яркости",
@@ -92180,7 +92180,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Энергопотребление",
@@ -92204,7 +92204,7 @@ func New011510000009() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим Диммер/реле",
@@ -92290,7 +92290,7 @@ func New011510000100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -92321,7 +92321,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение первого канала через",
@@ -92345,7 +92345,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение второго канала через",
@@ -92369,7 +92369,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие при получении радиокоманды выключения первого канала",
@@ -92407,7 +92407,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие при получении радиокоманды выключения второго канала",
@@ -92445,7 +92445,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие при нажатии вниз (для обоих каналов)",
@@ -92476,7 +92476,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Включить/выключить при удержании клавиш",
@@ -92514,7 +92514,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Восстанавливать состояние реле после отключения питания",
@@ -92552,7 +92552,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -92576,7 +92576,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включить/выключить нагрузку кнопками (первый канал)",
@@ -92607,7 +92607,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Включить/выключить нагрузку кнопками (второй канал)",
@@ -92638,7 +92638,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -92676,7 +92676,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -92714,7 +92714,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Энергопотребление первого канала",
@@ -92738,7 +92738,7 @@ func New011510000100() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Энергопотребление второго канала",
@@ -92877,7 +92877,7 @@ func New011510000200() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -92915,7 +92915,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто открытие/закрытие через",
@@ -92939,7 +92939,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды закрытия",
@@ -92977,7 +92977,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при нажатии вниз",
@@ -93008,7 +93008,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Время полного закрытия",
@@ -93032,7 +93032,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Время полного открытия",
@@ -93056,7 +93056,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Идентификатор блокирующего узла",
@@ -93080,7 +93080,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "По какой команде от блокирующего узла включать защиту",
@@ -93104,7 +93104,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Остановить или запустить в обратном направлении при нажатии на противоположную клавишу",
@@ -93135,7 +93135,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Поменять местами реле открытия и зкарытия",
@@ -93159,7 +93159,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -93176,7 +93176,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -93200,7 +93200,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включить/выключить нагрузку кнопками",
@@ -93231,7 +93231,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -93304,7 +93304,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -93377,7 +93377,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправить следующие команды включить/выключит всё",
@@ -93408,7 +93408,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие по Авто открытию/закрытию",
@@ -93432,7 +93432,7 @@ func New011510000200() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Отправлять промежуточные значения уровня открытия",
@@ -93519,7 +93519,7 @@ func New011510000300() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы кнопок №1 (группа ассоциаций 2)",
@@ -93571,7 +93571,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы кнопок №2 (группа ассоциаций 3)",
@@ -93623,7 +93623,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы кнопок №3 (группа ассоциаций 4)",
@@ -93675,7 +93675,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы кнопок №4 (группа ассоциаций 5)",
@@ -93727,7 +93727,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы кнопок №5 (группа ассоциаций 6)",
@@ -93779,7 +93779,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы кнопок №6 (группа ассоциаций 7)",
@@ -93831,7 +93831,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Действия для группы кнопок №7 (группа ассоциаций 8)",
@@ -93883,7 +93883,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия для кнопок сцены №1 (группа ассоциаций 9)",
@@ -93935,7 +93935,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия для кнопок сцены №2 (группа ассоциаций 10)",
@@ -93987,7 +93987,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия для кнопок сцены №3 (группа ассоциаций 11)",
@@ -94039,7 +94039,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Действия для кнопок Включить/Выключить Всё (группа ассоциаций 12)",
@@ -94091,7 +94091,7 @@ func New011510000300() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -94209,7 +94209,7 @@ func New011510001001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -94240,7 +94240,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -94264,7 +94264,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие при получении радиокоманды выключения",
@@ -94302,7 +94302,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включить/выключить при удержании клавиш",
@@ -94326,7 +94326,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Восстанавливать состояние реле после отключения питания",
@@ -94350,7 +94350,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -94374,7 +94374,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включить/выключить нагрузку кнопками",
@@ -94405,7 +94405,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -94478,7 +94478,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -94551,7 +94551,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды Включить/Выключить всё",
@@ -94582,7 +94582,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие при нажатии вниз",
@@ -94613,7 +94613,7 @@ func New011510001001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Энергопотребление",
@@ -94752,7 +94752,7 @@ func New011510001003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -94790,7 +94790,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто открытие/закрытие через",
@@ -94814,7 +94814,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды закрытия",
@@ -94852,7 +94852,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при нажатии вниз",
@@ -94883,7 +94883,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Время полного закрытия",
@@ -94907,7 +94907,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Время полного открытия",
@@ -94931,7 +94931,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Идентификатор блокирующего узла",
@@ -94955,7 +94955,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "По какой команде от блокирующего узла включать защиту",
@@ -94979,7 +94979,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Остановить или запустить в обратном направлении при нажатии на противоположную клавишу",
@@ -95010,7 +95010,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Поменять местами реле открытия и зкарытия",
@@ -95034,7 +95034,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -95051,7 +95051,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -95075,7 +95075,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Включить/выключить нагрузку кнопками",
@@ -95106,7 +95106,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Действия при одинарном нажатии или удержании клавиши",
@@ -95179,7 +95179,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действия при двойном нажатии или удержании клавиши",
@@ -95252,7 +95252,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправить следующие команды включить/выключит всё",
@@ -95283,7 +95283,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие по Авто открытию/закрытию",
@@ -95307,7 +95307,7 @@ func New011510001003() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 20,
 				Name: "Отправлять промежуточные значения уровня открытия",
@@ -95377,7 +95377,7 @@ func New011511000001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -95415,7 +95415,7 @@ func New011511000001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -95439,7 +95439,7 @@ func New011511000001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -95477,7 +95477,7 @@ func New011511000001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Восстанавливать состояние реле после отключения питания",
@@ -95548,7 +95548,7 @@ func New011511000002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Режим световой индикации",
@@ -95586,7 +95586,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -95610,7 +95610,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -95648,7 +95648,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Игнорировать начальный уровень",
@@ -95672,7 +95672,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Время диммирования",
@@ -95696,7 +95696,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Время долгого диммирования",
@@ -95713,7 +95713,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Устанавливать максимальный уровень яркости при включении",
@@ -95744,7 +95744,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Время диммирования Баю-бай",
@@ -95768,7 +95768,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Конечный уровень диммирования функции Баю-бай",
@@ -95785,7 +95785,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -95802,7 +95802,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Ограничивать минимальный уровень яркости",
@@ -95819,7 +95819,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Ограничивать максимальный уровень яркости",
@@ -95843,7 +95843,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включаться на заданном уровне яркости",
@@ -95867,7 +95867,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза до импульса",
@@ -95884,7 +95884,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза после импульса",
@@ -95901,7 +95901,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Ширина импульса",
@@ -95918,7 +95918,7 @@ func New011511000002() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Тип импульса",
@@ -95982,7 +95982,7 @@ func New011600010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Basic Set level",
@@ -95999,7 +95999,7 @@ func New011600010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enabling/Disabling Sensor Detecting Function",
@@ -96023,7 +96023,7 @@ func New011600010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "Sensitivity Level (PIR sensor only)",
@@ -96040,7 +96040,7 @@ func New011600010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "Re-trigger Interval Setting (PIR sensor only)",
@@ -96057,7 +96057,7 @@ func New011600010001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Lux Level",
@@ -96074,7 +96074,7 @@ func New011600010001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 5,
 				Name: "On-Off Duration",
@@ -96385,7 +96385,7 @@ func New011800030008() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "On/Off Knob",
@@ -96469,7 +96469,7 @@ func New011800040002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Change the state of indicator light",
@@ -96493,7 +96493,7 @@ func New011800040002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Memory function",
@@ -96517,7 +96517,7 @@ func New011800040002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter Report Period",
@@ -96534,7 +96534,7 @@ func New011800040002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH Meter Report Period",
@@ -96551,7 +96551,7 @@ func New011800040002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3000,
 				Name: "Threshold of Watt for Load Caution",
@@ -96568,7 +96568,7 @@ func New011800040002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold for KWH for Load Caution",
@@ -96619,7 +96619,7 @@ func New011801010103() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED- Behavior",
@@ -96688,7 +96688,7 @@ func New011801021020() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Start Level Bit",
@@ -96712,7 +96712,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Suspend Group 4",
@@ -96736,7 +96736,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Night Light",
@@ -96760,7 +96760,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -96784,7 +96784,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "LED Transmission Indication",
@@ -96815,7 +96815,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 3",
@@ -96839,7 +96839,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 2",
@@ -96863,7 +96863,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Poll Group 2 Interval",
@@ -96880,7 +96880,7 @@ func New011801021020() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Poll Group 2",
@@ -96944,7 +96944,7 @@ func New011802020611() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED-Behavior",
@@ -97005,7 +97005,7 @@ func New011808080808() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Start Level Bit",
@@ -97029,7 +97029,7 @@ func New011808080808() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Night Light",
@@ -97053,7 +97053,7 @@ func New011808080808() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -97077,7 +97077,7 @@ func New011808080808() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "LED Transmission Indication",
@@ -97138,7 +97138,7 @@ func New011a01010101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configure LED light state",
@@ -97162,7 +97162,7 @@ func New011a01010101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configure button toggle",
@@ -97219,7 +97219,7 @@ func New011a01010102() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configure LED State",
@@ -97311,7 +97311,7 @@ func New011a01010603() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Unsolicited Report Configuration",
@@ -97376,7 +97376,7 @@ func New011a01020201() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configure LED light state",
@@ -97400,7 +97400,7 @@ func New011a01020201() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configure button toggle",
@@ -97513,7 +97513,7 @@ func New011a01110101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED Configuration",
@@ -97593,7 +97593,7 @@ func New011a01110105() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Synchronization",
@@ -97678,7 +97678,7 @@ func New011a01110201() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "synchronization of load power and LED indicator",
@@ -97763,7 +97763,7 @@ func New011a01110202() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "synchronization of outlet power and LED indicator",
@@ -98134,7 +98134,7 @@ func New012300010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Power On Illuminace Level",
@@ -98198,7 +98198,7 @@ func New012300020000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Illuminance",
@@ -98222,7 +98222,7 @@ func New012300020000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "Dimming Duration",
@@ -98239,7 +98239,7 @@ func New012300020000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "PWM Mode",
@@ -98263,7 +98263,7 @@ func New012300020000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Tag ID",
@@ -98412,7 +98412,7 @@ func New012301040104() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -98837,7 +98837,7 @@ func New012800000000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 0,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Gas Metering",
@@ -98861,7 +98861,7 @@ func New012800000000() *Device{
 			},
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 400,
 				Name: "Gas Meter resolution",
@@ -98871,7 +98871,7 @@ func New012800000000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Electricity metering",
@@ -98895,7 +98895,7 @@ func New012800000000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 400,
 				Name: "Electricity meter resolution",
@@ -99018,7 +99018,7 @@ func New012900010000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Audio Mode",
@@ -99049,7 +99049,7 @@ func New012900010000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Auto Relock",
@@ -99073,7 +99073,7 @@ func New012900010000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Re-lock Time",
@@ -99090,7 +99090,7 @@ func New012900010000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Wrong Code Entry Limit",
@@ -99107,7 +99107,7 @@ func New012900010000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Language",
@@ -99138,7 +99138,7 @@ func New012900010000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Shutdown Time",
@@ -99155,7 +99155,7 @@ func New012900010000() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Operating Mode",
@@ -99273,7 +99273,7 @@ func New012900020000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Audio Mode",
@@ -99304,7 +99304,7 @@ func New012900020000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Auto Relock",
@@ -99328,7 +99328,7 @@ func New012900020000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Re-lock Time",
@@ -99345,7 +99345,7 @@ func New012900020000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Wrong Code Entry Limit",
@@ -99362,7 +99362,7 @@ func New012900020000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Language",
@@ -99393,7 +99393,7 @@ func New012900020000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Shutdown Time",
@@ -99410,7 +99410,7 @@ func New012900020000() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Operating Mode",
@@ -99596,7 +99596,7 @@ func New013000020000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Analog gas/heat port mode",
@@ -99627,7 +99627,7 @@ func New013000020000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 400,
 				Name: "Analog gas/heat port resolution ",
@@ -99644,7 +99644,7 @@ func New013000020000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Analog electricity port mode",
@@ -99675,7 +99675,7 @@ func New013000020000() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 400,
 				Name: "Analog electricity port resolution ",
@@ -99692,7 +99692,7 @@ func New013000020000() *Device{
 			},
 			ConfigParam{
 				ID: 255,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Restart device",
@@ -100223,7 +100223,7 @@ func New013100020002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Color temperature",
@@ -100240,7 +100240,7 @@ func New013100020002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 16,
 				Name: "Shock sensor sensitivity",
@@ -100327,7 +100327,7 @@ func New013800010002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -100532,7 +100532,7 @@ func New013c00010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Период отчета о мощности (Вт)",
@@ -100549,7 +100549,7 @@ func New013c00010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "Период отчета о энергопотреблении (КВт*Ч)",
@@ -100566,7 +100566,7 @@ func New013c00010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3000,
 				Name: "Отчет при превышении мощности (Вт)",
@@ -100583,7 +100583,7 @@ func New013c00010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Отчет при превышении энергопотребления (КВт*Ч)",
@@ -100645,7 +100645,7 @@ func New013c00010003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "W meter report period",
@@ -100662,7 +100662,7 @@ func New013c00010003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH meter report period",
@@ -100679,7 +100679,7 @@ func New013c00010003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Selected end point",
@@ -100710,7 +100710,7 @@ func New013c00010003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Edge or Pulse mode or Edge-Togle mode",
@@ -100741,7 +100741,7 @@ func New013c00010003() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1500,
 				Name: "Threshold of Watt for Load Caution",
@@ -100758,7 +100758,7 @@ func New013c00010003() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold of KWH for Load Caution",
@@ -100819,7 +100819,7 @@ func New013c00010004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Selected end point",
@@ -100850,7 +100850,7 @@ func New013c00010004() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Edge or Pulse mode or Edge-Togle mode",
@@ -100926,7 +100926,7 @@ func New013c00010006() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter Report Period",
@@ -100943,7 +100943,7 @@ func New013c00010006() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH Meter Report Period",
@@ -100960,7 +100960,7 @@ func New013c00010006() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1100,
 				Name: "Threshol d of Watt for Load Caution",
@@ -100977,7 +100977,7 @@ func New013c00010006() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshol d of KWH for Load Caution",
@@ -101075,7 +101075,7 @@ func New013c00010010() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Edge or Pulse mode or Edge-Toggle mode",
@@ -101106,7 +101106,7 @@ func New013c00010010() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch state mode",
@@ -101137,7 +101137,7 @@ func New013c00010010() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Manual On/Off mode",
@@ -101161,7 +101161,7 @@ func New013c00010010() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED indication mode",
@@ -101192,7 +101192,7 @@ func New013c00010010() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Auto off timer",
@@ -101216,7 +101216,7 @@ func New013c00010010() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RF Off command mode",
@@ -101344,7 +101344,7 @@ func New013c00010011() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter Report Period",
@@ -101361,7 +101361,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH Meter Report Period",
@@ -101378,7 +101378,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1300,
 				Name: "Threshold of current for Load caution",
@@ -101395,7 +101395,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold of KWh for Load caution",
@@ -101412,7 +101412,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Restore switch state mode",
@@ -101443,7 +101443,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Mode of Switch Off function",
@@ -101467,7 +101467,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED indication mode",
@@ -101491,7 +101491,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Auto off timer",
@@ -101515,7 +101515,7 @@ func New013c00010011() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RF off command mode",
@@ -101630,7 +101630,7 @@ func New013c00010012() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter Report Period",
@@ -101647,7 +101647,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH Meter Report Period",
@@ -101664,7 +101664,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Selected Relay",
@@ -101695,7 +101695,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Edge or Pulse mode or Edge-Toggle mode",
@@ -101726,7 +101726,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 750,
 				Name: "Threshold of current for Load Caution",
@@ -101743,7 +101743,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold of KWH for Load Caution",
@@ -101760,7 +101760,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Restore switch state mode",
@@ -101791,7 +101791,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Auto off timer",
@@ -101815,7 +101815,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RF off command mode",
@@ -101853,7 +101853,7 @@ func New013c00010012() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Existence of Endpoint 3",
@@ -101950,7 +101950,7 @@ func New013c00010013() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Relay selection",
@@ -101981,7 +101981,7 @@ func New013c00010013() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Mode selection",
@@ -102012,7 +102012,7 @@ func New013c00010013() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch state mode",
@@ -102043,7 +102043,7 @@ func New013c00010013() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Auto off timer",
@@ -102067,7 +102067,7 @@ func New013c00010013() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RF off command mode",
@@ -102105,7 +102105,7 @@ func New013c00010013() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Existence of Endpoint3",
@@ -102199,7 +102199,7 @@ func New013c00010015() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter Report Period",
@@ -102216,7 +102216,7 @@ func New013c00010015() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH Meter Report Period",
@@ -102233,7 +102233,7 @@ func New013c00010015() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 500,
 				Name: "Threshold of current for Load caution",
@@ -102250,7 +102250,7 @@ func New013c00010015() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold of KWh for Load caution",
@@ -102267,7 +102267,7 @@ func New013c00010015() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "External switch type",
@@ -102291,7 +102291,7 @@ func New013c00010015() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Level report mode",
@@ -102403,7 +102403,7 @@ func New013c00010028() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter Report Period",
@@ -102420,7 +102420,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH Meter Report Period",
@@ -102437,7 +102437,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1300,
 				Name: "Threshold of current for Load caution",
@@ -102454,7 +102454,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold of KWh for Load caution",
@@ -102471,7 +102471,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Restore switch state mode",
@@ -102502,7 +102502,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Mode of Switch Off function",
@@ -102526,7 +102526,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED indication mode",
@@ -102550,7 +102550,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Auto off timer",
@@ -102574,7 +102574,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RF off command mode",
@@ -102612,7 +102612,7 @@ func New013c00010028() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch Status Report mode",
@@ -102700,7 +102700,7 @@ func New013c00010038() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch Status Report mode",
@@ -102724,7 +102724,7 @@ func New013c00010038() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Restore switch state mode",
@@ -102755,7 +102755,7 @@ func New013c00010038() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Mode of Switch Off function",
@@ -102779,7 +102779,7 @@ func New013c00010038() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Auto off timer",
@@ -102803,7 +102803,7 @@ func New013c00010038() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RF off command mode",
@@ -102889,7 +102889,7 @@ func New013c00020002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Уровень диммирования, отправляемый устройствам из группы 2",
@@ -102913,7 +102913,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 70,
 				Name: "Датчик движения",
@@ -102937,7 +102937,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Освещенность",
@@ -102968,7 +102968,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Режим работы",
@@ -103020,7 +103020,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Функция выключателя",
@@ -103079,7 +103079,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Время бездействия датчика после обнаружения движения",
@@ -103096,7 +103096,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "Время выключения",
@@ -103113,7 +103113,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Время автоматического отчета о батареи",
@@ -103130,7 +103130,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Время автоматического отчета о состоянии датчика двери/окна",
@@ -103147,7 +103147,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Время автоматического отчета о освещенности",
@@ -103164,7 +103164,7 @@ func New013c00020002() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Время автоматического отчета о температуре",
@@ -103272,7 +103272,7 @@ func New013c0002000c() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -103303,7 +103303,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 80,
 				Name: "PIR Sensitivity",
@@ -103327,7 +103327,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 99,
 				Name: "Light Threshold",
@@ -103358,7 +103358,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -103424,7 +103424,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Multi Sensor Function Switch",
@@ -103490,7 +103490,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Customer Function",
@@ -103556,7 +103556,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "PIR Re- Detect Interval Time",
@@ -103573,7 +103573,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Turn Off Light Time",
@@ -103597,7 +103597,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -103621,7 +103621,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Door/Windo w State Time",
@@ -103645,7 +103645,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Illumination Time",
@@ -103669,7 +103669,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperatur e Time",
@@ -103693,7 +103693,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -103717,7 +103717,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -103741,7 +103741,7 @@ func New013c0002000c() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Illumination Differential Report",
@@ -103856,7 +103856,7 @@ func New013c0002000d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -103887,7 +103887,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 80,
 				Name: "PIR Sensitivity",
@@ -103911,7 +103911,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 99,
 				Name: "Light Threshold",
@@ -103942,7 +103942,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -104008,7 +104008,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Multi Sensor Function Switch",
@@ -104074,7 +104074,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Customer Function",
@@ -104140,7 +104140,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "PIR Re- Detect Interval Time",
@@ -104157,7 +104157,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Turn Off Light Time",
@@ -104181,7 +104181,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -104205,7 +104205,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Door/Windo w State Time",
@@ -104229,7 +104229,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Illumination Time",
@@ -104253,7 +104253,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperatur e Time",
@@ -104277,7 +104277,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -104301,7 +104301,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -104325,7 +104325,7 @@ func New013c0002000d() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Illumination Differential Report",
@@ -104426,7 +104426,7 @@ func New013c0002001e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Customer Function",
@@ -104492,7 +104492,7 @@ func New013c0002001e() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -104600,7 +104600,7 @@ func New013c0002001f() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Basic Set OFF Level",
@@ -104610,7 +104610,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set ON Level",
@@ -104620,7 +104620,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -104686,7 +104686,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Multsensor Function Switch",
@@ -104752,7 +104752,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Customer Function",
@@ -104818,7 +104818,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -104842,7 +104842,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperature Time",
@@ -104866,7 +104866,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Humidity Time",
@@ -104890,7 +104890,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Flood Time",
@@ -104914,7 +104914,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -104938,7 +104938,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -104962,7 +104962,7 @@ func New013c0002001f() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Humidity Differential Report",
@@ -105072,7 +105072,7 @@ func New013c00020020() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -105138,7 +105138,7 @@ func New013c00020020() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Customer Function",
@@ -105204,7 +105204,7 @@ func New013c00020020() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -105228,7 +105228,7 @@ func New013c00020020() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperature Time",
@@ -105252,7 +105252,7 @@ func New013c00020020() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Humidity Time",
@@ -105276,7 +105276,7 @@ func New013c00020020() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -105300,7 +105300,7 @@ func New013c00020020() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -105324,7 +105324,7 @@ func New013c00020020() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Humidity Differential Report",
@@ -105433,7 +105433,7 @@ func New013c00020021() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Basic Set OFF Level",
@@ -105443,7 +105443,7 @@ func New013c00020021() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set ON Level",
@@ -105453,7 +105453,7 @@ func New013c00020021() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -105519,7 +105519,7 @@ func New013c00020021() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Customer Function",
@@ -105585,7 +105585,7 @@ func New013c00020021() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -105609,7 +105609,7 @@ func New013c00020021() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Flood Time",
@@ -105633,7 +105633,7 @@ func New013c00020021() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -105726,7 +105726,7 @@ func New013c0002002b() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -105792,7 +105792,7 @@ func New013c0002002b() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Customer Function",
@@ -105858,7 +105858,7 @@ func New013c0002002b() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -105882,7 +105882,7 @@ func New013c0002002b() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperature Time",
@@ -105906,7 +105906,7 @@ func New013c0002002b() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Humidity Time",
@@ -105930,7 +105930,7 @@ func New013c0002002b() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -105954,7 +105954,7 @@ func New013c0002002b() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -105978,7 +105978,7 @@ func New013c0002002b() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Humidity Differential Report",
@@ -106079,7 +106079,7 @@ func New013c0004000a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Customer Function",
@@ -106145,7 +106145,7 @@ func New013c0004000a() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Disable Alarm",
@@ -106169,7 +106169,7 @@ func New013c0004000a() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "Alarm Duration",
@@ -106255,7 +106255,7 @@ func New013c0006001a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter Report Period",
@@ -106272,7 +106272,7 @@ func New013c0006001a() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "KWH Meter Report Period",
@@ -106289,7 +106289,7 @@ func New013c0006001a() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Selected End Point",
@@ -106320,7 +106320,7 @@ func New013c0006001a() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6000,
 				Name: "Threshold of Current for Load Caution",
@@ -106337,7 +106337,7 @@ func New013c0006001a() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold of KWH for Load Caution",
@@ -106434,7 +106434,7 @@ func New013c0008001d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -106465,7 +106465,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 12,
 				Name: "Customer Function",
@@ -106531,7 +106531,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -106555,7 +106555,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 82,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 2 Basic Set Level",
@@ -106565,7 +106565,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 83,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 3 Basic Set Level",
@@ -106575,7 +106575,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 84,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 4 Basic Set Level",
@@ -106585,7 +106585,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 85,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 5 Basic Set Level",
@@ -106595,7 +106595,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 86,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 6 Basic Set Level",
@@ -106605,7 +106605,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 87,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 7 Basic Set Level",
@@ -106615,7 +106615,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 88,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 8 Basic Set Level",
@@ -106625,7 +106625,7 @@ func New013c0008001d() *Device{
 			},
 			ConfigParam{
 				ID: 89,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 9 Basic Set Level",
@@ -106784,7 +106784,7 @@ func New013c00090022() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Basic Set OFF level",
@@ -106801,7 +106801,7 @@ func New013c00090022() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Basic Set ON level",
@@ -106818,7 +106818,7 @@ func New013c00090022() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Auto Report Battery Time",
@@ -106842,7 +106842,7 @@ func New013c00090022() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Customer Function",
@@ -106866,7 +106866,7 @@ func New013c00090022() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Disable Scene Holding report",
@@ -106939,7 +106939,7 @@ func New014500010004() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 10,
 				Name: "",
@@ -106949,7 +106949,7 @@ func New014500010004() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "",
@@ -106959,7 +106959,7 @@ func New014500010004() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -106969,7 +106969,7 @@ func New014500010004() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -107135,7 +107135,7 @@ func New014900000000() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Shutter control",
@@ -107159,7 +107159,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 100,
 				Name: "Favourite level for position ON",
@@ -107176,7 +107176,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Favourite level for position OFF",
@@ -107193,7 +107193,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Action on the associated devices when the external switch receives 1 click",
@@ -107231,7 +107231,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Action on the associated devices when the external switch receives 2 clicks",
@@ -107269,7 +107269,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Action on the associated devices when the external switch receives 3 clicks",
@@ -107307,7 +107307,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Action on the associated devices when the external switch is hold",
@@ -107345,7 +107345,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Device status upon receipt of a Basic Set",
@@ -107383,7 +107383,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "ON_LEVEL value used for devices belonging to Group 2",
@@ -107414,7 +107414,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "OFF_LEVEL value used for devices belonging to Group 2",
@@ -107445,7 +107445,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "ON_LEVEL value used for devices belonging to Group 3",
@@ -107476,7 +107476,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "OFF_LEVEL value used for devices belonging to Group 3",
@@ -107507,7 +107507,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "ON_LEVEL value used for devices belonging to Group 4",
@@ -107538,7 +107538,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "OFF_LEVEL value used for devices belonging to Group 4",
@@ -107569,7 +107569,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "ON_LEVEL value used for devices belonging to Group 5 ",
@@ -107600,7 +107600,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "OFF_LEVEL value used for devices belonging to Group 5",
@@ -107631,7 +107631,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Smoke Alarm, CO, CO2 Action ",
@@ -107662,7 +107662,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Heat Alarm ",
@@ -107693,7 +107693,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Water Alarm",
@@ -107724,7 +107724,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Home Security",
@@ -107755,7 +107755,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Calibration",
@@ -107772,7 +107772,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Configuration Reset ",
@@ -107810,7 +107810,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Protection time",
@@ -107827,7 +107827,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Inversion of commands UP/DOWN",
@@ -107851,7 +107851,7 @@ func New014900000000() *Device{
 			},
 			ConfigParam{
 				ID: 65,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Learn Mode",
@@ -107942,7 +107942,7 @@ func New014900120104() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Stato del dispositivo quando l&#39;interruttore esterno riceve 1 click   (1 byte) ",
@@ -107980,7 +107980,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Stato del dispositivo quando l&#39;interruttore esterno riceve 2 click   (1 byte) ",
@@ -108018,7 +108018,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Stato del dispositivo quando l&#39;interruttore esterno riceve 3 click          (1 byte) ",
@@ -108056,7 +108056,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Stato del dispositivo quando l&#39;interruttore esterno rimane premuto (1 byte) ",
@@ -108094,7 +108094,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: " Azione svolta sui dispositivi associati quando l&#39;interruttore esterno riceve 1 click (1 byte) ",
@@ -108146,7 +108146,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: " Azione svolta sui dispositivi associati quando l&#39;interruttore esterno riceve 2 click (1 byte) ",
@@ -108198,7 +108198,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: " Azione svolta sui dispositivi associati quando l&#39;interruttore esterno rimane premuto (1 byte) ",
@@ -108250,7 +108250,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: " Azione trasmessa su tutti i dispositivi della rete quando l&#39;interruttore esterno riceve 1 click (1 byte) ",
@@ -108295,7 +108295,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: " Azione trasmessa a tutti i dispositivi dopo due click sull&#39;interruttore esterno ",
@@ -108340,7 +108340,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: " Azione trasmessa a tutti i dispositivi dopo tre click sull&#39;interruttore esterno ",
@@ -108385,7 +108385,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: " Azione trasmessa a tutti i dispositivi dopo pressione prolungata sull&#39;interruttore esterno ",
@@ -108430,7 +108430,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: " Stato del dispositivo al ricevimento di un BASIC SET (1 byte)",
@@ -108468,7 +108468,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Valore di ON_LEVEL usato per i dispositivi appartenenti al Gruppo 2 (1 Click association group) (1 byte)",
@@ -108485,7 +108485,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Valore di OFF_LEVEL usato per i dispositivi appartenenti al Gruppo 2 (1 Click association group) (1 byte)",
@@ -108502,7 +108502,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Valore di ON_LEVEL usato per i dispositivi appartenenti al Gruppo 3 (2 Click association group) (1 byte)",
@@ -108519,7 +108519,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Valore di OFF_LEVEL usato per i dispositivi appartenenti al Gruppo 3 (2 Click association group) (1 byte)",
@@ -108536,7 +108536,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Valore di ON_LEVEL usato per i dispositivi appartenenti al Gruppo 4 (3 Click association group) (1 byte)",
@@ -108553,7 +108553,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Valore di OFF_LEVEL usato per i dispositivi appartenenti al Gruppo 4 (3 Click association group) (1 byte)",
@@ -108570,7 +108570,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 255,
 				Name: "Valore di ON_LEVEL usato per i dispositivi appartenenti al Gruppo 5 (Hold association group) (1 byte)",
@@ -108587,7 +108587,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Valore di OFF_LEVEL usato per i dispositivi appartenenti al Gruppo 5 (Hold association group) (1 byte)",
@@ -108604,7 +108604,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Timer associato all&#39;evento di 1 click sull&#39;interruttore esterno (1 byte) ",
@@ -108628,7 +108628,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Timer associato all&#39;evento di 2 click sull&#39;interruttore esterno (1 byte) ",
@@ -108652,7 +108652,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Timer associato all&#39;evento di 3 click sull&#39;interruttore esterno (1 byte) ",
@@ -108676,7 +108676,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Timer associato all&#39;evento di pressione prolungata sul pulsante esterno (1 byte) ",
@@ -108700,7 +108700,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Timer associato all&#39;evento ricezione di un comando Basic Set (1 byte) ",
@@ -108724,7 +108724,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Tempo di spegnimento (2 bytes) ",
@@ -108741,7 +108741,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Validità dello spegnimento programmato (1 byte) ",
@@ -108765,7 +108765,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: " Smoke Alarm, CO, CO2 Action (1 byte) ",
@@ -108803,7 +108803,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: " Heat Allarm (1 byte)  ",
@@ -108841,7 +108841,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 2,
 				Name: " Water Allarm (1 byte) ",
@@ -108879,7 +108879,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: " Home Security (1 byte) ",
@@ -108917,7 +108917,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: " Stato di avvio (1 byte) ",
@@ -108948,7 +108948,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: " Reset della configurazione (1 byte) ",
@@ -108986,7 +108986,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: " Tipo di switch esterno (1 byte) ",
@@ -109031,7 +109031,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 64,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Protezione del carico (2 byte) ",
@@ -109048,7 +109048,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 65,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: " Learn Mode (1 byte) ",
@@ -109086,7 +109086,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 9,
 				Name: " Sensitivity (1 byte) ",
@@ -109103,7 +109103,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 56,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Durata della fase di lampeggiamento (1 byte) ",
@@ -109120,7 +109120,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Tempo di OFF durante il lampeggiamento (1 byte) ",
@@ -109137,7 +109137,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Tempo di ON durante il lampeggiamento (1 byte) ",
@@ -109154,7 +109154,7 @@ func New014900120104() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 6,
 				Name: " Azione svolta sui dispositivi associati quando l&#39;interruttore esterno riceve 3 click (1 byte) ",
@@ -109272,7 +109272,7 @@ func New014912140304() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Device Status",
@@ -109310,7 +109310,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Device status",
@@ -109348,7 +109348,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 4500,
 				Name: "Overcurrent level",
@@ -109365,7 +109365,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Overcurrent time",
@@ -109382,7 +109382,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Next State",
@@ -109420,7 +109420,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Meter Reset",
@@ -109444,7 +109444,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Energy flow",
@@ -109468,7 +109468,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 11250,
 				Name: "UP Power Level",
@@ -109485,7 +109485,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "UP Power Time",
@@ -109502,7 +109502,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "UP Power State",
@@ -109540,7 +109540,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "UP Power Associated",
@@ -109571,7 +109571,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 39,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "DOWN Power Level",
@@ -109588,7 +109588,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "DOWN Power Time",
@@ -109605,7 +109605,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "DOWN Power State",
@@ -109643,7 +109643,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "DOWN Power Associated",
@@ -109674,7 +109674,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 2000000,
 				Name: "Energy Level",
@@ -109691,7 +109691,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Energy Limit State",
@@ -109729,7 +109729,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Variation Instantaneous Power",
@@ -109746,7 +109746,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 46,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Report Time Frequency",
@@ -109763,7 +109763,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 47,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Variation Total Energy",
@@ -109808,7 +109808,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 48,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 2300,
 				Name: "Nominal Voltage",
@@ -109825,7 +109825,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 49,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Fall in maximum voltage",
@@ -109842,7 +109842,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 50,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Electric parameters subjected to automatic notification",
@@ -109859,7 +109859,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Voltage RMS value",
@@ -109869,7 +109869,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Current RMS value",
@@ -109879,7 +109879,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Power Factor",
@@ -109889,7 +109889,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Total energy consumed",
@@ -109899,7 +109899,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 55,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Total energy produced",
@@ -109909,7 +109909,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Start-up status",
@@ -109940,7 +109940,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Configuration reset",
@@ -109978,7 +109978,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Type of external switch",
@@ -110016,7 +110016,7 @@ func New014912140304() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Load control",
@@ -110121,7 +110121,7 @@ func New014912140504() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Outputs Status 1 Click",
@@ -110159,7 +110159,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Output Status 2 Clicks",
@@ -110197,7 +110197,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Type of outputs",
@@ -110221,7 +110221,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Number of clicks that activate the control of the associated devices",
@@ -110245,7 +110245,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 100,
 				Name: "Level used to control the devices associated to group 2 and 3",
@@ -110325,7 +110325,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 100,
 				Name: "Level used to control the devices associated to group 4 and 5",
@@ -110405,7 +110405,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Timer to switch ON the Channel 1",
@@ -110429,7 +110429,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Timer to switch ON the Channel 2",
@@ -110453,7 +110453,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Timer to switch OFF the Channel 1",
@@ -110477,7 +110477,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Timer to switch OFF the Channel 2",
@@ -110501,7 +110501,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Outputs status upon receipt of a Multi-Channel Basic Set command",
@@ -110539,7 +110539,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 3,
 				Name: "Outputs status upon receipt of a Basic Set command",
@@ -110563,7 +110563,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Start-up status",
@@ -110608,7 +110608,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Configuration reset",
@@ -110653,7 +110653,7 @@ func New014912140504() *Device{
 			},
 			ConfigParam{
 				ID: 62,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 4,
 				Name: "Type of external switch",
@@ -110864,7 +110864,7 @@ func New014f44503030() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Load sense",
@@ -110918,7 +110918,7 @@ func New014f44573034() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Start Level",
@@ -110928,7 +110928,7 @@ func New014f44573034() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED Indication",
@@ -110938,7 +110938,7 @@ func New014f44573034() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -110948,7 +110948,7 @@ func New014f44573034() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 2",
@@ -110958,7 +110958,7 @@ func New014f44573034() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 3",
@@ -110968,7 +110968,7 @@ func New014f44573034() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "LED Transmission Indication",
@@ -111022,7 +111022,7 @@ func New014f44573331() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Start Level",
@@ -111032,7 +111032,7 @@ func New014f44573331() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED Indication",
@@ -111042,7 +111042,7 @@ func New014f44573331() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -111052,7 +111052,7 @@ func New014f44573331() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 2",
@@ -111062,7 +111062,7 @@ func New014f44573331() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 3",
@@ -111072,7 +111072,7 @@ func New014f44573331() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "LED Transmission Indication",
@@ -111303,7 +111303,7 @@ func New014f47543038() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Dim Level Memory",
@@ -111419,7 +111419,7 @@ func New014f52503030() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 104,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Flash Mode",
@@ -111475,7 +111475,7 @@ func New014f52523530() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -111524,7 +111524,7 @@ func New014f54573033() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Dim Start Level",
@@ -111534,7 +111534,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Suspend Group 4",
@@ -111544,7 +111544,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Night Light",
@@ -111554,7 +111554,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert Switch",
@@ -111564,7 +111564,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Ignore start level when recieving dim commands",
@@ -111574,7 +111574,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "ON/OFF dim rate",
@@ -111584,7 +111584,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "ON/OFF dim rate",
@@ -111594,7 +111594,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Local control dim rate",
@@ -111604,7 +111604,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Local control dim rate",
@@ -111614,7 +111614,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "ALL ON/ ALL OFF dim rate",
@@ -111624,7 +111624,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "ALL ON/ ALL OFF dim rate",
@@ -111634,7 +111634,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Disable group 4 during a dim command",
@@ -111644,7 +111644,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 1",
@@ -111654,7 +111654,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 2",
@@ -111664,7 +111664,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable Shade Control Group 3",
@@ -111674,7 +111674,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "LED Transmission Indication",
@@ -111684,7 +111684,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Poll: minutes",
@@ -111694,7 +111694,7 @@ func New014f54573033() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Poll first node in group 1",
@@ -111739,7 +111739,7 @@ func New015100020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -111749,7 +111749,7 @@ func New015100020001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "",
@@ -112245,7 +112245,7 @@ func New015400030001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -112276,7 +112276,7 @@ func New015400030001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение первого канала через",
@@ -112300,7 +112300,7 @@ func New015400030001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Действие при получении радиокоманды выключения первого канала",
@@ -112338,7 +112338,7 @@ func New015400030001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Восстанавливать состояние реле после отключения питания",
@@ -112362,7 +112362,7 @@ func New015400030001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Энергопотребление первого канала",
@@ -112386,7 +112386,7 @@ func New015400030001() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Цвет Выкл",
@@ -112431,7 +112431,7 @@ func New015400030001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Цвет Вкл",
@@ -112574,7 +112574,7 @@ func New015401000101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 1 и 3",
@@ -112605,7 +112605,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим работы пары кнопок 2 и 4",
@@ -112636,7 +112636,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы A",
@@ -112709,7 +112709,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы B",
@@ -112782,7 +112782,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы C",
@@ -112855,7 +112855,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 8,
 				Name: "Действия для группы D",
@@ -112928,7 +112928,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять следующие команды включить/выключит всё",
@@ -112959,7 +112959,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Инвертировать кнопки",
@@ -112983,7 +112983,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Отправлять непрошенные отчёт заряда батареек Battery Report при пробуждении",
@@ -113014,7 +113014,7 @@ func New015401000101() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Блокировать просыпания, немотря на настроки интервала пробуждения",
@@ -113103,7 +113103,7 @@ func New015401000201() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10,
 				Name: "Siren alarm sequence interval ",
@@ -113120,7 +113120,7 @@ func New015401000201() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 8,
 				Name: "Siren alarm tone length",
@@ -113137,7 +113137,7 @@ func New015401000201() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Value of On-Command ",
@@ -113154,7 +113154,7 @@ func New015401000201() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Value of Off-Command",
@@ -113171,7 +113171,7 @@ func New015401000201() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Status of automated meshing of smoke alarms",
@@ -113195,7 +113195,7 @@ func New015401000201() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Status of automated meshing of battery alarms ",
@@ -113265,7 +113265,7 @@ func New015411000001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Режим световой индикации",
@@ -113303,7 +113303,7 @@ func New015411000001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -113327,7 +113327,7 @@ func New015411000001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -113365,7 +113365,7 @@ func New015411000001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Восстанавливать состояние реле после отключения питания",
@@ -113436,7 +113436,7 @@ func New015411000002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Режим световой индикации",
@@ -113474,7 +113474,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Авто отключение через",
@@ -113498,7 +113498,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Что делать при получении радиокоманды выключения",
@@ -113536,7 +113536,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Игнорировать начальный уровень",
@@ -113560,7 +113560,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 30,
 				Name: "Время диммирования",
@@ -113584,7 +113584,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Время долгого диммирования",
@@ -113601,7 +113601,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Устанавливать максимальный уровень яркости при включении",
@@ -113632,7 +113632,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Время диммирования Баю-бай",
@@ -113656,7 +113656,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Конечный уровень диммирования функции Баю-бай",
@@ -113673,7 +113673,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Характерное время нажатия",
@@ -113690,7 +113690,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Ограничивать минимальный уровень яркости",
@@ -113707,7 +113707,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Ограничивать максимальный уровень яркости",
@@ -113731,7 +113731,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Включаться на заданном уровне яркости",
@@ -113755,7 +113755,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 51,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза до импульса",
@@ -113772,7 +113772,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 52,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 28,
 				Name: "Пауза после импульса",
@@ -113789,7 +113789,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 53,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Ширина импульса",
@@ -113806,7 +113806,7 @@ func New015411000002() *Device{
 			},
 			ConfigParam{
 				ID: 54,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Тип импульса",
@@ -113890,7 +113890,7 @@ func New015900010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 1 switch type",
@@ -113914,7 +113914,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 2 contact type",
@@ -113938,7 +113938,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 3 contact type",
@@ -113962,7 +113962,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Deactivate/Activate ALL ON / ALL OFF",
@@ -114000,7 +114000,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "State of device after power failure",
@@ -114024,7 +114024,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Power report on power change",
@@ -114048,7 +114048,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Power report by time interval",
@@ -114072,7 +114072,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Maximum dimming value",
@@ -114089,7 +114089,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Minimum dimming value",
@@ -114106,7 +114106,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 65,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 100,
 				Name: "Dimming time (soft on/off)",
@@ -114123,7 +114123,7 @@ func New015900010001() *Device{
 			},
 			ConfigParam{
 				ID: 66,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dimming time when key pressed",
@@ -114218,7 +114218,7 @@ func New015900010051() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 1 switch type",
@@ -114242,7 +114242,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 2 switch type",
@@ -114266,7 +114266,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 2 contact type",
@@ -114290,7 +114290,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 3 contact type",
@@ -114314,7 +114314,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 255,
 				Name: "Deactivate/Activate ALL ON / ALL OFF",
@@ -114352,7 +114352,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning OFF output after set time ",
@@ -114376,7 +114376,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning ON output after set time ",
@@ -114400,7 +114400,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable/Disable 3way switch",
@@ -114424,7 +114424,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Enable/Disable Double click function",
@@ -114448,7 +114448,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving the state of the device after a power/nfailure",
@@ -114472,7 +114472,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Power reporting in Watts on power change",
@@ -114496,7 +114496,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Power reporting in Watts by time interval",
@@ -114520,7 +114520,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Minimum dimming value",
@@ -114537,7 +114537,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Maximum dimming value",
@@ -114554,7 +114554,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 65,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Dimming time (soft on/off)",
@@ -114571,7 +114571,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 66,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 3,
 				Name: "Dimming time when key pressed",
@@ -114588,7 +114588,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 67,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Ignore start level",
@@ -114612,7 +114612,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 68,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Dimming duration",
@@ -114636,7 +114636,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable / Disable Endpoints I2 or select/nNotification Type and Event",
@@ -114702,7 +114702,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 101,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable / Disable Endpoints I3 or select/nNotification Type and Event",
@@ -114768,7 +114768,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 32536,
 				Name: "Temperature sensor offset settings/nNotification Type and Event",
@@ -114799,7 +114799,7 @@ func New015900010051() *Device{
 			},
 			ConfigParam{
 				ID: 120,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Digital temperature sensor reporting",
@@ -114879,7 +114879,7 @@ func New015900020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "switch type - Input 1",
@@ -114903,7 +114903,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "switch type - Input 2",
@@ -114927,7 +114927,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 127,
 				Name: "Activate / deactivate functions ALL ON/ALL OFF",
@@ -114958,7 +114958,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Automatic turning Off relay Q2 after set time ",
@@ -114982,7 +114982,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Automatic turning Off relay Q2 after set time ",
@@ -115006,7 +115006,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving the state of the relays Q1 and Q2 after a power failure",
@@ -115030,7 +115030,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power reporting in Watts on power change for Q1",
@@ -115054,7 +115054,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power reporting in Watts on power change for Q2",
@@ -115078,7 +115078,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Power reporting in Watts by time interval for Q1",
@@ -115102,7 +115102,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Power reporting in Watts by time interval for Q1",
@@ -115126,7 +115126,7 @@ func New015900020001() *Device{
 			},
 			ConfigParam{
 				ID: 78,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Forced Flush shutter calibration",
@@ -115206,7 +115206,7 @@ func New015900020002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "switch type - Input 1",
@@ -115230,7 +115230,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "switch type - Input 2",
@@ -115254,7 +115254,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Activate / deactivate functions ALL ON/ALL OFF",
@@ -115285,7 +115285,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Automatic turning Off relay Q2 after set time ",
@@ -115309,7 +115309,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Automatic turning Off relay Q2 after set time ",
@@ -115333,7 +115333,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving the state of the relays Q1 and Q2 after a power failure",
@@ -115357,7 +115357,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power reporting in Watts on power change for Q1",
@@ -115381,7 +115381,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power reporting in Watts on power change for Q2",
@@ -115405,7 +115405,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Power reporting in Watts by time interval for Q1",
@@ -115429,7 +115429,7 @@ func New015900020002() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Power reporting in Watts by time interval for Q2",
@@ -115523,7 +115523,7 @@ func New015900020051() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Input 1 switch type",
@@ -115547,7 +115547,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 2 switch type",
@@ -115571,7 +115571,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 255,
 				Name: "Activate / deactivate functions ALL ON/ALL OFF",
@@ -115609,7 +115609,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning off output Q1 after set time",
@@ -115633,7 +115633,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning on output Q1 after set time",
@@ -115657,7 +115657,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Time Unit",
@@ -115681,7 +115681,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving the state of the relay after a power failure",
@@ -115705,7 +115705,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Output Q1 Switch selection",
@@ -115729,7 +115729,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 32536,
 				Name: "Temperature sensor offset settings",
@@ -115760,7 +115760,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 120,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Digital temperature sensor reporting",
@@ -115784,7 +115784,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning off output Q2 after set time ",
@@ -115808,7 +115808,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning on output Q2 after set time ",
@@ -115832,7 +115832,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Power reporting in Watts on power change for Q1",
@@ -115856,7 +115856,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Power reporting in Watts on power change for Q2",
@@ -115880,7 +115880,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 300,
 				Name: "Power reporting in Watts by time interval for Q1",
@@ -115904,7 +115904,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 300,
 				Name: "Power reporting in Watts by time interval for Q2",
@@ -115928,7 +115928,7 @@ func New015900020051() *Device{
 			},
 			ConfigParam{
 				ID: 64,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Output Q2 Switch selection",
@@ -116026,7 +116026,7 @@ func New015900020053() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Input 1 switch type",
@@ -116050,7 +116050,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 2 contact type",
@@ -116074,7 +116074,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 255,
 				Name: "Activate / deactivate functions ALL ON/ALL OFF",
@@ -116112,7 +116112,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning off output after set time",
@@ -116136,7 +116136,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Automatic turning on output after set time",
@@ -116160,7 +116160,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Time Unit",
@@ -116184,7 +116184,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving the state of the relay after a power failure",
@@ -116208,7 +116208,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Output Switch selection",
@@ -116232,7 +116232,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 100,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Enable / Disable Endpoint I2 or select Notification Type and Event",
@@ -116291,7 +116291,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 110,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 32536,
 				Name: "Temperature sensor offset settings",
@@ -116322,7 +116322,7 @@ func New015900020053() *Device{
 			},
 			ConfigParam{
 				ID: 120,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Digital temperature sensor reporting",
@@ -116403,7 +116403,7 @@ func New015900030002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "switch type - Input 1",
@@ -116427,7 +116427,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "switch type - Input 2",
@@ -116451,7 +116451,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 127,
 				Name: "Activate / deactivate functions ALL ON/ALL OFF",
@@ -116482,7 +116482,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Automatic turning Off relay Q2 after set time ",
@@ -116506,7 +116506,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Automatic turning Off relay Q2 after set time ",
@@ -116530,7 +116530,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Saving the state of the relays Q1 and Q2 after a power failure",
@@ -116554,7 +116554,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Power reporting in Watts on power change for Q1",
@@ -116578,7 +116578,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 41,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Power reporting in Watts on power change for Q2",
@@ -116602,7 +116602,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Power reporting in Watts by time interval for Q1",
@@ -116626,7 +116626,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Power reporting in Watts by time interval for Q2",
@@ -116650,7 +116650,7 @@ func New015900030002() *Device{
 			},
 			ConfigParam{
 				ID: 78,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Forced Flush shutter calibration",
@@ -116740,7 +116740,7 @@ func New015900050001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "switch type - Input 1",
@@ -116764,7 +116764,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Schaltertyp - Input 2",
@@ -116788,7 +116788,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Schaltertyp - Input 3",
@@ -116812,7 +116812,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 2 contact-type",
@@ -116836,7 +116836,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Input 3 contact-type",
@@ -116860,7 +116860,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Aktiviert/Deaktiviert alle Funktionen",
@@ -116891,7 +116891,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 65535,
 				Name: " Set point set by I2",
@@ -116915,7 +116915,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 65535,
 				Name: " Set point set by I2",
@@ -116939,7 +116939,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Saving the state of the relay after a power failure",
@@ -116963,7 +116963,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 40,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Power reporting in Watts on power change",
@@ -116987,7 +116987,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 42,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Power reporting in Watts by time interval for Q1",
@@ -117011,7 +117011,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 43,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 132,
 				Name: "Hysteresis On",
@@ -117035,7 +117035,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 44,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 132,
 				Name: "Hysteresis Off",
@@ -117059,7 +117059,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 45,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 50,
 				Name: "Antifreeze",
@@ -117083,7 +117083,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 60,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 50,
 				Name: "Too low temperature limit",
@@ -117100,7 +117100,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 61,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 50,
 				Name: "Too high temperature limit",
@@ -117117,7 +117117,7 @@ func New015900050001() *Device{
 			},
 			ConfigParam{
 				ID: 63,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Switch selection",
@@ -117184,7 +117184,7 @@ func New015a10070002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Motor Open, Go to Direction B",
@@ -117194,7 +117194,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Motor Stop",
@@ -117204,7 +117204,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Motor Close, Go to Direction A",
@@ -117214,7 +117214,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Motor Position",
@@ -117231,7 +117231,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Return motor current position",
@@ -117248,7 +117248,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Motor revert direction",
@@ -117258,7 +117258,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Clear motor lead tail endpoint setting",
@@ -117268,7 +117268,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Return motor status flag",
@@ -117334,7 +117334,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Enable manual pulling function",
@@ -117344,7 +117344,7 @@ func New015a10070002() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Disable manual pulling function",
@@ -117505,7 +117505,7 @@ func New015f00010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -117561,7 +117561,7 @@ func New015f00020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -117929,7 +117929,7 @@ func New016500010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Default State",
@@ -117960,7 +117960,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Power Failure",
@@ -117977,7 +117977,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Follow State",
@@ -117994,7 +117994,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Always On",
@@ -118018,7 +118018,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 1",
@@ -118028,7 +118028,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type1",
@@ -118038,7 +118038,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 2",
@@ -118048,7 +118048,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type2",
@@ -118058,7 +118058,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 3",
@@ -118068,7 +118068,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type3",
@@ -118078,7 +118078,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 4",
@@ -118088,7 +118088,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type4",
@@ -118098,7 +118098,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 5",
@@ -118108,7 +118108,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type5",
@@ -118118,7 +118118,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 6",
@@ -118128,7 +118128,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type6",
@@ -118138,7 +118138,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 7",
@@ -118148,7 +118148,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type7",
@@ -118158,7 +118158,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Alarm Type 8",
@@ -118168,7 +118168,7 @@ func New016500010001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "ALARM SPECIFICATIONS Type8",
@@ -118256,7 +118256,7 @@ func New016500010003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "Default State",
@@ -118287,7 +118287,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 3,
 				Name: "Follow State",
@@ -118311,7 +118311,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Always On",
@@ -118335,7 +118335,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 10,
 				Name: "Power Auto-Sending Report",
@@ -118359,7 +118359,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 2000,
 				Name: "Overload Report",
@@ -118383,7 +118383,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 1000,
 				Name: "Energy Auto-Sending Report",
@@ -118407,7 +118407,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 3600,
 				Name: "Metering Pulse",
@@ -118431,7 +118431,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 20,
 				Name: "Power High Threshold",
@@ -118455,7 +118455,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 5,
 				Name: "Power Low Threshold",
@@ -118479,7 +118479,7 @@ func New016500010003() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 7,
 				Name: "Power Threshold Action",
@@ -118584,7 +118584,7 @@ func New016500020001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 1&amp;3 PROFILE",
@@ -118615,7 +118615,7 @@ func New016500020001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 2&amp;4 PROFILE",
@@ -118646,7 +118646,7 @@ func New016500020001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SCENE TYPE",
@@ -118670,7 +118670,7 @@ func New016500020001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 1 CONFIGURATION",
@@ -118701,7 +118701,7 @@ func New016500020001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 2 CONFIGURATION",
@@ -118732,7 +118732,7 @@ func New016500020001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 3 CONFIGURATION",
@@ -118763,7 +118763,7 @@ func New016500020001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 4 CONFIGURATION",
@@ -118794,7 +118794,7 @@ func New016500020001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED MANAGEMENT",
@@ -118914,7 +118914,7 @@ func New016500020002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 1&amp;3 PROFILE",
@@ -118945,7 +118945,7 @@ func New016500020002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 2&amp;4 PROFILE",
@@ -118976,7 +118976,7 @@ func New016500020002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SCENE TYPE",
@@ -119000,7 +119000,7 @@ func New016500020002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 1 CONFIGURATION",
@@ -119031,7 +119031,7 @@ func New016500020002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 2 CONFIGURATION",
@@ -119062,7 +119062,7 @@ func New016500020002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 3 CONFIGURATION",
@@ -119093,7 +119093,7 @@ func New016500020002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 4 CONFIGURATION",
@@ -119124,7 +119124,7 @@ func New016500020002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED MANAGEMENT",
@@ -119244,7 +119244,7 @@ func New016500020003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 1&amp;3 PROFILE",
@@ -119275,7 +119275,7 @@ func New016500020003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTONS 2&amp;4 PROFILE",
@@ -119306,7 +119306,7 @@ func New016500020003() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "SCENE TYPE",
@@ -119330,7 +119330,7 @@ func New016500020003() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 1 CONFIGURATION",
@@ -119361,7 +119361,7 @@ func New016500020003() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 2 CONFIGURATION",
@@ -119392,7 +119392,7 @@ func New016500020003() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 3 CONFIGURATION",
@@ -119423,7 +119423,7 @@ func New016500020003() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "BUTTON 4 CONFIGURATION",
@@ -119454,7 +119454,7 @@ func New016500020003() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED MANAGEMENT",
@@ -119527,7 +119527,7 @@ func New016601000100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Switchmodus",
@@ -119787,7 +119787,7 @@ func New017500010011() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 720,
 				Name: "Watt Meter",
@@ -119804,7 +119804,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 6,
 				Name: "KWH Meter Report Period",
@@ -119821,7 +119821,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1300,
 				Name: "Threshold of current for Load caution",
@@ -119838,7 +119838,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 10000,
 				Name: "Threshold of KWh for Load caution",
@@ -119855,7 +119855,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Restore switch state mode",
@@ -119886,7 +119886,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Mode of Switch Off function",
@@ -119910,7 +119910,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED indication mode",
@@ -119941,7 +119941,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Auto off timer",
@@ -119965,7 +119965,7 @@ func New017500010011() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "RF off command mode",
@@ -120094,7 +120094,7 @@ func New01750002000d() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -120125,7 +120125,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 80,
 				Name: "PIR Sensitivity",
@@ -120149,7 +120149,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 99,
 				Name: "Light Threshold",
@@ -120180,7 +120180,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -120246,7 +120246,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "MultSensor  Function Switch",
@@ -120312,7 +120312,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Customer Function",
@@ -120378,7 +120378,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "PIR ReDetect  Interval Time",
@@ -120395,7 +120395,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 4,
 				Name: "Turn Off Light Time",
@@ -120419,7 +120419,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -120443,7 +120443,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Illumination Time",
@@ -120467,7 +120467,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperature Time",
@@ -120491,7 +120491,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -120515,7 +120515,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -120539,7 +120539,7 @@ func New01750002000d() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Illumination Differential Report",
@@ -120654,7 +120654,7 @@ func New01750002000e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -120685,7 +120685,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 99,
 				Name: "Light Threshold",
@@ -120716,7 +120716,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Operation Mode",
@@ -120782,7 +120782,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "MultiSensor  Function Switch",
@@ -120848,7 +120848,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 4,
 				Name: "Customer Function",
@@ -120914,7 +120914,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Battery Time",
@@ -120938,7 +120938,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Door/Windo w State Time",
@@ -120962,7 +120962,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Illumination Time",
@@ -120986,7 +120986,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 12,
 				Name: "Auto Report Temperature Time",
@@ -121010,7 +121010,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 30,
 				Name: "Auto Report Tick Interval",
@@ -121034,7 +121034,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Temperature Differential Report",
@@ -121058,7 +121058,7 @@ func New01750002000e() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Illumination Differential Report",
@@ -121172,7 +121172,7 @@ func New017501000101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Button 1 and 3 pair mode ",
@@ -121203,7 +121203,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Button 2 and 4 pair mode ",
@@ -121234,7 +121234,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Command to Control Group A ",
@@ -121300,7 +121300,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Command to Control Group B",
@@ -121366,7 +121366,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Command to Control Group C ",
@@ -121432,7 +121432,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Command to Control Group D",
@@ -121498,7 +121498,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch All Commands",
@@ -121529,7 +121529,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert buttons ",
@@ -121553,7 +121553,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Blocks wakeup even when wakeup interval is set ",
@@ -121577,7 +121577,7 @@ func New017501000101() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Unsolicited Battery Report",
@@ -121806,7 +121806,7 @@ func New017600050001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 2 Command Type",
@@ -121844,7 +121844,7 @@ func New017600050001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Sent Value Association Group 2",
@@ -121868,7 +121868,7 @@ func New017600050001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Commands to Association Group 2",
@@ -121892,7 +121892,7 @@ func New017600050001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Association Group 3 Command Type",
@@ -121930,7 +121930,7 @@ func New017600050001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Sent Value Association Group 3",
@@ -121954,7 +121954,7 @@ func New017600050001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Type of Commands to Association Group 3",
@@ -121978,7 +121978,7 @@ func New017600050001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED-Indicator",
@@ -122002,7 +122002,7 @@ func New017600050001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lifeline Command Type",
@@ -122090,7 +122090,7 @@ func New01785a44414e() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 100,
 				Name: "Buzzer Volume",
@@ -122107,7 +122107,7 @@ func New01785a44414e() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor Discovery Mode",
@@ -122131,7 +122131,7 @@ func New01785a44414e() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Night Light Mode",
@@ -122192,7 +122192,7 @@ func New017c00010002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "delta temperature",
@@ -122209,7 +122209,7 @@ func New017c00010002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "temperature scale",
@@ -122271,7 +122271,7 @@ func New017c00060003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Missing Radio Link time",
@@ -122288,7 +122288,7 @@ func New017c00060003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Relay Type",
@@ -122596,7 +122596,7 @@ func New018444473031() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED Configuration",
@@ -122683,7 +122683,7 @@ func New018444473033() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED indicator",
@@ -122714,7 +122714,7 @@ func New018444473033() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Orientation of On/Off Rocker Switch",
@@ -122794,7 +122794,7 @@ func New018444473034() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Orientation of ON/OFF rocker switch",
@@ -122818,7 +122818,7 @@ func New018444473034() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Dimming increments",
@@ -122835,7 +122835,7 @@ func New018444473034() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Time interval of brightness change",
@@ -122908,7 +122908,7 @@ func New018447443032() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "LED Indicator",
@@ -122939,7 +122939,7 @@ func New018447443032() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Lighting Level",
@@ -122956,7 +122956,7 @@ func New018447443032() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Timer",
@@ -123652,7 +123652,7 @@ func New018f01000101() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Button 1 and 3 pair mode",
@@ -123683,7 +123683,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Button 2 and 4 pair mode",
@@ -123714,7 +123714,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Action on group 1",
@@ -123787,7 +123787,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Action on group 2",
@@ -123860,7 +123860,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Action on group 3",
@@ -123933,7 +123933,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 8,
 				Name: "Action on group 4",
@@ -124006,7 +124006,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "Typical click time out",
@@ -124023,7 +124023,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Send the following Switch All commands",
@@ -124054,7 +124054,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Invert buttons",
@@ -124078,7 +124078,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 2,
 				Name: "LED confirmation mode",
@@ -124109,7 +124109,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Blocks wake up even when wake up interval is set",
@@ -124133,7 +124133,7 @@ func New018f01000101() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Send unsolicited Battery Report on Wake Up",
@@ -124242,7 +124242,7 @@ func New019000010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "HVAC System Type",
@@ -124266,7 +124266,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Heat Stages",
@@ -124283,7 +124283,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Number of Cool Stages	",
@@ -124300,7 +124300,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Heat Fuel Type",
@@ -124324,7 +124324,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Calibration Temperature",
@@ -124341,7 +124341,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Overshoot",
@@ -124358,7 +124358,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Swing",
@@ -124375,7 +124375,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Heat Staging Delay",
@@ -124392,7 +124392,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Cool Staging Delay",
@@ -124409,7 +124409,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Balance Setpoint",
@@ -124426,7 +124426,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Recovery Settings",
@@ -124450,7 +124450,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Fan Circulation Period",
@@ -124467,7 +124467,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Fan Circulation Duty Cycle",
@@ -124484,7 +124484,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Fan Purge Time",
@@ -124501,7 +124501,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Maximum Heat Setpoint",
@@ -124518,7 +124518,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Minimum Heat Setpoint",
@@ -124528,7 +124528,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Maximum Cool Setpoint",
@@ -124545,7 +124545,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Minimum Cool Setpoint",
@@ -124562,7 +124562,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Thermostat Lock",
@@ -124586,7 +124586,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Compressor Delay",
@@ -124603,7 +124603,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Demand Response Period",
@@ -124620,7 +124620,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Demand Response Duty Cycle",
@@ -124637,7 +124637,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Temperature Display Units",
@@ -124661,7 +124661,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "HVAC Modes Enabled",
@@ -124720,7 +124720,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Power Source",
@@ -124744,7 +124744,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configurable Terminal Setting",
@@ -124782,7 +124782,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Battery Alert Threshold Low",
@@ -124799,7 +124799,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Battery Alert Threshold Very Low",
@@ -124816,7 +124816,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Remote Temperature Enable",
@@ -124840,7 +124840,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Heat Differential",
@@ -124857,7 +124857,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Cool Differential",
@@ -124874,7 +124874,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 0,
 				Name: "Temperature Reporting Threshold",
@@ -124891,7 +124891,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "O/B Select",
@@ -124915,7 +124915,7 @@ func New019000010001() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Z-Wave Echo Association Reports",
@@ -125001,7 +125001,7 @@ func New019000030001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 600,
 				Name: "Wake up Period",
@@ -125018,7 +125018,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 1755,
 				Name: "Low Battery Level",
@@ -125035,7 +125035,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 10,
 				Name: "Temperature Reporting Threshold",
@@ -125059,7 +125059,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "bitset",
 				Size: 2,
 				Default: 1,
 				Name: "Configuration Bitmask",
@@ -125097,7 +125097,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 8,
 				Name: "Battery Reporting Interval",
@@ -125121,7 +125121,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 60,
 				Name: "Temperature Checking Interval",
@@ -125138,7 +125138,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature Reporting Interval",
@@ -125162,7 +125162,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature Calibration O",
@@ -125179,7 +125179,7 @@ func New019000030001() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 7200,
 				Name: "Mandatory Temperature Reporting Interval",
@@ -125371,7 +125371,7 @@ func New019a00030003() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Notification Type",
@@ -125402,7 +125402,7 @@ func New019a00030003() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED indication",
@@ -126290,7 +126290,7 @@ func New020e47543038() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Dim Level",
@@ -126610,7 +126610,7 @@ func New022a01000100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 2400,
 				Name: "Valve Default Timeout",
@@ -126627,7 +126627,7 @@ func New022a01000100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 2400,
 				Name: "Remaining Time to Close",
@@ -126644,7 +126644,7 @@ func New022a01000100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 4,
 				Default: 86400,
 				Name: "Periodic Report Interval",
@@ -126873,7 +126873,7 @@ func New022e00010001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Security Function",
@@ -126925,7 +126925,7 @@ func New022e00010001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Privacy Mode",
@@ -126949,7 +126949,7 @@ func New022e00010001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "Registered User ID",
@@ -126966,7 +126966,7 @@ func New022e00010001() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Platform",
@@ -127158,7 +127158,7 @@ func New022e00050005() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "SENSOR SENSITIVITY ",
@@ -127233,7 +127233,7 @@ func New022e00060006() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "SENSOR SENSITIVITY ",
@@ -127564,7 +127564,7 @@ func New023000030001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Door Lock Mode",
@@ -127602,7 +127602,7 @@ func New023000030001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "RFID Register Mode",
@@ -127633,7 +127633,7 @@ func New023000030001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Door Hinge Position Mode",
@@ -127738,7 +127738,7 @@ func New02340003010a() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Upper paddle buttons mode",
@@ -127762,7 +127762,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lower paddle buttons mode.",
@@ -127786,7 +127786,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED #1 mode",
@@ -127852,7 +127852,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED #2 mode",
@@ -127918,7 +127918,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED #3 mode",
@@ -127984,7 +127984,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED #4 mode.",
@@ -128050,7 +128050,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED #1 brightness level.",
@@ -128067,7 +128067,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED #2 brightness level.",
@@ -128084,7 +128084,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED #3 brightness level.",
@@ -128101,7 +128101,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 50,
 				Name: "LED #4 brightness level.",
@@ -128118,7 +128118,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "LED #1 off brightness level",
@@ -128135,7 +128135,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "LED #2 off brightness level",
@@ -128152,7 +128152,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "LED #3 off brightness level",
@@ -128169,7 +128169,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "LED #4 off brightness level",
@@ -128186,7 +128186,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Relay mode",
@@ -128238,7 +128238,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Indicator mode",
@@ -128262,7 +128262,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Scene notification offset",
@@ -128286,7 +128286,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Disable House Cleaning Mode",
@@ -128310,7 +128310,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Multilevel Switch on single press for device 1 (button #1)",
@@ -128320,7 +128320,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Multilevel Switch on single press for device 2",
@@ -128330,7 +128330,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Multilevel Switch on single press for device 3 (button #3)",
@@ -128340,7 +128340,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Multilevel Switch on single press for device 4 (button #4)",
@@ -128350,7 +128350,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Control of association groups for device 1 (button #1)",
@@ -128374,7 +128374,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Control of association groups for device 2 (button #2)",
@@ -128398,7 +128398,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Control of association groups for device 3 (button #3)",
@@ -128422,7 +128422,7 @@ func New02340003010a() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Control of association groups for device 4 (button #4)",
@@ -129060,7 +129060,7 @@ func New024500030001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "bitrange",
 				Size: 1,
 				Default: 0,
 				Name: "Local Control",
@@ -129141,7 +129141,7 @@ func New024500030002() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Send Meter Report Enable",
@@ -129165,7 +129165,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Meter Report Interval",
@@ -129182,7 +129182,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 13,
 				Name: "Configure maximum over-load current",
@@ -129199,7 +129199,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Configure maximum Alarm current",
@@ -129216,7 +129216,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Led Display Enable",
@@ -129240,7 +129240,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 10,
 				Name: "Configure power report",
@@ -129257,7 +129257,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Remember Relay ON/OFF status",
@@ -129281,7 +129281,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configure Plug Time switch Function",
@@ -129305,7 +129305,7 @@ func New024500030002() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 150,
 				Name: "Configure Time switch Period",
@@ -129395,7 +129395,7 @@ func New024700420001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 4,
 				Default: 0,
 				Name: "Standby Power Settings",
@@ -129405,7 +129405,7 @@ func New024700420001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Periodic Measurement Value Transmission",
@@ -129429,7 +129429,7 @@ func New024700420001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Power Accumulation",
@@ -129453,7 +129453,7 @@ func New024700420001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Connected Device",
@@ -129477,7 +129477,7 @@ func New024700420001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "Periodic Measurement Value Transmission Interval",
@@ -130102,7 +130102,7 @@ func New024d47610001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Checking thumb turn status interval",
@@ -130119,7 +130119,7 @@ func New024d47610001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "LED indicator for data transmission",
@@ -130367,7 +130367,7 @@ func New025800030082() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "OFF Delay",
@@ -130384,7 +130384,7 @@ func New025800030082() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -130482,7 +130482,7 @@ func New025800030083() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "Sensitivity Level Setting",
@@ -130499,7 +130499,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 2,
 				Name: "On/Off Duration",
@@ -130516,7 +130516,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -130547,7 +130547,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "PIR Detecting Function Enabled/Disabled",
@@ -130571,7 +130571,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Ambient Illumination Lux Level",
@@ -130588,7 +130588,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Re-trigger Interval Setting",
@@ -130598,7 +130598,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 180,
 				Name: "Light Sensor Polling Interval",
@@ -130615,7 +130615,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Lux Level Function Enable",
@@ -130639,7 +130639,7 @@ func New025800030083() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 100,
 				Name: "Ambient Illumination Lux Level Report",
@@ -130719,7 +130719,7 @@ func New025800030085() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 120,
 				Name: "Configuring Alarm Duration Time",
@@ -130743,7 +130743,7 @@ func New025800030085() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "Configure Alarm Interval",
@@ -130760,7 +130760,7 @@ func New025800030085() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 60,
 				Name: "Configure First Alarm On Time Duration",
@@ -130777,7 +130777,7 @@ func New025800030085() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Configure Alarm on Time Duration",
@@ -130794,7 +130794,7 @@ func New025800030085() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Configure Alarm Enable/Disable",
@@ -130818,7 +130818,7 @@ func New025800030085() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Configure Water Leakage Detected Enable/Disable",
@@ -130842,7 +130842,7 @@ func New025800030085() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -130933,7 +130933,7 @@ func New025800030087() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Meter Report",
@@ -130957,7 +130957,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Meter Report Interval",
@@ -130974,7 +130974,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 13,
 				Name: "Maximum Over-load Current",
@@ -130991,7 +130991,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Maximum Alarm Current",
@@ -131008,7 +131008,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Led Display Enable",
@@ -131032,7 +131032,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Power Report",
@@ -131049,7 +131049,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Relay ON/OFF Status",
@@ -131073,7 +131073,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Plug Time Switch Function",
@@ -131097,7 +131097,7 @@ func New025800030087() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 150,
 				Name: "Time switch Period",
@@ -131177,7 +131177,7 @@ func New025800031082() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 0,
 				Name: "Configuring the OFF Delay",
@@ -131194,7 +131194,7 @@ func New025800031082() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 255,
 				Name: "Basic Set Level",
@@ -131285,7 +131285,7 @@ func New025800031087() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Send Meter Report Enable",
@@ -131309,7 +131309,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 300,
 				Name: "Meter Report Interval",
@@ -131326,7 +131326,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 13,
 				Name: "Configure maximum over‐load current.",
@@ -131343,7 +131343,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 12,
 				Name: "Configure maximum Alarm current.",
@@ -131360,7 +131360,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Led Display Enable",
@@ -131384,7 +131384,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "Configure report by Current Changed",
@@ -131401,7 +131401,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Remember Relay ON/OFF status",
@@ -131425,7 +131425,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Configure Plug Time switch Function",
@@ -131449,7 +131449,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "range",
 				Size: 2,
 				Default: 150,
 				Name: "Configure Time switch Period",
@@ -131466,7 +131466,7 @@ func New025800031087() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Button On/Off Enable",
@@ -131556,7 +131556,7 @@ func New025d01000100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 1",
@@ -131587,7 +131587,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 1",
@@ -131604,7 +131604,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 1",
@@ -131621,7 +131621,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "EP 1",
@@ -131638,7 +131638,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 2",
@@ -131669,7 +131669,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 2",
@@ -131686,7 +131686,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 2",
@@ -131703,7 +131703,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "EP 2",
@@ -131720,7 +131720,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 3",
@@ -131751,7 +131751,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 3",
@@ -131768,7 +131768,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 3",
@@ -131785,7 +131785,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "EP 3",
@@ -131802,7 +131802,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 4",
@@ -131833,7 +131833,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 4",
@@ -131850,7 +131850,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 4",
@@ -131867,7 +131867,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "EP 4",
@@ -131884,7 +131884,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 5",
@@ -131915,7 +131915,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 5",
@@ -131932,7 +131932,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 5",
@@ -131949,7 +131949,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "EP 5",
@@ -131966,7 +131966,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 6",
@@ -131997,7 +131997,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 6",
@@ -132014,7 +132014,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 6",
@@ -132031,7 +132031,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "EP 6",
@@ -132048,7 +132048,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132079,7 +132079,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132096,7 +132096,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132113,7 +132113,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132130,7 +132130,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -132161,7 +132161,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -132178,7 +132178,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -132195,7 +132195,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -132212,7 +132212,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -132243,7 +132243,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -132260,7 +132260,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -132277,7 +132277,7 @@ func New025d01000100() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -132360,7 +132360,7 @@ func New025d02000100() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 1",
@@ -132391,7 +132391,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 1",
@@ -132408,7 +132408,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 1",
@@ -132425,7 +132425,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 1,
 				Name: "EP 1",
@@ -132442,7 +132442,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 2",
@@ -132473,7 +132473,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 2",
@@ -132490,7 +132490,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 2",
@@ -132507,7 +132507,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 2,
 				Name: "EP 2",
@@ -132524,7 +132524,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 3",
@@ -132555,7 +132555,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 3",
@@ -132572,7 +132572,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 3",
@@ -132589,7 +132589,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "EP 3",
@@ -132606,7 +132606,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 4",
@@ -132637,7 +132637,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 4",
@@ -132654,7 +132654,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 4",
@@ -132671,7 +132671,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 4,
 				Name: "EP 4",
@@ -132688,7 +132688,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 5",
@@ -132719,7 +132719,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 5",
@@ -132736,7 +132736,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 5",
@@ -132753,7 +132753,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 5,
 				Name: "EP 5",
@@ -132770,7 +132770,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 6",
@@ -132801,7 +132801,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 6",
@@ -132818,7 +132818,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 6",
@@ -132835,7 +132835,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 6,
 				Name: "EP 6",
@@ -132852,7 +132852,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132883,7 +132883,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132900,7 +132900,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132917,7 +132917,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 7",
@@ -132934,7 +132934,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -132965,7 +132965,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -132982,7 +132982,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -132999,7 +132999,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 8",
@@ -133016,7 +133016,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -133047,7 +133047,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -133064,7 +133064,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -133081,7 +133081,7 @@ func New025d02000100() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "EP 9",
@@ -133555,7 +133555,7 @@ func New027601390001() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "System Type (read-only)",
@@ -133565,7 +133565,7 @@ func New027601390001() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 12,
 				Name: "Filter - Period (read-only)",
@@ -133575,7 +133575,7 @@ func New027601390001() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Filter - Days Used (read-only)",
@@ -133585,7 +133585,7 @@ func New027601390001() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Boost Mode Remaining Time (read-only)",
@@ -133595,7 +133595,7 @@ func New027601390001() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Temperature Setpoint Step (read-only)",
@@ -133605,7 +133605,7 @@ func New027601390001() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "CDx New Firmware Version Available",
@@ -133615,7 +133615,7 @@ func New027601390001() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "PCU-ECx New Firmware Version Available",
@@ -134208,7 +134208,7 @@ func New525401008371() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134218,7 +134218,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134228,7 +134228,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 3,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134238,7 +134238,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 4,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134248,7 +134248,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134258,7 +134258,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134268,7 +134268,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 7,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134278,7 +134278,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134288,7 +134288,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 9,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134298,7 +134298,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 10,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134308,7 +134308,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 11,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134318,7 +134318,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 12,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134328,7 +134328,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134338,7 +134338,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 14,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134348,7 +134348,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 15,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134358,7 +134358,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 16,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134368,7 +134368,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134378,7 +134378,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134388,7 +134388,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134398,7 +134398,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 20,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134408,7 +134408,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "Simple AV Command Key",
@@ -134418,7 +134418,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Download Status Register",
@@ -134463,7 +134463,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 23,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134473,7 +134473,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 24,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134483,7 +134483,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "The Simple AV command number or key going to be learned",
@@ -134493,7 +134493,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Learning status register",
@@ -134538,7 +134538,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "IR code number for built-in code library",
@@ -134548,7 +134548,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "External IR Emitter power level",
@@ -134572,7 +134572,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "IR output port routing",
@@ -134624,7 +134624,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 30,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134634,7 +134634,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "IR transmission mode",
@@ -134658,7 +134658,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134668,7 +134668,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134678,7 +134678,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 34,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134688,7 +134688,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134698,7 +134698,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Check Library Version (Read Only)",
@@ -134708,7 +134708,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Reserved",
@@ -134718,7 +134718,7 @@ func New525401008371() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "End point selection control",
@@ -134806,7 +134806,7 @@ func New525401018371() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "Parameter 1 to 20",
@@ -134816,7 +134816,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 21,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "",
@@ -134826,7 +134826,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 22,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -134836,7 +134836,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "",
@@ -134846,7 +134846,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -134856,7 +134856,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "constant",
 				Size: 2,
 				Default: 0,
 				Name: "",
@@ -134866,7 +134866,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -134876,7 +134876,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 29,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -134886,7 +134886,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 31,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -134896,7 +134896,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 36,
-				Type: "",
+				Type: "constant",
 				Size: 4,
 				Default: 0,
 				Name: "",
@@ -134906,7 +134906,7 @@ func New525401018371() *Device{
 			},
 			ConfigParam{
 				ID: 38,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -134964,7 +134964,7 @@ func New525401018377() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 1,
 				Name: "Indicate a location for IR code  learning and start learning",
@@ -135009,7 +135009,7 @@ func New525401018377() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Learning status register",
@@ -135047,7 +135047,7 @@ func New525401018377() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "IR code number for built-in  code library ",
@@ -135057,7 +135057,7 @@ func New525401018377() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "External IR Emitter power  level ",
@@ -135081,7 +135081,7 @@ func New525401018377() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Surround IR control",
@@ -135105,7 +135105,7 @@ func New525401018377() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "AC function &#34;Swing&#34; control",
@@ -135129,7 +135129,7 @@ func New525401018377() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "bitset",
 				Size: 4,
 				Default: 0,
 				Name: "Learn location status",
@@ -135187,7 +135187,7 @@ func New525401078377() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 0,
 				Name: "IR code",
@@ -135204,7 +135204,7 @@ func New525401078377() *Device{
 			},
 			ConfigParam{
 				ID: 26,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Learning Status register",
@@ -135242,7 +135242,7 @@ func New525401078377() *Device{
 			},
 			ConfigParam{
 				ID: 27,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "IR code number",
@@ -135259,7 +135259,7 @@ func New525401078377() *Device{
 			},
 			ConfigParam{
 				ID: 28,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "External IR Emitter power level",
@@ -135283,7 +135283,7 @@ func New525401078377() *Device{
 			},
 			ConfigParam{
 				ID: 32,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "Surround IR control",
@@ -135307,7 +135307,7 @@ func New525401078377() *Device{
 			},
 			ConfigParam{
 				ID: 33,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "AC function &#34;SWING&#34; control",
@@ -135331,7 +135331,7 @@ func New525401078377() *Device{
 			},
 			ConfigParam{
 				ID: 35,
-				Type: "",
+				Type: "bitset",
 				Size: 1,
 				Default: 0,
 				Name: "Learn location status",
@@ -135376,7 +135376,7 @@ func New525401078377() *Device{
 			},
 			ConfigParam{
 				ID: 37,
-				Type: "",
+				Type: "rangemapped",
 				Size: 1,
 				Default: 0,
 				Name: "Sensor temperature compensation",
@@ -135583,7 +135583,7 @@ func New52544d534331() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "rangemapped",
 				Size: 2,
 				Default: 0,
 				Name: "IR Library Code Number",
@@ -135600,7 +135600,7 @@ func New52544d534331() *Device{
 			},
 			ConfigParam{
 				ID: 2,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "Swing Control",
@@ -135719,7 +135719,7 @@ func New525480018020() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "All On/All Off",
@@ -135757,7 +135757,7 @@ func New525480018020() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch state after power failure",
@@ -135829,7 +135829,7 @@ func New525482008130() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "All On/All Off",
@@ -135867,7 +135867,7 @@ func New525482008130() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch fail safe ",
@@ -135891,7 +135891,7 @@ func New525482008130() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Double click option",
@@ -135915,7 +135915,7 @@ func New525482008130() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dimmer Mode",
@@ -135932,7 +135932,7 @@ func New525482008130() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Maximum Dimmer level control",
@@ -135949,7 +135949,7 @@ func New525482008130() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 13,
 				Name: "Minimum Dimmer level control",
@@ -136058,7 +136058,7 @@ func New525482018021() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 255,
 				Name: "All On/All Of",
@@ -136096,7 +136096,7 @@ func New525482018021() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Switch state after power failure",
@@ -136120,7 +136120,7 @@ func New525482018021() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "Double click option",
@@ -136144,7 +136144,7 @@ func New525482018021() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 3,
 				Name: "Dimming time frame",
@@ -136161,7 +136161,7 @@ func New525482018021() *Device{
 			},
 			ConfigParam{
 				ID: 18,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 99,
 				Name: "Maximum Dimmer level control",
@@ -136178,7 +136178,7 @@ func New525482018021() *Device{
 			},
 			ConfigParam{
 				ID: 19,
-				Type: "",
+				Type: "range",
 				Size: 1,
 				Default: 13,
 				Name: "Minimum Dimmer level control",
@@ -136233,7 +136233,7 @@ func New525482018120() *Device{
 		ConfigParams: []ConfigParam{
 			ConfigParam{
 				ID: 1,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 127,
 				Name: "",
@@ -136243,7 +136243,7 @@ func New525482018120() *Device{
 			},
 			ConfigParam{
 				ID: 5,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -136253,7 +136253,7 @@ func New525482018120() *Device{
 			},
 			ConfigParam{
 				ID: 6,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -136263,7 +136263,7 @@ func New525482018120() *Device{
 			},
 			ConfigParam{
 				ID: 8,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",
@@ -136273,7 +136273,7 @@ func New525482018120() *Device{
 			},
 			ConfigParam{
 				ID: 13,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 1,
 				Name: "",
@@ -136283,7 +136283,7 @@ func New525482018120() *Device{
 			},
 			ConfigParam{
 				ID: 17,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 25,
 				Name: "",
@@ -136293,7 +136293,7 @@ func New525482018120() *Device{
 			},
 			ConfigParam{
 				ID: 25,
-				Type: "",
+				Type: "constant",
 				Size: 1,
 				Default: 0,
 				Name: "",

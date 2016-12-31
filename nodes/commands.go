@@ -6,9 +6,37 @@ import (
 	"log"
 	"time"
 
+	"github.com/Sirupsen/logrus"
 	"github.com/stampzilla/gozwave/commands"
 	"github.com/stampzilla/gozwave/interfaces"
 )
+
+func (n *Node) SetConfiguration(parameter int, value ...int) error {
+	var send interfaces.Encodable
+
+	if n.HasCommand(commands.Configuration) {
+		if data, err := n.BuildConfigParamData(parameter, value...); err == nil {
+			logrus.Infof("%d - setting %d to %d", n.Id, parameter, value)
+			logrus.Infof("bytes - %v", data)
+			cmd := commands.NewConfigurationSet()
+
+			// cmd.SetParameter(parameter)
+			// cmd.SetValue(value)
+			cmd.SetData(data)
+			cmd.SetNode(n.Id)
+
+			send = cmd
+		} else {
+			return err
+		}
+	} else {
+		return fmt.Errorf("%d has no configuration command class", n.Id)
+	}
+
+	n.connection.Write(send)
+
+	return nil
+}
 
 func (n *Node) GetConfiguration(parameter int) error {
 	var send interfaces.Encodable

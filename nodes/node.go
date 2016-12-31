@@ -1,6 +1,8 @@
 package nodes
 
 import (
+	"errors"
+	"fmt"
 	"strings"
 	"sync"
 	"time"
@@ -281,12 +283,31 @@ func (n *Node) HasCommand(c commands.ZWaveCommand) bool {
 
 func (n *Node) HasConfigParam(p int) bool {
 	for _, cp := range n.Device.ConfigParams {
-		if cp.ID == p {
+		if p == cp.ID {
 			return true
 		}
 	}
 
 	return false
+}
+
+func (n *Node) BuildConfigParamData(p int, v ...int) ([]byte, error) {
+	var err error
+	var data []byte
+	for _, cp := range n.Device.ConfigParams {
+		if cp.ID == p {
+			err = validateConfigParamValues(v, cp)
+			if err != nil {
+				return data, err
+			}
+			data, err = buildData(p, v, cp)
+			if err != nil {
+				return data, err
+			}
+		}
+	}
+
+	return data, nil
 }
 
 func (n *Node) IsDeviceClass(generic, specific byte) bool {
@@ -295,4 +316,86 @@ func (n *Node) IsDeviceClass(generic, specific byte) bool {
 	}
 
 	return n.ProtocolInfo.Generic == generic && n.ProtocolInfo.Specific == specific
+}
+
+func buildData(p int, v []int, cp database.ConfigParam) ([]byte, error) {
+	var data []byte
+
+	data = append(data, byte(p))
+	data = append(data, byte(cp.Size))
+
+	switch cp.Size {
+	case 1:
+		data = append(data, byte(v[0]))
+	case 2:
+		if len(v) == 1 {
+			var first, second uint8 = uint8(v[0] >> 8), uint8(v[0] & 0xff)
+			data = append(data, byte(first), byte(second))
+		} else {
+			data = append(data, byte(v[0]), byte(v[1]))
+		}
+	case 3:
+		if len(v) == 1 {
+			var first, second, third uint8 = uint8(v[0] >> 16), uint8(v[0] >> 8), uint8(v[0] & 0xff)
+			data = append(data, byte(first), byte(second), byte(third))
+		} else {
+			data = append(data, byte(v[0]), byte(v[1]), byte(v[2]))
+		}
+	case 4:
+		if len(v) == 1 {
+			var first, second, third, fourth uint8 = uint8(v[0] >> 24), uint8(v[0] >> 16), uint8(v[0] >> 8), uint8(v[0] & 0xff)
+			data = append(data, byte(first), byte(second), byte(third), byte(fourth))
+		} else {
+			data = append(data, byte(v[0]), byte(v[1]), byte(v[2]), byte(v[3]))
+		}
+	}
+	return data, nil
+}
+
+func validateConfigParamValues(v []int, cp database.ConfigParam) error {
+	var err error
+
+	if len(v) == 0 {
+		return errors.New("no config value supplied")
+	} else if len(v) == 1 {
+		err = validateSingleValue(v[0], cp)
+		if err != nil {
+			return err
+		}
+	} else {
+		err = validateMultipleValues(v, cp)
+		if err != nil {
+			return err
+		}
+	}
+
+	return nil
+}
+
+func validateSingleValue(v int, cp database.ConfigParam) error {
+	if v < (256^cp.Size)-1 && v >= 0 {
+		for _, cv := range cp.Values {
+			if v >= cv.From && v <= cv.To {
+				return nil
+			}
+		}
+	} else {
+		return fmt.Errorf("%d is not a valid value for %d", v, cp.ID)
+	}
+
+	return fmt.Errorf("%d is not a valid value for %d", v, cp.ID)
+}
+
+func validateMultipleValues(values []int, cp database.ConfigParam) error {
+	if len(values) != cp.Size {
+		return fmt.Errorf("expected %d values only got %d", cp.Size, len(values))
+	}
+
+	for _, v := range values {
+		if v < 0 || v > 255 {
+			return fmt.Errorf("each value must be between 0 and 255")
+		}
+	}
+
+	return nil
 }

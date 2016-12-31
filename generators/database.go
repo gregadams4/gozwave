@@ -79,7 +79,7 @@ type hexVal string
 
 type configParam struct {
 	ID          int           `xml:"number,attr"`
-	Type        string        `xml:"rangemapped,attr"`
+	Type        string        `xml:"type,attr"`
 	Size        int           `xml:"size,attr"`
 	Default     hexVal        `xml:"default,attr"`
 	Name        string        `xml:"name>lang"`

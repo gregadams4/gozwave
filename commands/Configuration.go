@@ -7,6 +7,19 @@ type CmdConfigurationGet struct {
 	parameter int
 }
 
+type CmdConfigurationSet struct {
+	node byte
+	data []byte
+}
+
+type ConfigurationReport struct {
+	*report
+	node      byte
+	Parameter byte
+	Value     []byte
+	data      []byte
+}
+
 func NewConfigurationGet() *CmdConfigurationGet {
 	return &CmdConfigurationGet{}
 }
@@ -37,12 +50,30 @@ func (c *CmdConfigurationGet) Encode() []byte {
 	}
 }
 
-type ConfigurationReport struct {
-	*report
-	node      byte
-	Parameter byte
-	Value     []byte
-	data      []byte
+func NewConfigurationSet() *CmdConfigurationSet {
+	return &CmdConfigurationSet{}
+}
+
+func (c *CmdConfigurationSet) SetData(v []byte) {
+	c.data = v
+}
+
+func (c *CmdConfigurationSet) SetNode(v int) {
+	c.node = byte(v)
+}
+
+func (c *CmdConfigurationSet) Encode() []byte {
+	data := []byte{
+		0x13,                  // SEND ZW
+		c.node,                // NOD ID
+		byte(len(c.data) + 2), // length
+		Configuration,         // command class id
+		0x04,                  // set
+	}
+
+	data = append(data, c.data...)
+	data = append(data, 0x25)
+	return data
 }
 
 func NewConfigurationReport(data []byte) *ConfigurationReport {
