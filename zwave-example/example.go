@@ -13,9 +13,9 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/stampzilla/gozwave"
-	"github.com/stampzilla/gozwave/events"
-	"github.com/stampzilla/gozwave/nodes"
+	"github.com/gregadams4/gozwave"
+	"github.com/gregadams4/gozwave/events"
+	"github.com/gregadams4/gozwave/nodes"
 
 	"github.com/gin-gonic/gin"
 )

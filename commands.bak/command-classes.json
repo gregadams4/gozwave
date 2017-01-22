@@ -1,0 +1,1025 @@
+{
+    "command_classes": [
+        {
+            "name": "SwitchColor",
+            "id": "0x33",
+            "commands": [
+                {
+                    "name": "Version",
+                    "id": "0x01"
+                },
+                {
+                    "name": "SupportedGet",
+                    "id": "0x01",
+                    "frames": [
+                        {
+                            "name": "SupportedGet",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "SupportedReport",
+                    "id": "0x02",
+                    "frames": [
+                        {
+                            "name": "SupportedRequest",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentMask1"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentMask2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Get",
+                    "id": "0x03",
+                    "frames": [
+                        {
+                            "name": "Get",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Report",
+                    "id": "0x04",
+                    "frames": [
+                        {
+                            "name": "Report",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Value"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Set",
+                    "id": "0x05",
+                    "frames": [
+                        {
+                            "name": "Set1Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "variantgroup1"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set2Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup2"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set3Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup3"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set4Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup3"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroup",
+                                    "name": "VariantGroup4"
+                                }
+                            ]
+                        }
+                    ],
+                    "structs": [
+                        {
+                            "name": "VariantGroup",
+                            "variables": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Value"
+                                }
+                            ]
+                        }
+                    ],
+                    "values": [
+                        {
+                            "name": "PropertiesColorComponentCountMask",
+                            "id": "0x1F"
+                        },
+                        {
+                            "name": "PropertiesReservedMask",
+                            "id": "0xE0"
+                        },
+                        {
+                            "name": "PropertiesReservedShift",
+                            "id": "0x05"
+                        }
+                    ]
+                },
+                {
+                    "name": "StartLevelChange",
+                    "id": "0x06",
+                    "frames": [
+                        {
+                            "name": "StartLevelChange",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "StartLevel"
+                                }
+                            ]
+                        }
+                    ],
+                    "values": [
+                        {
+                            "name": "PropertiesResMask",
+                            "id": "0x1F"
+                        },
+                        {
+                            "name": "PropertiesIgnoreStartStateBitMask",
+                            "id": "0x20"
+                        },
+                        {
+                            "name": "PropertiesUpDownBitMask",
+                            "id": "0x40"
+                        },
+                        {
+                            "name": "PropertiesResBitMask",
+                            "id": "0x80"
+                        }
+                    ]
+                },
+                {
+                    "name": "StopLevelChange",
+                    "id": "0x07",
+                    "frames": [
+                        {
+                            "name": "StartLevelChange",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "VersionV2",
+                    "id": "0x02"
+                },
+                {
+                    "name": "SupportedGetV2",
+                    "id": "0x01",
+                    "frames": [
+                        {
+                            "name": "SupportedGet",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "SupportedReportV2",
+                    "id": "0x02",
+                    "frames": [
+                        {
+                            "name": "SupportedRequest",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentMask1"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentMask2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "GetV2",
+                    "id": "0x03",
+                    "frames": [
+                        {
+                            "name": "Get",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ReportV2",
+                    "id": "0x04",
+                    "frames": [
+                        {
+                            "name": "Report",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Value"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "SetV2",
+                    "id": "0x05",
+                    "values": [
+                        {
+                            "name": "PropertiesColorComponentCountMaskV2",
+                            "id": "0x1F"
+                        },
+                        {
+                            "name": "PropertiesReservedMaskV2",
+                            "id": "0xE0"
+                        },
+                        {
+                            "name": "PropertiesReservedShiftV2",
+                            "id": "0x05"
+                        }
+                    ],
+                    "frames": [
+                        {
+                            "name": "Set1Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "variantgroup1"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set2Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set3Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup3"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set4Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup3"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV2",
+                                    "name": "VariantGroup4"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        }
+                    ],
+                    "structs": [
+                        {
+                            "name": "VariantGroupV2",
+                            "variables": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Value"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "StartLevelChangeV2",
+                    "id": "0x06",
+                    "values": [
+                        {
+                            "name": "PropertiesResMaskV2",
+                            "id": "0x1F"
+                        },
+                        {
+                            "name": "PropertiesIgnoreStartStateBitMaskV2",
+                            "id": "0x20"
+                        },
+                        {
+                            "name": "PropertiesUpDownBitMaskV2",
+                            "id": "0x40"
+                        },
+                        {
+                            "name": "PropertiesResBitMaskV2",
+                            "id": "0x80"
+                        }
+                    ],
+                    "frames": [
+                        {
+                            "name": "StartLevelChange",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "StartLevel"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "StopLevelChangeV2",
+                    "id": "0x07",
+                    "frames": [
+                        {
+                            "name": "StartLevelChange",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "VersionV3",
+                    "id": "0x03"
+                },
+                {
+                    "name": "SupportedGetV3",
+                    "id": "0x01",
+                    "frames": [
+                        {
+                            "name": "StartLevelChange",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "SupportedReportV3",
+                    "id": "0x02",
+                    "frames": [
+                        {
+                            "name": "SupportedRequest",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentMask1"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentMask2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "GetV3",
+                    "id": "0x03",
+                    "frames": [
+                        {
+                            "name": "Get",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ReportV3",
+                    "id": "0x04",
+                    "frames": [
+                        {
+                            "name": "Report",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "CurrentValue"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "TargetValue"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        }
+                    ],
+                    "values": [
+                        {
+                            "name": "AlreadyAtTheTargetValueV3",
+                            "id": "0x00"
+                        },
+                        {
+                            "name": "UnknownDurationV3",
+                            "id": "0xFE"
+                        },
+                        {
+                            "name": "ReservedV3",
+                            "id": "0xFF"
+                        }
+                    ]
+                },
+                {
+                    "name": "SetV3",
+                    "id": "0x05",
+                    "values": [
+                        {
+                            "name": "PropertiesColorComponentCountMaskV3",
+                            "id": "0x1F"
+                        },
+                        {
+                            "name": "PropertiesReservedMaskV2",
+                            "id": "0xE0"
+                        },
+                        {
+                            "name": "PropertiesReservedShiftV2",
+                            "id": "0x05"
+                        },
+                        {
+                            "name": "InstantlyV3",
+                            "id": "0x00"
+                        },
+                        {
+                            "name": "DefaultV3",
+                            "id": "0xFF"
+                        }
+                    ],
+                    "frames": [
+                        {
+                            "name": "Set1Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set2Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set3Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup3"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Set4Byte",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup1"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup2"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup3"
+                                },
+                                {
+                                    "var_type": "SwitchColorSetVariantGroupV3",
+                                    "name": "VariantGroup4"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        }
+                    ],
+                    "structs": [
+                        {
+                            "name": "VariantGroupV3",
+                            "variables": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Value"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "StartLevelChangeV3",
+                    "id": "0x06",
+                    "values": [
+                        {
+                            "name": "PropertiesResMaskV3",
+                            "id": "0x1F"
+                        },
+                        {
+                            "name": "PropertiesIgnoreStartStateBitMaskV3",
+                            "id": "0x20"
+                        },
+                        {
+                            "name": "PropertiesUpDownBitMaskV3",
+                            "id": "0x40"
+                        },
+                        {
+                            "name": "PropertiesResBitMaskV3",
+                            "id": "0x80"
+                        },
+                        {
+                            "name": "InstantlyV3",
+                            "id": "0x00"
+                        },
+                        {
+                            "name": "DefaultV3",
+                            "id": "0xFF"
+                        }
+                    ],
+                    "frames": [
+                        {
+                            "name": "StartLevelChange",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Properties"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "StartLevel"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Duration"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "StopLevelChangeV3",
+                    "id": "0x07",
+                    "frames": [
+                        {
+                            "name": "StartLevelChange",
+                            "frame": [
+                                {
+                                    "var_type": "byte",
+                                    "name": "CommandClass"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "Command"
+                                },
+                                {
+                                    "var_type": "byte",
+                                    "name": "ColorComponentID"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

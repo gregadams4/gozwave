@@ -1,7 +1,7 @@
 package devices
 
 import (
-	"github.com/stampzilla/gozwave/commands"
+	"github.com/gregadams4/gozwave/commands"
 )
 
 type CommandClass struct {
@@ -18557,7 +18557,7 @@ func New008100140001() *Device{
 				Values: []ConfigValue{
 					ConfigValue{
 						From: 0,
-						To: 4080218932,
+						To: 214748364,
 						Unit: "sec",
 						Reserved: false,
 						Description: "секунд",
@@ -25156,7 +25156,7 @@ func New008600030018() *Device{
 				Values: []ConfigValue{
 					ConfigValue{
 						From: 1,
-						To: 4294967295,
+						To: 214748364,
 						Unit: "",
 						Reserved: false,
 						Description: "Define a time interval.",
@@ -25173,7 +25173,7 @@ func New008600030018() *Device{
 				Values: []ConfigValue{
 					ConfigValue{
 						From: 1,
-						To: 4294967295,
+						To: 214748364,
 						Unit: "",
 						Reserved: false,
 						Description: "Define a time interval.",
@@ -25190,7 +25190,7 @@ func New008600030018() *Device{
 				Values: []ConfigValue{
 					ConfigValue{
 						From: 1,
-						To: 4294967295,
+						To: 214748364,
 						Unit: "",
 						Reserved: false,
 						Description: "Define a time interval.",
@@ -45240,7 +45240,7 @@ func New009600010001() *Device{
 				Values: []ConfigValue{
 					ConfigValue{
 						From: 0,
-						To: 4294967295,
+						To: 214748364,
 						Unit: "",
 						Reserved: false,
 						Description: "Pulses",
@@ -45537,7 +45537,7 @@ func New009600100001() *Device{
 				Values: []ConfigValue{
 					ConfigValue{
 						From: 0,
-						To: 4294967295,
+						To: 214748364,
 						Unit: "",
 						Reserved: false,
 						Description: "Pulses",
@@ -70994,7 +70994,7 @@ func New010f07012001() *Device{
 				Description: "The value to be added to the actual temperature, measured by the sensor/n(temperature compensation). Available settings: -1000-1000 (-100-100°C, 0.1°C step)",
 				Values: []ConfigValue{
 					ConfigValue{
-						From: 4294966296,
+						From: 214748364,
 						To: 1000,
 						Unit: "",
 						Reserved: false,
@@ -124331,7 +124331,7 @@ func New019000010001() *Device{
 				Description: "",
 				Values: []ConfigValue{
 					ConfigValue{
-						From: 4294967196,
+						From: 214748364,
 						To: 100,
 						Unit: "",
 						Reserved: false,
@@ -126652,7 +126652,7 @@ func New022a01000100() *Device{
 				Values: []ConfigValue{
 					ConfigValue{
 						From: 600,
-						To: 4294967295,
+						To: 214748364,
 						Unit: "sec",
 						Reserved: false,
 						Description: "range: 600~4,294,967,295; Define a time interval.",

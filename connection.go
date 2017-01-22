@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stampzilla/gozwave/commands"
-	"github.com/stampzilla/gozwave/functions"
-	"github.com/stampzilla/gozwave/interfaces"
-	"github.com/stampzilla/gozwave/serialapi"
+	"github.com/gregadams4/gozwave/commands"
+	"github.com/gregadams4/gozwave/functions"
+	"github.com/gregadams4/gozwave/interfaces"
+	"github.com/gregadams4/gozwave/serialapi"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/pborman/uuid"
@@ -73,6 +73,13 @@ func (conn *Connection) Write(msg interfaces.Encodable) error {
 	conn.send <- pkg
 	return nil
 }
+
+func (conn *Connection) WriteEncoded(msg []byte) error {
+	pkg := newSendPackage(msg)
+	conn.send <- pkg
+	return nil
+}
+
 func (conn *Connection) WriteWithTimeout(msg interfaces.Encodable, t time.Duration) (<-chan *serialapi.Message, error) {
 	pkg := newSendPackage(msg.Encode())
 	pkg.returnChan = make(chan *serialapi.Message)
@@ -82,6 +89,17 @@ func (conn *Connection) WriteWithTimeout(msg interfaces.Encodable, t time.Durati
 
 	return pkg.returnChan, nil
 }
+
+func (conn *Connection) WriteEncodedWithTimeout(msg []byte, t time.Duration) (<-chan *serialapi.Message, error) {
+	pkg := newSendPackage(msg)
+	pkg.returnChan = make(chan *serialapi.Message)
+	pkg.timeout = t
+
+	conn.send <- pkg
+
+	return pkg.returnChan, nil
+}
+
 func (conn *Connection) WriteAndWaitForReport(msg interfaces.Encodable, t time.Duration, er byte) (<-chan commands.Report, error) {
 	pkg := newSendPackage(msg.Encode())
 	returnChan := make(chan commands.Report)
@@ -99,7 +117,31 @@ func (conn *Connection) WriteAndWaitForReport(msg interfaces.Encodable, t time.D
 				return
 			}
 
-			logrus.Errorf("WriteAndWaitForReport: Received wrong type: %t", msg)
+			logrus.Errorf("WriteAndWaitForReport: Received wrong type: %v", msg)
+		}
+	}()
+
+	return returnChan, nil
+}
+
+func (conn *Connection) WriteEncodedAndWaitForReport(msg []byte, t time.Duration, er byte) (<-chan commands.Report, error) {
+	pkg := newSendPackage(msg)
+	returnChan := make(chan commands.Report)
+	pkg.returnChan = make(chan *serialapi.Message)
+	pkg.timeout = t
+	pkg.expectedReport = er
+
+	conn.send <- pkg
+
+	go func() {
+		defer close(returnChan)
+		for msg := range pkg.returnChan {
+			if f, ok := msg.Data.(*functions.FuncApplicationCommandHandler); ok {
+				returnChan <- f.Data
+				return
+			}
+
+			logrus.Errorf("WriteAndWaitForReport: Received wrong type: %v", msg)
 		}
 	}()
 

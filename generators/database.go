@@ -131,7 +131,7 @@ func (hv hexVal) HexStrToInt() int {
 var templ = `package {{.Package}}
 
 import (
-	"github.com/stampzilla/gozwave/commands"
+	"github.com/gregadams4/gozwave/commands"
 )
 
 type CommandClass struct {

@@ -1,6 +1,11 @@
 package functions
 
-import "github.com/stampzilla/gozwave/commands"
+import (
+	"log"
+
+	"github.com/Sirupsen/logrus"
+	"github.com/gregadams4/gozwave/commands"
+)
 
 type FuncApplicationCommandHandler struct {
 	Command commands.ZWaveCommand
@@ -21,6 +26,8 @@ func (a *FuncApplicationCommandHandler) Decode(data []byte) {
 	a.Command = commands.ZWaveCommand(data[0])
 	a.Class = data[1]
 
+	log.Println("here")
+	logrus.Infof("%v", a.Command)
 	switch a.Command {
 	case commands.Alarm:
 		switch a.Class {
@@ -40,12 +47,13 @@ func (a *FuncApplicationCommandHandler) Decode(data []byte) {
 	case commands.MultiInstance:
 		switch a.Class {
 		case 0x08: // MultiChannelCmd_EndPointReport
-			a.Data = commands.NewMultiChannelCmdEndPointReport(data[2:])
+			a.Data = commands.NewMultiInstanceReport(data[2:])
+			// a.Data = commands.NewMultiChannelCmdEndPointReport(data[2:])
 		}
-	case commands.SensorMultiLevel:
+	case commands.SensorMultilevel:
 		switch a.Class {
 		case 0x05: // Report
-			a.Data = commands.NewSensorMultiLevelReport(data[2:])
+			a.Data = commands.NewSensorMultilevelReport(data[2:])
 		}
 	case commands.SwitchBinary:
 		switch a.Class {
@@ -57,9 +65,14 @@ func (a *FuncApplicationCommandHandler) Decode(data []byte) {
 		case 0x03: // Report
 			a.Data = commands.NewSwitchMultilevelReport(data[2:])
 		}
+	case commands.SwitchColorV2:
+		switch a.Class {
+		case 0x04: // Report
+			a.Data = commands.NewSwitchColorReportV2(data[2:])
+		}
 	case commands.WakeUp:
 		//	a.Node = data[2];
-		a.Data = commands.NewWakeUpReport()
+		a.Data = commands.NewWakeUpNotification(data[2:])
 		//default:
 		//a.Data = data
 	}

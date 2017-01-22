@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/stampzilla/gozwave/commands"
+	"github.com/gregadams4/gozwave/commands"
 
 	"github.com/Sirupsen/logrus"
 )
@@ -25,33 +25,35 @@ func (n *Node) RequestEndpoints() error {
 	//}
 	n.RUnlock()
 
-	cmd := commands.NewRaw(
-		[]byte{
-			commands.MultiInstance, // Command class
-			0x07, // Command: MultiInstanceCmd_Get
-			//byte(v.ID),
-			0x25, // TransmitOptions?
-			//0x23, // Callback?
-		})
+	// cmd := commands.NewRaw(
+	// 	[]byte{
+	// 		commands.MultiInstance, // Command class
+	// 		0x07, // Command: MultiInstanceCmd_Get
+	// 		//byte(v.ID),
+	// 		0x25, // TransmitOptions?
+	// 		//0x23, // Callback?
+	// 	})
+
+	cmd := commands.NewMultiInstanceGet()
 	cmd.SetNode(n.Id)
 
 	fmt.Println("")
 	fmt.Println("")
 	logrus.Debugf("Request endpoint %d", n.Id)
 
-	t, _ := n.connection.WriteAndWaitForReport(cmd, time.Second*2, 0x08) // Request node information
+	t, _ := n.connection.WriteAndWaitForReport(&cmd, time.Second*2, 0x08) // Request node information
 	report := <-t
 
 	logrus.Debugf("Request endpoint %d report: %#v", n.Id, report)
 
 	if report != nil {
 		switch cmd := report.(type) {
-		case *commands.MultiChannelCmdEndPointReport:
+		case *commands.MultiInstanceReport:
 			//n.ManufacurerSpecific = cmd
-			logrus.Debug(cmd.String())
+			// logrus.Debug(cmd.String())
 			n.Lock()
 			n.Endpoints = make([]*Endpoint, 0)
-			for i := 1; i < cmd.Endpoints; i++ {
+			for i := 1; i < int(cmd.Instances); i++ {
 				n.Endpoints = append(n.Endpoints, &Endpoint{
 					Id:             i,
 					CommandClasses: n.Device.CommandClasses,
@@ -65,7 +67,7 @@ func (n *Node) RequestEndpoints() error {
 			n.Unlock()
 			return nil
 		default:
-			logrus.Errorf("Wrong type: %t", cmd)
+			logrus.Errorf("Wrong type: %v", cmd)
 		}
 	}
 

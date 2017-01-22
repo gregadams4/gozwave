@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stampzilla/gozwave/commands"
-	"github.com/stampzilla/gozwave/events"
-	"github.com/stampzilla/gozwave/functions"
-	"github.com/stampzilla/gozwave/nodes"
+	"github.com/gregadams4/gozwave/commands"
+	"github.com/gregadams4/gozwave/events"
+	"github.com/gregadams4/gozwave/functions"
+	"github.com/gregadams4/gozwave/nodes"
 
 	"github.com/Sirupsen/logrus"
 )

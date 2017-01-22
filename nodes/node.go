@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stampzilla/gozwave/commands"
-	database "github.com/stampzilla/gozwave/database"
-	"github.com/stampzilla/gozwave/events"
-	"github.com/stampzilla/gozwave/functions"
-	"github.com/stampzilla/gozwave/interfaces"
+	"github.com/gregadams4/gozwave/commands"
+	database "github.com/gregadams4/gozwave/database"
+	"github.com/gregadams4/gozwave/events"
+	"github.com/gregadams4/gozwave/functions"
+	"github.com/gregadams4/gozwave/interfaces"
 
 	"github.com/Sirupsen/logrus"
 )
@@ -78,11 +78,11 @@ func (n *Node) isAwake() chan struct{} {
 func (n *Node) ProcessEvent(event commands.Report) {
 	switch data := event.(type) {
 	case *commands.AlarmReport:
-		if data.Status == 0xFF {
+		if data.AlarmLevel == 0xFF {
 			n.StateBool["alarm"] = true
-			if data.Type != 0 {
-				n.StateFloat["alarm"] = float64(data.Type)
-				n.StateFloat["alarmLastType"] = float64(data.Type)
+			if data.AlarmType != 0 {
+				n.StateFloat["alarm"] = float64(data.AlarmType)
+				// n.StateFloat["alarmLastType"] = float64(data.Type)
 			}
 			n.pushEvent(events.NodeUpdated{
 				Address: n.Id,
@@ -99,27 +99,31 @@ func (n *Node) ProcessEvent(event commands.Report) {
 		n.pushEvent(events.NodeUpdated{
 			Address: n.Id,
 		})
-	case *commands.WakeUpReport:
+	case *commands.WakeUpNotification:
 		logrus.Error("NODE RECEIVED WAKEUP")
 		if n.awake != nil {
 			close(n.awake)
 			n.awake = nil
 		}
 	case *commands.SwitchBinaryReport:
-		n.StateBool["on"] = data.Status
+		if data.Value == 0x00 {
+			n.StateBool["on"] = false
+		} else {
+			n.StateBool["on"] = true
+		}
 		n.pushEvent(events.NodeUpdated{
 			Address: n.Id,
 		})
 	case *commands.SwitchMultilevelReport:
-		n.StateBool["on"] = data.Level > 0
-		n.StateFloat["level"] = float64(data.Level)
+		n.StateBool["on"] = data.Value > 0
+		n.StateFloat["level"] = float64(data.Value)
 		n.pushEvent(events.NodeUpdated{
 			Address: n.Id,
 		})
-	case *commands.SensorMultiLevelReport:
+	case *commands.SensorMultilevelReport:
 		//n.StateFloat[data.TypeString+" ("+data.Unit+")"] = data.Value
-		key := strings.ToLower(data.TypeString + "_" + data.Unit)
-		n.StateFloat[key] = data.Value
+		key := strings.ToLower(string(data.SensorType))
+		n.StateFloat[key] = float64(data.SensorValue)
 		n.pushEvent(events.NodeUpdated{
 			Address: n.Id,
 		})
@@ -132,6 +136,7 @@ func (n *Node) Identify() {
 	defer logrus.Infof("Ended identification on node %d", n.Id)
 
 	for {
+		logrus.Infof("getting info for %d", n.Id)
 		if n.ProtocolInfo == nil {
 			resp, err := n.RequestProtocolInfo()
 			if err != nil {
@@ -140,6 +145,7 @@ func (n *Node) Identify() {
 				continue
 			}
 
+			logrus.Infof("completed proto info for %d", n.Id)
 			n.Lock()
 			n.ProtocolInfo = resp
 			n.IsAwake = resp.Listening
@@ -148,13 +154,15 @@ func (n *Node) Identify() {
 			})
 			n.Unlock()
 		}
-
+		logrus.Infof("moving on to manufacturer for %d", n.Id)
 		//<-self.Connection.SendRaw([]byte{functions.GetNodeProtocolInfo, byte(index + 1)}) // Request node information
 		//		nodeinfo := self.WaitForGetNodeProtocolInfo()
 
 		// All manufacturer specific information such as vendor, vendors product ID and product type
 		if n.ManufacurerSpecific == nil {
+			logrus.Infof("%d", n.Id)
 			<-n.isAwake()
+			logrus.Infof("%d was awake!", n.Id)
 			resp, err := n.RequestManufacturerSpecific()
 			if err != nil {
 				logrus.Errorf("Node ident: Failed ManufacurerSpecific: %s", err.Error())
@@ -164,11 +172,13 @@ func (n *Node) Identify() {
 
 			n.Lock()
 			n.ManufacurerSpecific = resp
-			n.Device = database.New(n.ManufacurerSpecific.Manufacturer, n.ManufacurerSpecific.Type, n.ManufacurerSpecific.Id)
+			n.Device = database.New(fmt.Sprintf("%04x", n.ManufacurerSpecific.ManufacturerID), fmt.Sprintf("%04x", n.ManufacurerSpecific.ProductTypeID), fmt.Sprintf("%04x", n.ManufacurerSpecific.ProductID))
 			n.pushEvent(events.NodeUpdated{
 				Address: n.Id,
 			})
 			n.Unlock()
+		} else {
+			logrus.Infof("%d already had manufacturer info", n.Id)
 		}
 
 		// Get node version

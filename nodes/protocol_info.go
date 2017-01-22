@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/stampzilla/gozwave/functions"
+	"github.com/gregadams4/gozwave/functions"
 
 	"github.com/Sirupsen/logrus"
 )

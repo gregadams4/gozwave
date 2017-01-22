@@ -1,0 +1,471 @@
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"log"
+	"os"
+	"regexp"
+	"strconv"
+	"strings"
+	"text/template"
+)
+
+type CommandClass struct {
+	Name     string
+	Code     byte
+	Commands []Command
+}
+
+type Command struct {
+	Name     string
+	FullText string
+	Version  string
+	Code     byte
+	Frames   []Frame
+}
+
+func (c *Command) IsReport() bool {
+	if strings.Contains(strings.ToLower(c.Name), "report") {
+		return true
+	}
+	return false
+}
+
+type Frame struct {
+	Name   string
+	Size   int
+	Values []Value
+}
+
+type Value struct {
+	Type        string
+	Name        string
+	FuncVarName string
+}
+
+// func commandClassMap(command string) string {
+// 	switch command {
+// 	case "Event":
+// 		return "Notification"
+// 	default:
+// 		return command
+// 	}
+// }
+
+var templ2 = `package {{.Package}}
+
+type ZWaveCommand byte
+
+const (
+    {{- range .CommandClasses}}
+    {{.Name}} = ZWaveCommand({{.Code}})
+    {{- end}}
+)
+`
+
+var templ = `package {{.Package}}
+{{- range .CommandClass.Commands}}
+{{- $command := .}}
+{{- range .Frames}}
+
+{{- if $command.IsReport}}
+type {{$command.FullText}}{{if ge .Size 1}}{{.Size}}Bytes{{end}} struct {
+    *report
+    node byte
+    {{- range .Values}}
+    {{.Name}} {{.Type}}
+    {{- end}}
+    data []byte
+}
+
+func New{{$command.FullText}}{{if ge .Size 1}}{{.Size}}Bytes{{end}}(data []byte) *{{$command.FullText}}{{if ge .Size 1}}{{.Size}}Bytes{{end}} {
+    if len(data) < {{len .Values}} {
+        for i := len(data); i < {{len .Values}}; i++ {
+            data = append(data, 0x00)
+        }
+    }
+
+    return &{{$command.FullText}}{{if ge .Size 1}}{{.Size}}Bytes{{end}}{
+        {{- range $i, $value := .Values}}
+        {{.Name}}: data[{{$i}}],
+        {{- end}}
+        data: data,
+    }
+}
+{{else}}
+type {{$command.FullText}}{{if ge .Size 1}}{{.Size}}Bytes{{end}} struct {
+    node byte
+    {{- range .Values}}
+    {{.Name}} {{.Type}}
+    {{- end}}
+}
+
+func (c *{{$command.FullText}}{{if ge .Size 1}}{{.Size}}Bytes{{end}}) SetNode(node int) {
+    c.node = byte(node)
+}
+
+func (c *{{$command.FullText}}{{if ge .Size 1}}{{.Size}}Bytes{{end}}) Encode({{- range .Values}}{{- if ne .FuncVarName "cmdClass"}}{{- if ne .FuncVarName "cmd"}}{{.FuncVarName}} {{.Type}}, {{- end}}{{- end}}{{- end}}) []byte {
+    return []byte{
+        0x13,
+        c.node,
+        byte({{len .Values}}),
+        byte({{$.CommandClass.Name}}),
+        byte({{$command.Code}}),
+        {{- range .Values}}
+            {{- if ne .FuncVarName "cmdClass"}}
+                {{- if ne .FuncVarName "cmd"}}
+        {{.FuncVarName}},
+                {{- end}}
+            {{- end}}
+        {{- end}}
+        0x25,
+    }
+}
+
+{{- end}}
+{{- end}}
+{{- end}}
+`
+
+func parseConstants(words []string, commandClasses *map[string]*CommandClass) error {
+	variableWords := strings.Split(strings.ToLower(words[1]), "_")
+	versionReg, err := regexp.Compile(`v\d+`)
+	if err != nil {
+		log.Println(err)
+		return err
+	}
+	if variableWords[0] == "command" && variableWords[1] == "class" {
+		var commandClass CommandClass
+		var commandClassStr string
+		for i, word := range variableWords {
+			//first 2 words don't matter
+			if i > 1 {
+				if !versionReg.MatchString(word) {
+					commandClassStr += strings.Title(word)
+				}
+			}
+		}
+		//if nothing existed after command class dont add anything
+		if commandClassStr == "" {
+			return fmt.Errorf("failed to parse var name for %s", words[1])
+		}
+		commandClass.Name = commandClassStr
+		num, err := strconv.ParseInt(strings.Split(words[2], "x")[1], 16, 64)
+		if err != nil {
+			return err
+		}
+		commandClass.Code = byte(num)
+		(*commandClasses)[commandClass.Name] = &commandClass
+	} else {
+		var command Command
+		var commandClassStr string
+		var prev string
+		var commandStr string
+		var version string
+		var fullTextStr string
+		foundMatch := false
+
+		for _, word := range variableWords {
+			if versionReg.MatchString(word) {
+				version = word
+				fullTextStr += strings.Title(word)
+				continue
+			} else {
+				fullTextStr += strings.Title(word)
+			}
+			if foundMatch == false {
+				prev = commandClassStr
+				commandClassStr += strings.Title(word)
+				numMatches := 0
+				for k := range *commandClasses {
+					if strings.Contains(k, commandClassStr) {
+						numMatches++
+					}
+				}
+				if numMatches == 0 {
+					// commandClassStr += strings.Title(word)
+					if _, found := (*commandClasses)[prev]; found {
+						commandClassStr = prev
+						commandStr += strings.Title(word)
+						foundMatch = true
+						// break
+					} else {
+						return fmt.Errorf("could not find match for %s - 0 matches - at %s", words[1], commandClassStr)
+					}
+				} else if numMatches == 1 {
+					if _, found := (*commandClasses)[commandClassStr]; found {
+						foundMatch = true
+						// break
+					}
+				}
+			} else {
+				commandStr += strings.Title(word)
+			}
+		}
+		if foundMatch == false {
+			return fmt.Errorf("could not find match for %s", words[1])
+		}
+		commandClass := (*commandClasses)[commandClassStr]
+
+		command.Version = version
+		command.FullText = fullTextStr
+		command.Name = commandStr
+		num, err := strconv.ParseInt(strings.Split(words[2], "x")[1], 16, 64)
+		if err != nil {
+			return err
+		}
+		command.Code = byte(num)
+		commandClass.Commands = append(commandClass.Commands, command)
+		(*commandClasses)[commandClassStr] = commandClass
+	}
+	return nil
+}
+
+func parseFrames(lines []string, commandClasses *map[string]*CommandClass) error {
+	var commandClass *CommandClass
+	var commandClassStr string
+	var commandStr string
+	var version string
+	var prev string
+	var size int
+	var found bool
+	var cmdIndex int
+	var frame Frame
+
+	versionReg, err := regexp.Compile(`v\d*`)
+	if err != nil {
+		return err
+	}
+
+	sizeStrReg, err := regexp.Compile(`\d*byte`)
+	if err != nil {
+		return err
+	}
+
+	sizeReg, err := regexp.Compile(`\d*`)
+	if err != nil {
+		return err
+	}
+
+	for i, line := range lines {
+		words := strings.Split(line, " ")
+		if i == 0 {
+			variableWords := strings.Split(strings.ToLower(words[2]), "_")
+
+			foundMatch := false
+
+			for i, word := range variableWords {
+				if i > 1 && i != len(variableWords)-1 && i != len(variableWords)-2 {
+					if versionReg.MatchString(word) {
+						version = word
+					} else if sizeStrReg.MatchString(word) {
+						sizeStr := sizeReg.FindString(word)
+						size, err = strconv.Atoi(sizeStr)
+						if err != nil {
+							return err
+						}
+					} else {
+						if foundMatch == false {
+							prev = commandClassStr
+							commandClassStr += strings.Title(word)
+							numMatches := 0
+							for k := range *commandClasses {
+								if strings.Contains(k, commandClassStr) {
+									numMatches++
+								}
+							}
+							if numMatches == 0 {
+								// commandClassStr += strings.Title(word)
+								if _, found := (*commandClasses)[prev]; found {
+									commandClassStr = prev
+									commandStr += strings.Title(word)
+									foundMatch = true
+									// break
+								} else {
+									return fmt.Errorf("frames could not find match for %s - 0 matches - at %s", words[1], commandClassStr)
+								}
+							} else if numMatches == 1 {
+								if _, found := (*commandClasses)[commandClassStr]; found {
+									foundMatch = true
+									// break
+								}
+							}
+						} else {
+							commandStr += strings.Title(word)
+						}
+					}
+				}
+			}
+			if foundMatch == false {
+				return fmt.Errorf("frames could not find match for %s", words[1])
+			}
+
+			commandClass = (*commandClasses)[commandClassStr]
+
+			found := false
+			for i, command := range commandClass.Commands {
+				if command.Name == commandStr {
+					log.Printf("%s command matched version %s - %s", commandStr, command.Version, version)
+					if command.Version == version {
+						for _, frame := range command.Frames {
+							if commandStr == frame.Name {
+								return nil
+							}
+						}
+						found = true
+						cmdIndex = i
+						break
+					}
+				}
+			}
+
+			if found == false {
+				return fmt.Errorf("frames command class %s existed but no command %s", commandClassStr, commandStr)
+			}
+			frame.Name = commandStr
+			frame.Size = size
+		} else {
+			var value Value
+			if words[0] == "BYTE" {
+				value.Type = "byte"
+			} else {
+				var name string
+				wordsList := strings.Split(words[0], " ")
+				for i, word := range wordsList {
+					if i == 0 && i != len(words)-1 {
+						name += strings.Title(word)
+					}
+				}
+				value.Type = name
+			}
+			// value.Name = strings.Title(words[1][:len(words)-1])
+			value.Name = strings.Title(strings.Split(words[1], ";")[0])
+			value.FuncVarName = strings.Split(words[1], ";")[0]
+			frame.Values = append(frame.Values, value)
+		}
+	}
+
+	commandClass, found = (*commandClasses)[commandClassStr]
+	if found == false {
+		return fmt.Errorf("frames no command class %s existed", commandClassStr)
+	}
+	// commandClass.Commands[cmdIndex].N
+	commandClass.Commands[cmdIndex].Frames = append(commandClass.Commands[cmdIndex].Frames, frame)
+
+	(*commandClasses)[commandClassStr] = commandClass
+	// output, err := json.Marshal(commandClass)
+	// if err != nil {
+	// 	log.Println(err)
+	// }
+	// fmt.Println(output)
+
+	return nil
+}
+
+type templates struct {
+	CommandClass *CommandClass
+	Package      string
+}
+
+type templates2 struct {
+	CommandClasses *map[string]*CommandClass
+	Package        string
+}
+
+func main() {
+	commandClasses := make(map[string]*CommandClass)
+
+	file, err := os.Open("command-class.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+
+	var currentFrame []string
+
+	for scanner.Scan() {
+		line := strings.Split(scanner.Text(), " ")
+		if line[0] == "{" {
+			continue
+		}
+		if line[0] == "#define" {
+			err = parseConstants(line, &commandClasses)
+			if err != nil {
+				log.Println(err)
+			}
+		} else {
+			if line[0] == "}" {
+				err = parseFrames(currentFrame, &commandClasses)
+				if err != nil {
+					log.Println(err)
+				}
+				// log.Println(commandClasses)
+				// return
+			} else if line[0] == "typedef" {
+				currentFrame = currentFrame[:0]
+				currentFrame = append(currentFrame, scanner.Text())
+			} else {
+				currentFrame = append(currentFrame, scanner.Text())
+			}
+			// err = parseStructs(line)
+		}
+	}
+
+	for k, commandClass := range commandClasses {
+		// if k == "SwitchBinary" {
+		if len(commandClass.Commands) > 0 {
+			commands := templates{CommandClass: commandClass, Package: "commands"}
+			t := template.New("t")
+			t, err = t.Parse(templ)
+			if err != nil {
+				panic(err)
+			}
+
+			file, err := os.Create(fmt.Sprintf("./commands/%s.go", k))
+			if err != nil {
+				log.Println(err)
+				return
+			}
+			if err != nil {
+				log.Println("Unable to open file", err)
+				return
+			}
+
+			err = t.Execute(file, commands)
+			if err != nil {
+				panic(err)
+			}
+		}
+		// }
+	}
+
+	classes := templates2{CommandClasses: &commandClasses, Package: "commands"}
+	t := template.New("t2")
+	t, err = t.Parse(templ2)
+	if err != nil {
+		panic(err)
+	}
+	file, err = os.Create("./commands/commands.go")
+	if err != nil {
+		log.Println(err)
+		return
+	}
+	if err != nil {
+		log.Println("Unable to open file", err)
+		return
+	}
+	err = t.Execute(file, classes)
+	// output, err := json.Marshal(commandClasses)
+	// if err != nil {
+	// 	log.Println(err)
+	// 	return
+	// }
+	// fmt.Println(string(output))
+
+	if err := scanner.Err(); err != nil {
+		log.Fatal(err)
+	}
+}

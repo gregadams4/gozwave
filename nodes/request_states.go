@@ -3,7 +3,7 @@ package nodes
 import (
 	"time"
 
-	"github.com/stampzilla/gozwave/commands"
+	"github.com/gregadams4/gozwave/commands"
 
 	"github.com/davecgh/go-spew/spew"
 )
@@ -16,32 +16,35 @@ func (n *Node) RequestStates() error {
 	for _, v := range cc {
 		switch v.ID {
 		case commands.SwitchBinary:
-			cmd := commands.NewRaw([]byte{
-				commands.SwitchBinary, // Command class
-				0x02, // Command: GET
-				0x25, // TransmitOptions?
-				//0x23, // Callback?
-			})
+			// cmd := commands.NewRaw([]byte{
+			// 	commands.SwitchBinary, // Command class
+			// 	0x02, // Command: GET
+			// 	0x25, // TransmitOptions?
+			// 	//0x23, // Callback?
+			// })
+			cmd := commands.NewSwitchBinaryGet()
 			cmd.SetNode(n.Id)
-			n.connection.Write(cmd)
+			n.connection.Write(&cmd)
 		case commands.SwitchMultilevel:
-			cmd := commands.NewRaw([]byte{
-				commands.SwitchMultilevel, // Command class
-				0x02, // Command: GET
-				0x25, // TransmitOptions?
-				//0x23, // Callback?
-			})
+			// cmd := commands.NewRaw([]byte{
+			// 	commands.SwitchMultilevel, // Command class
+			// 	0x02, // Command: GET
+			// 	0x25, // TransmitOptions?
+			// 	//0x23, // Callback?
+			// })
+			cmd := commands.NewSwitchMultilevelGet()
 			cmd.SetNode(n.Id)
-			n.connection.Write(cmd)
-		case commands.SensorMultiLevel:
-			cmd := commands.NewRaw([]byte{
-				commands.SensorMultiLevel, // Command class
-				0x01, // Command: SupportedGet
-				0x25, // TransmitOptions?
-				//0x23, // Callback?
-			})
+			n.connection.Write(&cmd)
+		case commands.SensorMultilevel:
+			// cmd := commands.NewRaw([]byte{
+			// 	commands.SensorMultiLevel, // Command class
+			// 	0x01, // Command: SupportedGet
+			// 	0x25, // TransmitOptions?
+			// 	//0x23, // Callback?
+			// })
+			cmd := commands.NewSensorMultilevelGet()
 			cmd.SetNode(n.Id)
-			t, _ := n.connection.WriteAndWaitForReport(cmd, time.Second*2, 0x02) // Wait for SupportedReport (0x02)
+			t, _ := n.connection.WriteAndWaitForReport(&cmd, time.Second*2, 0x02) // Wait for SupportedReport (0x02)
 
 			report := <-t
 			//for k, v := range report.sensors {
